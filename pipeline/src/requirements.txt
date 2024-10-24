@@ -1,0 +1,5 @@
+selenium
+PyYAML
+webdriver-manager
+numpy
+pymongo
