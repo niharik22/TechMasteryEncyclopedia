@@ -40,7 +40,7 @@ class MongoDBClient:
         collection = self.collection if col_name is None else self.db[col_name]
         try:
             collection.update_one(query, {'$set': update}, upsert=upsert)
-            logging.info(f"Document updated or inserted in {collection.name}")
+            logging.debug(f"Document updated or inserted in {collection.name}")
         except Exception as e:
             logging.error(f"Error updating document: {e}")
 

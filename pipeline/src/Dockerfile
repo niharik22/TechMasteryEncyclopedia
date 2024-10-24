@@ -23,8 +23,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 ## Declare a volume to persist data
 #VOLUME ["/app/data"]
 
+# Ensure the script is executable
+RUN chmod +x /app/run.sh
+
 # Set environment variables for ChromeDriver and display settings
 ENV DISPLAY=:99
 
-# Single command to run the Python script along with the config file as an argument
-CMD ["python", "main/LinkedIn_Scraper.py", "utilities/config.docker.yaml"]
+# Command to run the shell script
+CMD ["/app/run_all.sh"]

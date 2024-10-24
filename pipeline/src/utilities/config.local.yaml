@@ -4,8 +4,13 @@ env: "LOCAL"
 # URL configurations
 urls:
   login_url: "https://www.linkedin.com/checkpoint/rm/sign-in-another-account?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
-#  search_url: "https://www.linkedin.com/jobs/search/?keywords=data%20science"
-  search_url: "https://www.linkedin.com/jobs/search/?keywords=data%20science"
+  search_url: "https://www.linkedin.com/jobs/search/?keywords={0}&location={1}"
+
+#Search parameters
+search:
+  keyword: "Machine Learning"
+  country: "United States"
+
 
 # Credentials
 username: "riklscrap1@gmail.com"
@@ -41,13 +46,13 @@ browser:
   window_size: "1920x1080"  # Set the browser window size for better visibility in headless mode
 
 # cookies
-cookies_file: "./cookies.pkl"
+cookies_file: "../utilities/cookies.pkl"
 
 
 mongo:
   uri_path: "../utilities/mdb.txt"
   database_name: "linkedindb"
-  collection_name: "usa"
+  collection_raw: "raw"
   test_mode: True
 
 

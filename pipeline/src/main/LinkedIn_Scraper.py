@@ -272,7 +272,7 @@ def save(final_file, new_data, save_dir, mongo_client):
         logging.info("No unique new jobs found. Nothing to save.")
         return
 
-    logging.info(f"Saving {len(unique_new_data)} new links")
+    logging.info(f"Saving {len(unique_new_data)} new links to MongoDB")
 
     # Save the unique new data to MongoDB
     for link, job in unique_new_data.items():
@@ -283,26 +283,6 @@ def save(final_file, new_data, save_dir, mongo_client):
         except Exception as e:
             logging.error(f"Error saving job to MongoDB: {e}")
 
-    # Merge the unique new data with the local backup file (if it exists)
-    try:
-        if os.path.exists(file_path):
-            with open(file_path, 'rb') as fp:
-                existing_data = pickle.load(fp)
-            logging.debug(f"Existing backup data loaded from {file_path}")
-        else:
-            existing_data = {}
-            logging.debug(f"Backup file not found. Starting fresh.")
-
-        # Merge the unique new data with the existing local backup
-        updated_data = {**existing_data, **unique_new_data}
-
-        # Save updated data to the local backup file
-        with open(file_path, 'wb') as fp:
-            pickle.dump(updated_data, fp, protocol=pickle.HIGHEST_PROTOCOL)
-        logging.info(f"Backup successfully saved to {file_path}")
-
-    except Exception as e:
-        logging.error(f"Error saving to backup file: {e}")
 
 
 def load(file_name, save_dir):
@@ -383,17 +363,11 @@ def click_see_more_button(driver):
 
 
 
-def start_scraping_with_job_dict(driver, config, password):
-
-    login(driver, config["username"], password, config["urls"]["login_url"], config)
-    all_job_details =load(config["paths"]["job_data_file"], config["paths"]["save_directory"])
-    job_dict_full = get_description(driver, all_job_details)
-    save(config["paths"]["full_job_data_file"], job_dict_full, config["paths"]["save_directory"])
-
-
 def start_scraping(driver, config, password, env, mongo_client):
+
     login(driver, config["username"], password, config["urls"]["login_url"], config)
-    search(driver, config["urls"]["search_url"])
+    search_url = config["urls"]["search_url"].format(config["search"]["keyword"], config["search"]["country"])
+    search(driver, search_url)
     total_job = get_n_results(driver)
     logging.info(f"Total jobs found: {total_job}")
 
@@ -417,7 +391,7 @@ def start_scraping(driver, config, password, env, mongo_client):
     job_dict_full = get_description(driver, all_job_details)
 
     loc_extractor = JobLocationParser()
-    job_dict_full = loc_extractor.process_job_locations(job_dict_full)
+    job_dict_full = loc_extractor.process_job_locations(job_dict_full,config)
 
     save(config["paths"]["full_job_data_file"], job_dict_full, config["paths"]["save_directory"], mongo_client)
 
@@ -468,7 +442,7 @@ def main(args):
         mongo_client = MongoDBClient(
             uri=mongo_uri,
             database_name=config["mongo"]["database_name"],
-            collection_name=config["mongo"]["collection_name"],
+            collection_name=config["mongo"]["collection_raw"],
             test_mode=config["mongo"]["test_mode"]
         )
     except Exception as e:
