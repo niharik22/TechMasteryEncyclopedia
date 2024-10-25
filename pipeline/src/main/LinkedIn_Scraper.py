@@ -14,6 +14,7 @@ import os
 import argparse
 import yaml
 
+
 from mangodb import MongoDBClient
 from Location_Extractor import JobLocationParser
 
@@ -22,6 +23,7 @@ def load_config(config_file_path):
     with open(config_file_path, "r") as file:
         config = yaml.safe_load(file)
     return config, config["env"]
+
 
 # Set up logging configuration for production from config
 def setup_logging(config):
@@ -189,7 +191,7 @@ def extract_all_job_titles_links_and_locations(driver, job_list_container):
         return []
 
 
-def get_description(driver, job_dict, max_retries=3, retry_wait=3, wait_time=10):
+def get_description(driver, job_dict, role, max_retries=3, retry_wait=3, wait_time=10):
     good = []
     fail = []
 
@@ -226,10 +228,11 @@ def get_description(driver, job_dict, max_retries=3, retry_wait=3, wait_time=10)
                         continue  # Retry scraping the description
 
                     # Update the job dictionary with the scraped information
-                    job_dict[link].update({
-                        "description": job_description
-                    })
 
+                    job_dict[link].update({
+                        "description": job_description,
+                        "role": role
+                    })
                     good.append(link)
                     logging.debug(f"Successfully scraped job details for {link}")
                     break  # Exit the retry loop since scraping was successful
@@ -247,8 +250,7 @@ def get_description(driver, job_dict, max_retries=3, retry_wait=3, wait_time=10)
     return job_dict
 
 
-def save(final_file, new_data, save_dir, mongo_client):
-    file_path = os.path.join(save_dir, final_file)
+def save(new_data, mongo_client):
 
     # Fetch all existing links from MongoDB
     try:
@@ -366,8 +368,10 @@ def click_see_more_button(driver):
 def start_scraping(driver, config, password, env, mongo_client):
 
     login(driver, config["username"], password, config["urls"]["login_url"], config)
-    search_url = config["urls"]["search_url"].format(config["search"]["keyword"], config["search"]["country"])
+
+    search_url = config["urls"]["search_url"].format(config["scraping"]["search"]["keyword"], config["scraping"]["search"]["country"])
     search(driver, search_url)
+
     total_job = get_n_results(driver)
     logging.info(f"Total jobs found: {total_job}")
 
@@ -375,7 +379,6 @@ def start_scraping(driver, config, password, env, mongo_client):
         return
 
     all_job_details = {}
-
 
     for i in range(config["scraping"]["no_of_pages"]):  # Scraping multiple pages
         logging.info(f"Getting Links from page: {i+1}")
@@ -387,13 +390,13 @@ def start_scraping(driver, config, password, env, mongo_client):
             all_job_details.update(job_details)
             load_next_page(driver)
 
-    # Save to file and MongoDB
-    job_dict_full = get_description(driver, all_job_details)
+    role = config["scraping"]["role"]
+    job_dict_full = get_description(driver, all_job_details, role = role)
 
     loc_extractor = JobLocationParser()
     job_dict_full = loc_extractor.process_job_locations(job_dict_full,config)
 
-    save(config["paths"]["full_job_data_file"], job_dict_full, config["paths"]["save_directory"], mongo_client)
+    save(job_dict_full, mongo_client)
 
 
 def configure_driver(config, env):
@@ -427,8 +430,8 @@ def configure_driver(config, env):
 
     return driver
 
-def main(args):
-    config, env = load_config(args.config)  # Load config.properties.yaml file
+def main(config, env):
+
     setup_logging(config)  # Set up logging
 
     # Configure the WebDriver with options for production
@@ -465,4 +468,6 @@ if __name__ == "__main__":
     parser.add_argument("config", help="YAML config file for execution", type=str)
     args = parser.parse_args()
 
-    main(args)
+    config_file, run_env = load_config(args.config)
+
+    main(config_file, run_env)

@@ -107,7 +107,7 @@ class JobLocationParser:
             job_data['city'] = categorized_location['city']
             job_data['state'] = categorized_location['state']
             # job_data['country'] = categorized_location['country']
-            job_data['country'] = config["search"]["country"]  # country from config
+            job_data['country'] = config["scraping"]["search"]["country"]  # country from config
             job_data['place_of_work'] = categorized_location['place_of_work']
 
             # Add the scraped_date field with today's date
