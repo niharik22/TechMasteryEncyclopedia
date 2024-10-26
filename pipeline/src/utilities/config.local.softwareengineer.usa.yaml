@@ -24,15 +24,16 @@ scraping:
 
 # File paths
 paths:
-  driver_path: "../chromedriver/chromedriver"  # Update to reflect the path inside the Docker container
-  password_file: "../utilities/pass.txt"  # Path to file containing the password inside Docker container
-  save_directory: "../data/"  # Directory where pickle files or other data files will be saved
+  driver_path: "chromedriver/chromedriver"  # Update to reflect the path inside the Docker container
+  password_file: "utilities/pass.txt"  # Path to file containing the password inside Docker container
+  save_directory: "data/"  # Directory where pickle files or other data files will be saved
 
 
 # Logging settings
 logging:
   level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
-  log_file: "scraping.log"  # File where logs will be saved
+  log_file_scrape: "scraping.log"  # File where logs will be saved
+  log_file_preprocess: "preprocess.log"  # File where logs will be saved
   log_to_console: true  # Enable/Disable logging to the console
 
 # Retry settings
@@ -46,13 +47,14 @@ browser:
   window_size: "1920x1080"  # Set the browser window size for better visibility in headless mode
 
 # cookies
-cookies_file: "../utilities/cookies.pkl"
+cookies_file: "utilities/cookies.pkl"
 
 
 mongo:
-  uri_path: "../utilities/mdb.txt"
+  uri_path: "utilities/mdb.txt"
   database_name: "linkedindb_prod"
   collection_raw: "raw"
+  collection_clean: "clean"
   test_mode: False
 
 

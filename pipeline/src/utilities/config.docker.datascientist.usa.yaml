@@ -13,7 +13,7 @@ username: "riklscrap1@gmail.com"
 
 # Scraping settings
 scraping:
-  no_of_pages: 40  # Number of pages to scrape
+  no_of_pages: 2  # Number of pages to scrape
   scroll_delay: 1  # Delay (in seconds) between scrolling through jobs
   timeout: 10  # Timeout for waiting for elements (in seconds)
   role: "Data Scientist"
@@ -32,7 +32,8 @@ paths:
 # Logging settings
 logging:
   level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
-  log_file: "scraping.log"  # File where logs will be saved
+  log_file_scrape: "scraping.log"  # File where logs will be saved
+  log_file_preprocess: "preprocess.log"  # File where logs will be saved
   log_to_console: true  # Enable/Disable logging to the console
 
 # Retry settings
@@ -52,5 +53,6 @@ cookies_file: "/app/utilities/cookies.pkl"
 mongo:
   uri_path: "/app/utilities/mdb.txt"
   database_name: "linkedindb_prod"
+  collection_clean: "clean"
   collection_raw: "raw"
-  test_mode: False
+  test_mode: True

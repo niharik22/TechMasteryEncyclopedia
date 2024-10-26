@@ -1,4 +1,3 @@
-from datetime import datetime
 
 
 class JobLocationParser:
@@ -93,9 +92,6 @@ class JobLocationParser:
 
     def process_job_locations(self, job_dict, config):
 
-        # Get today's date and time
-        scraped_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-
         for url, job_data in job_dict.items():
             # Get the location from the job data
             location = job_data['location']
@@ -109,8 +105,5 @@ class JobLocationParser:
             # job_data['country'] = categorized_location['country']
             job_data['country'] = config["scraping"]["search"]["country"]  # country from config
             job_data['place_of_work'] = categorized_location['place_of_work']
-
-            # Add the scraped_date field with today's date
-            job_data['scraped_date'] = scraped_date
 
         return job_dict

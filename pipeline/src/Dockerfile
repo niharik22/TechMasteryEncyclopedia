@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 # Install dependencies for Chrome and ChromeDriver
 RUN apt-get update && apt-get install -y wget gnupg unzip \
@@ -19,9 +19,11 @@ COPY . /app
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+#RUN pip install -r requirements.txt
 
-## Declare a volume to persist data
-#VOLUME ["/app/data"]
+# Install NLTK and spaCy dependencies
+RUN python -m nltk.downloader stopwords wordnet \
+    && python -m spacy download en_core_web_sm
 
 # Ensure the script is executable
 RUN chmod +x /app/run.sh
@@ -30,4 +32,4 @@ RUN chmod +x /app/run.sh
 ENV DISPLAY=:99
 
 # Command to run the shell script
-CMD ["/app/run_all.sh"]
+CMD ["/app/run.sh"]

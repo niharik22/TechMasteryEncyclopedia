@@ -1,5 +1,4 @@
 import logging
-import yaml
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -8,15 +7,15 @@ from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
+from datetime import datetime
 import time
 import pickle
 import os
 import argparse
 import yaml
 
-
-from mangodb import MongoDBClient
-from Location_Extractor import JobLocationParser
+from main.mongodb.MongoHelper import MongoDBClient
+from main.scrape.Location_Extractor import JobLocationParser
 
 # Load the configuration from the YAML file
 def load_config(config_file_path):
@@ -32,7 +31,7 @@ def setup_logging(config):
         level=log_level,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
-            logging.FileHandler(config["logging"]["log_file"]),  # Log to file
+            logging.FileHandler(config["logging"]["log_file_scrape"]),  # Log to file
             logging.StreamHandler()  # Log to console
         ]
     )
@@ -45,7 +44,7 @@ def login(driver, username, password, login_url, config):
     cookies_file = config["cookies_file"]
 
     if os.path.exists(cookies_file):
-        driver.get("https://www.linkedin.com")
+        driver.get("https://www.linkedin.com/login")
         with open(cookies_file, "rb") as f:
             cookies = pickle.load(f)
 
@@ -86,8 +85,6 @@ def login(driver, username, password, login_url, config):
 
     except Exception as e:
         logging.debug(f"Error: Login failed: {e}")
-
-
 
 
 # Search LinkedIn using search URL from config
@@ -228,10 +225,14 @@ def get_description(driver, job_dict, role, max_retries=3, retry_wait=3, wait_ti
                         continue  # Retry scraping the description
 
                     # Update the job dictionary with the scraped information
+                    # Get today's date and time
+                    scraped_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
                     job_dict[link].update({
                         "description": job_description,
-                        "role": role
+                        "role": role,
+                        "processed": 0,
+                        "scraped_date": scraped_date
                     })
                     good.append(link)
                     logging.debug(f"Successfully scraped job details for {link}")
@@ -455,8 +456,6 @@ def main(config, env):
     # Start the scraping process
     start_scraping(driver, config, password, env, mongo_client)
 
-    # Start the scraping with existing links
-    # start_scraping_with_job_dict(driver, config, password)
     mongo_client.close_connection()
     driver.quit()
 

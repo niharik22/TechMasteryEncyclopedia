@@ -55,6 +55,16 @@ class MongoDBClient:
             logging.error(f"Error querying documents: {e}")
             return None
 
+    def change_collection(self, new_collection_name: str) -> None:
+        """Changes the database and/or collection to new specified names."""
+        try:
+            if new_collection_name:
+                self.collection = self.db[new_collection_name]
+                logging.info(f"Collection changed to: {self.collection.name}")
+        
+        except Exception as e:
+            logging.error(f"Error changing collection: {e}")
+
     def close_connection(self) -> None:
         """Closes the connection to MongoDB."""
         try:

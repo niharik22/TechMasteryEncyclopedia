@@ -3,3 +3,6 @@ PyYAML
 webdriver-manager
 numpy
 pymongo
+nltk
+spacy
+bs4
