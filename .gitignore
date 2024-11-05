@@ -1,3 +1,5 @@
 *.zip
 *.pb
 *.pyc
+pipeline/src/utilities/mdb.txt
+pipeline/src/utilities/pass.txt
