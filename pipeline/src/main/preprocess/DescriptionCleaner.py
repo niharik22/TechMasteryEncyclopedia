@@ -98,7 +98,7 @@ class DescriptionCleaner:
         Combines sentence splitting and sentence cleaning, returning a list of cleaned sentences.
         """
         try:
-            logging.debug("Processing job description.")
+            logging.info("Processing job description.")
 
             # Split description into sentences
             sentences = self.split_into_sentences(description)
@@ -106,7 +106,7 @@ class DescriptionCleaner:
             # Clean each sentence individually
             cleaned_sentences = [self.clean_sentence(sentence) for sentence in sentences]
 
-            logging.debug(f"Description processing completed with {len(cleaned_sentences)} sentences.")
+            logging.info(f"Description processing completed with {len(cleaned_sentences)} sentences.")
             return cleaned_sentences
         except Exception as e:
             logging.error(f"Error during description processing: {e}")

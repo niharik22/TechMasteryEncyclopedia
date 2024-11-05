@@ -1,0 +1,507 @@
+2024-10-26 10:46:57,332 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-26 10:46:58,151 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-26 10:46:58,151 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-26 10:46:58,151 - INFO - Queried documents from raw
+2024-10-26 10:46:58,343 - INFO - Fetched 1 records from the collection.
+2024-10-26 10:46:58,343 - INFO - Retrieved 1 records from MongoDB.
+2024-10-26 10:46:58,343 - INFO - Starting data cleaning and sentence splitting process...
+2024-10-26 10:47:01,956 - INFO - Data processing completed. 1 records processed.
+2024-10-26 10:47:01,956 - INFO - Collection changed to: clean
+2024-10-26 10:47:01,957 - INFO - Switched to collection 'clean'.
+2024-10-26 10:47:01,960 - INFO - Saving processed data back to MongoDB...
+2024-10-26 10:47:02,011 - INFO - Cleaned data has been saved to MongoDB. Total successful links: 1
+2024-10-26 10:47:02,011 - INFO - Collection changed to: raw
+2024-10-26 10:47:02,011 - INFO - Switched to collection 'raw'.
+2024-10-26 10:47:02,011 - INFO - Updating processed status for links...
+2024-10-26 10:47:02,075 - INFO - Processed status updated for 1 links.
+2024-10-26 10:47:02,075 - INFO - Data preprocessing workflow completed.
+2024-10-26 10:47:02,115 - INFO - MongoDB connection closed.
+2024-10-26 10:56:35,543 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-26 10:56:36,225 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-26 10:56:36,225 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-26 10:56:36,225 - INFO - Queried documents from raw
+2024-10-26 10:56:36,522 - INFO - Fetched 50 records from the collection.
+2024-10-26 10:56:36,522 - INFO - Retrieved 50 records from MongoDB.
+2024-10-26 10:56:36,522 - INFO - Starting data cleaning and sentence splitting process...
+2024-10-26 10:56:48,598 - INFO - Data processing completed. 50 records processed.
+2024-10-26 10:56:48,598 - INFO - Collection changed to: clean
+2024-10-26 10:56:48,598 - INFO - Switched to collection 'clean'.
+2024-10-26 10:56:48,598 - INFO - Saving processed data back to MongoDB...
+2024-10-26 10:56:50,412 - INFO - Cleaned data has been saved to MongoDB. Total successful links: 50
+2024-10-26 10:56:50,412 - INFO - Collection changed to: raw
+2024-10-26 10:56:50,412 - INFO - Switched to collection 'raw'.
+2024-10-26 10:56:50,412 - INFO - Updating processed status for links...
+2024-10-26 10:56:52,217 - INFO - Processed status updated for 50 links.
+2024-10-26 10:56:52,217 - INFO - Data preprocessing workflow completed.
+2024-10-26 10:56:52,249 - INFO - MongoDB connection closed.
+2024-10-26 11:17:54,962 - INFO - Connected to MongoDB database: linkedindb_prod, collection: raw
+2024-10-26 11:17:55,875 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-26 11:17:55,891 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-26 11:17:55,891 - INFO - Queried documents from raw
+2024-10-26 11:17:56,651 - ERROR - An unexpected error occurred while querying the database: 'description'
+2024-10-26 11:17:56,651 - INFO - Retrieved 0 records from MongoDB.
+2024-10-26 11:17:56,651 - WARNING - No data retrieved from MongoDB. Exiting preprocessing.
+2024-10-26 11:17:56,683 - INFO - MongoDB connection closed.
+2024-10-26 11:19:03,884 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-26 11:19:04,547 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-26 11:19:04,547 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-26 11:19:04,547 - INFO - Queried documents from raw
+2024-10-26 11:19:04,752 - WARNING - Query executed, but no matching documents found in the collection.
+2024-10-26 11:19:04,752 - INFO - Retrieved 0 records from MongoDB.
+2024-10-26 11:19:04,752 - WARNING - No data retrieved from MongoDB. Exiting preprocessing.
+2024-10-26 11:19:04,767 - INFO - MongoDB connection closed.
+2024-10-26 11:22:13,399 - INFO - Connected to MongoDB database: linkedindb, collection: raw
+2024-10-26 11:22:14,107 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-26 11:22:14,107 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-26 11:22:14,107 - INFO - Queried documents from raw
+2024-10-26 11:22:14,458 - ERROR - An unexpected error occurred while querying the database: 'description'
+2024-10-26 11:22:14,458 - INFO - Retrieved 0 records from MongoDB.
+2024-10-26 11:22:14,458 - WARNING - No data retrieved from MongoDB. Exiting preprocessing.
+2024-10-26 11:22:14,489 - INFO - MongoDB connection closed.
+2024-10-26 11:36:01,583 - INFO - Connected to MongoDB database: linkedindb, collection: raw
+2024-10-26 11:36:02,374 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-26 11:36:02,374 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-26 11:36:02,374 - INFO - Queried documents from raw
+2024-10-26 11:36:02,695 - INFO - Fetched 212 records from the collection.
+2024-10-26 11:36:02,695 - INFO - Retrieved 212 records from MongoDB.
+2024-10-26 11:36:02,695 - INFO - Starting data cleaning and sentence splitting process...
+2024-10-26 11:36:55,106 - INFO - Data processing completed. 212 records processed.
+2024-10-26 11:36:55,106 - INFO - Collection changed to: clean
+2024-10-26 11:36:55,106 - INFO - Switched to collection 'clean'.
+2024-10-26 11:36:55,106 - INFO - Saving processed data back to MongoDB...
+2024-10-26 11:37:00,842 - INFO - Cleaned data has been saved to MongoDB. Total successful links: 212
+2024-10-26 11:37:00,842 - INFO - Collection changed to: raw
+2024-10-26 11:37:00,842 - INFO - Switched to collection 'raw'.
+2024-10-26 11:37:00,842 - INFO - Updating processed status for links...
+2024-10-26 11:37:06,011 - INFO - Processed status updated for 212 links.
+2024-10-26 11:37:06,011 - INFO - Data preprocessing workflow completed.
+2024-10-26 11:37:06,042 - INFO - MongoDB connection closed.
+2024-10-27 19:36:52,724 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-27 19:36:53,738 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-27 19:36:53,738 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-27 19:36:53,738 - INFO - Queried documents from raw
+2024-10-27 19:36:53,899 - WARNING - Query executed, but no matching documents found in the collection.
+2024-10-27 19:36:53,899 - INFO - Retrieved 0 records from MongoDB.
+2024-10-27 19:36:53,899 - WARNING - No data retrieved from MongoDB. Exiting preprocessing.
+2024-10-27 19:36:53,930 - INFO - MongoDB connection closed.
+2024-10-27 19:44:28,915 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-27 19:44:29,782 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-27 19:44:29,782 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-27 19:44:29,797 - INFO - Queried documents from raw
+2024-10-27 19:44:30,087 - INFO - Fetched 50 records from the collection.
+2024-10-27 19:44:30,087 - INFO - Retrieved 50 records from MongoDB.
+2024-10-27 19:44:30,087 - INFO - Starting data cleaning and sentence splitting process...
+2024-10-27 19:44:30,087 - INFO - Processing job description.
+2024-10-27 19:44:33,819 - INFO - Description processing completed with 8 sentences.
+2024-10-27 19:44:33,819 - INFO - Processing job description.
+2024-10-27 19:44:33,991 - INFO - Description processing completed with 29 sentences.
+2024-10-27 19:44:33,991 - INFO - Processing job description.
+2024-10-27 19:44:34,245 - INFO - Description processing completed with 45 sentences.
+2024-10-27 19:44:34,245 - INFO - Processing job description.
+2024-10-27 19:44:34,339 - INFO - Description processing completed with 12 sentences.
+2024-10-27 19:44:34,339 - INFO - Processing job description.
+2024-10-27 19:44:34,537 - INFO - Description processing completed with 35 sentences.
+2024-10-27 19:44:34,537 - INFO - Processing job description.
+2024-10-27 19:44:34,669 - INFO - Description processing completed with 25 sentences.
+2024-10-27 19:44:34,685 - INFO - Processing job description.
+2024-10-27 19:44:34,841 - INFO - Description processing completed with 35 sentences.
+2024-10-27 19:44:34,841 - INFO - Processing job description.
+2024-10-27 19:44:34,919 - INFO - Description processing completed with 14 sentences.
+2024-10-27 19:44:34,919 - INFO - Processing job description.
+2024-10-27 19:44:35,077 - INFO - Description processing completed with 28 sentences.
+2024-10-27 19:44:35,077 - INFO - Processing job description.
+2024-10-27 19:44:35,272 - INFO - Description processing completed with 36 sentences.
+2024-10-27 19:44:35,272 - INFO - Processing job description.
+2024-10-27 19:44:35,632 - INFO - Description processing completed with 67 sentences.
+2024-10-27 19:44:35,632 - INFO - Processing job description.
+2024-10-27 19:44:35,701 - INFO - Description processing completed with 15 sentences.
+2024-10-27 19:44:35,701 - INFO - Processing job description.
+2024-10-27 19:44:35,811 - INFO - Description processing completed with 21 sentences.
+2024-10-27 19:44:35,811 - INFO - Processing job description.
+2024-10-27 19:44:35,889 - INFO - Description processing completed with 17 sentences.
+2024-10-27 19:44:35,889 - INFO - Processing job description.
+2024-10-27 19:44:36,156 - INFO - Description processing completed with 41 sentences.
+2024-10-27 19:44:36,156 - INFO - Processing job description.
+2024-10-27 19:44:36,347 - INFO - Description processing completed with 33 sentences.
+2024-10-27 19:44:36,347 - INFO - Processing job description.
+2024-10-27 19:44:36,583 - INFO - Description processing completed with 44 sentences.
+2024-10-27 19:44:36,583 - INFO - Processing job description.
+2024-10-27 19:44:36,855 - INFO - Description processing completed with 40 sentences.
+2024-10-27 19:44:36,855 - INFO - Processing job description.
+2024-10-27 19:44:36,917 - INFO - Description processing completed with 15 sentences.
+2024-10-27 19:44:36,933 - INFO - Processing job description.
+2024-10-27 19:44:37,199 - INFO - Description processing completed with 52 sentences.
+2024-10-27 19:44:37,200 - INFO - Processing job description.
+2024-10-27 19:44:37,391 - INFO - Description processing completed with 39 sentences.
+2024-10-27 19:44:37,391 - INFO - Processing job description.
+2024-10-27 19:44:37,532 - INFO - Description processing completed with 29 sentences.
+2024-10-27 19:44:37,532 - INFO - Processing job description.
+2024-10-27 19:44:37,724 - INFO - Description processing completed with 32 sentences.
+2024-10-27 19:44:37,724 - INFO - Processing job description.
+2024-10-27 19:44:37,833 - INFO - Description processing completed with 19 sentences.
+2024-10-27 19:44:37,833 - INFO - Processing job description.
+2024-10-27 19:44:38,005 - INFO - Description processing completed with 32 sentences.
+2024-10-27 19:44:38,005 - INFO - Processing job description.
+2024-10-27 19:44:38,241 - INFO - Description processing completed with 51 sentences.
+2024-10-27 19:44:38,241 - INFO - Processing job description.
+2024-10-27 19:44:38,366 - INFO - Description processing completed with 22 sentences.
+2024-10-27 19:44:38,366 - INFO - Processing job description.
+2024-10-27 19:44:38,570 - INFO - Description processing completed with 38 sentences.
+2024-10-27 19:44:38,570 - INFO - Processing job description.
+2024-10-27 19:44:38,855 - INFO - Description processing completed with 61 sentences.
+2024-10-27 19:44:38,855 - INFO - Processing job description.
+2024-10-27 19:44:39,153 - INFO - Description processing completed with 63 sentences.
+2024-10-27 19:44:39,153 - INFO - Processing job description.
+2024-10-27 19:44:39,439 - INFO - Description processing completed with 50 sentences.
+2024-10-27 19:44:39,439 - INFO - Processing job description.
+2024-10-27 19:44:39,533 - INFO - Description processing completed with 17 sentences.
+2024-10-27 19:44:39,533 - INFO - Processing job description.
+2024-10-27 19:44:39,627 - INFO - Description processing completed with 20 sentences.
+2024-10-27 19:44:39,627 - INFO - Processing job description.
+2024-10-27 19:44:39,725 - INFO - Description processing completed with 21 sentences.
+2024-10-27 19:44:39,725 - INFO - Processing job description.
+2024-10-27 19:44:39,867 - INFO - Description processing completed with 25 sentences.
+2024-10-27 19:44:39,867 - INFO - Processing job description.
+2024-10-27 19:44:39,991 - INFO - Description processing completed with 25 sentences.
+2024-10-27 19:44:39,991 - INFO - Processing job description.
+2024-10-27 19:44:40,277 - INFO - Description processing completed with 63 sentences.
+2024-10-27 19:44:40,277 - INFO - Processing job description.
+2024-10-27 19:44:40,574 - INFO - Description processing completed with 63 sentences.
+2024-10-27 19:44:40,574 - INFO - Processing job description.
+2024-10-27 19:44:40,652 - INFO - Description processing completed with 17 sentences.
+2024-10-27 19:44:40,652 - INFO - Processing job description.
+2024-10-27 19:44:40,921 - INFO - Description processing completed with 63 sentences.
+2024-10-27 19:44:40,921 - INFO - Processing job description.
+2024-10-27 19:44:41,188 - INFO - Description processing completed with 63 sentences.
+2024-10-27 19:44:41,188 - INFO - Processing job description.
+2024-10-27 19:44:41,350 - INFO - Description processing completed with 33 sentences.
+2024-10-27 19:44:41,350 - INFO - Processing job description.
+2024-10-27 19:44:41,475 - INFO - Description processing completed with 25 sentences.
+2024-10-27 19:44:41,475 - INFO - Processing job description.
+2024-10-27 19:44:41,740 - INFO - Description processing completed with 61 sentences.
+2024-10-27 19:44:41,740 - INFO - Processing job description.
+2024-10-27 19:44:42,135 - INFO - Description processing completed with 70 sentences.
+2024-10-27 19:44:42,135 - INFO - Processing job description.
+2024-10-27 19:44:42,320 - INFO - Description processing completed with 30 sentences.
+2024-10-27 19:44:42,320 - INFO - Processing job description.
+2024-10-27 19:44:42,539 - INFO - Description processing completed with 48 sentences.
+2024-10-27 19:44:42,539 - INFO - Processing job description.
+2024-10-27 19:44:42,680 - INFO - Description processing completed with 32 sentences.
+2024-10-27 19:44:42,680 - INFO - Processing job description.
+2024-10-27 19:44:42,871 - INFO - Description processing completed with 44 sentences.
+2024-10-27 19:44:42,871 - INFO - Processing job description.
+2024-10-27 19:44:43,043 - INFO - Description processing completed with 36 sentences.
+2024-10-27 19:44:43,043 - INFO - Data processing completed. 50 records processed.
+2024-10-27 19:44:43,043 - INFO - Collection changed to: clean
+2024-10-27 19:44:43,059 - INFO - Switched to collection 'clean'.
+2024-10-27 19:44:43,059 - INFO - Saving processed data back to MongoDB...
+2024-10-27 19:44:44,351 - INFO - Cleaned data has been saved to MongoDB. Total successful links: 50
+2024-10-27 19:44:44,351 - INFO - Collection changed to: raw
+2024-10-27 19:44:44,351 - INFO - Switched to collection 'raw'.
+2024-10-27 19:44:44,351 - INFO - Updating processed status for links...
+2024-10-27 19:44:45,570 - INFO - Processed status updated for 50 links.
+2024-10-27 19:44:45,585 - INFO - Data preprocessing workflow completed.
+2024-10-27 19:44:45,601 - INFO - MongoDB connection closed.
+2024-10-28 09:03:50,741 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-28 09:03:51,667 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-28 09:03:51,667 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-28 09:03:51,667 - INFO - Queried documents from raw
+2024-10-28 09:03:51,980 - INFO - Fetched 50 records from the collection.
+2024-10-28 09:03:51,980 - INFO - Retrieved 50 records from MongoDB.
+2024-10-28 09:03:51,980 - INFO - Starting data cleaning and sentence splitting process...
+2024-10-28 09:03:51,980 - INFO - Processing job description.
+2024-10-28 09:03:55,542 - INFO - Description processing completed with 8 sentences.
+2024-10-28 09:03:55,558 - INFO - Processing job description.
+2024-10-28 09:03:55,715 - INFO - Description processing completed with 29 sentences.
+2024-10-28 09:03:55,715 - INFO - Processing job description.
+2024-10-28 09:03:55,965 - INFO - Description processing completed with 45 sentences.
+2024-10-28 09:03:55,965 - INFO - Processing job description.
+2024-10-28 09:03:56,043 - INFO - Description processing completed with 12 sentences.
+2024-10-28 09:03:56,043 - INFO - Processing job description.
+2024-10-28 09:03:56,231 - INFO - Description processing completed with 35 sentences.
+2024-10-28 09:03:56,231 - INFO - Processing job description.
+2024-10-28 09:03:56,356 - INFO - Description processing completed with 25 sentences.
+2024-10-28 09:03:56,356 - INFO - Processing job description.
+2024-10-28 09:03:56,560 - INFO - Description processing completed with 35 sentences.
+2024-10-28 09:03:56,560 - INFO - Processing job description.
+2024-10-28 09:03:56,670 - INFO - Description processing completed with 14 sentences.
+2024-10-28 09:03:56,670 - INFO - Processing job description.
+2024-10-28 09:03:56,843 - INFO - Description processing completed with 28 sentences.
+2024-10-28 09:03:56,843 - INFO - Processing job description.
+2024-10-28 09:03:57,030 - INFO - Description processing completed with 36 sentences.
+2024-10-28 09:03:57,030 - INFO - Processing job description.
+2024-10-28 09:03:57,406 - INFO - Description processing completed with 67 sentences.
+2024-10-28 09:03:57,406 - INFO - Processing job description.
+2024-10-28 09:03:57,484 - INFO - Description processing completed with 15 sentences.
+2024-10-28 09:03:57,484 - INFO - Processing job description.
+2024-10-28 09:03:57,578 - INFO - Description processing completed with 21 sentences.
+2024-10-28 09:03:57,578 - INFO - Processing job description.
+2024-10-28 09:03:57,641 - INFO - Description processing completed with 17 sentences.
+2024-10-28 09:03:57,641 - INFO - Processing job description.
+2024-10-28 09:03:57,904 - INFO - Description processing completed with 41 sentences.
+2024-10-28 09:03:57,904 - INFO - Processing job description.
+2024-10-28 09:03:58,077 - INFO - Description processing completed with 33 sentences.
+2024-10-28 09:03:58,077 - INFO - Processing job description.
+2024-10-28 09:03:58,280 - INFO - Description processing completed with 44 sentences.
+2024-10-28 09:03:58,280 - INFO - Processing job description.
+2024-10-28 09:03:58,468 - INFO - Description processing completed with 40 sentences.
+2024-10-28 09:03:58,468 - INFO - Processing job description.
+2024-10-28 09:03:58,530 - INFO - Description processing completed with 15 sentences.
+2024-10-28 09:03:58,530 - INFO - Processing job description.
+2024-10-28 09:03:58,807 - INFO - Description processing completed with 52 sentences.
+2024-10-28 09:03:58,807 - INFO - Processing job description.
+2024-10-28 09:03:59,011 - INFO - Description processing completed with 39 sentences.
+2024-10-28 09:03:59,011 - INFO - Processing job description.
+2024-10-28 09:03:59,152 - INFO - Description processing completed with 29 sentences.
+2024-10-28 09:03:59,152 - INFO - Processing job description.
+2024-10-28 09:03:59,341 - INFO - Description processing completed with 32 sentences.
+2024-10-28 09:03:59,341 - INFO - Processing job description.
+2024-10-28 09:03:59,453 - INFO - Description processing completed with 19 sentences.
+2024-10-28 09:03:59,454 - INFO - Processing job description.
+2024-10-28 09:03:59,607 - INFO - Description processing completed with 32 sentences.
+2024-10-28 09:03:59,607 - INFO - Processing job description.
+2024-10-28 09:03:59,841 - INFO - Description processing completed with 51 sentences.
+2024-10-28 09:03:59,841 - INFO - Processing job description.
+2024-10-28 09:03:59,967 - INFO - Description processing completed with 22 sentences.
+2024-10-28 09:03:59,967 - INFO - Processing job description.
+2024-10-28 09:04:00,201 - INFO - Description processing completed with 38 sentences.
+2024-10-28 09:04:00,201 - INFO - Processing job description.
+2024-10-28 09:04:00,484 - INFO - Description processing completed with 61 sentences.
+2024-10-28 09:04:00,484 - INFO - Processing job description.
+2024-10-28 09:04:00,797 - INFO - Description processing completed with 63 sentences.
+2024-10-28 09:04:00,797 - INFO - Processing job description.
+2024-10-28 09:04:01,079 - INFO - Description processing completed with 50 sentences.
+2024-10-28 09:04:01,079 - INFO - Processing job description.
+2024-10-28 09:04:01,157 - INFO - Description processing completed with 17 sentences.
+2024-10-28 09:04:01,157 - INFO - Processing job description.
+2024-10-28 09:04:01,267 - INFO - Description processing completed with 20 sentences.
+2024-10-28 09:04:01,267 - INFO - Processing job description.
+2024-10-28 09:04:01,361 - INFO - Description processing completed with 21 sentences.
+2024-10-28 09:04:01,361 - INFO - Processing job description.
+2024-10-28 09:04:01,486 - INFO - Description processing completed with 25 sentences.
+2024-10-28 09:04:01,486 - INFO - Processing job description.
+2024-10-28 09:04:01,611 - INFO - Description processing completed with 25 sentences.
+2024-10-28 09:04:01,611 - INFO - Processing job description.
+2024-10-28 09:04:01,909 - INFO - Description processing completed with 63 sentences.
+2024-10-28 09:04:01,909 - INFO - Processing job description.
+2024-10-28 09:04:02,191 - INFO - Description processing completed with 63 sentences.
+2024-10-28 09:04:02,191 - INFO - Processing job description.
+2024-10-28 09:04:02,284 - INFO - Description processing completed with 17 sentences.
+2024-10-28 09:04:02,284 - INFO - Processing job description.
+2024-10-28 09:04:02,567 - INFO - Description processing completed with 63 sentences.
+2024-10-28 09:04:02,567 - INFO - Processing job description.
+2024-10-28 09:04:02,864 - INFO - Description processing completed with 63 sentences.
+2024-10-28 09:04:02,864 - INFO - Processing job description.
+2024-10-28 09:04:03,020 - INFO - Description processing completed with 33 sentences.
+2024-10-28 09:04:03,020 - INFO - Processing job description.
+2024-10-28 09:04:03,130 - INFO - Description processing completed with 25 sentences.
+2024-10-28 09:04:03,130 - INFO - Processing job description.
+2024-10-28 09:04:03,405 - INFO - Description processing completed with 61 sentences.
+2024-10-28 09:04:03,405 - INFO - Processing job description.
+2024-10-28 09:04:03,797 - INFO - Description processing completed with 70 sentences.
+2024-10-28 09:04:03,797 - INFO - Processing job description.
+2024-10-28 09:04:03,969 - INFO - Description processing completed with 30 sentences.
+2024-10-28 09:04:03,969 - INFO - Processing job description.
+2024-10-28 09:04:04,189 - INFO - Description processing completed with 48 sentences.
+2024-10-28 09:04:04,189 - INFO - Processing job description.
+2024-10-28 09:04:04,345 - INFO - Description processing completed with 32 sentences.
+2024-10-28 09:04:04,345 - INFO - Processing job description.
+2024-10-28 09:04:04,517 - INFO - Description processing completed with 44 sentences.
+2024-10-28 09:04:04,517 - INFO - Processing job description.
+2024-10-28 09:04:04,705 - INFO - Description processing completed with 36 sentences.
+2024-10-28 09:04:04,705 - INFO - Data processing completed. 50 records processed.
+2024-10-28 09:04:04,705 - INFO - Collection changed to: clean
+2024-10-28 09:04:04,705 - INFO - Switched to collection 'clean'.
+2024-10-28 09:04:04,705 - INFO - Saving processed data back to MongoDB...
+2024-10-28 09:04:06,176 - INFO - Cleaned data has been saved to MongoDB. Total successful links: 50
+2024-10-28 09:04:06,176 - INFO - Collection changed to: raw
+2024-10-28 09:04:06,176 - INFO - Switched to collection 'raw'.
+2024-10-28 09:04:06,176 - INFO - Updating processed status for links...
+2024-10-28 09:04:07,475 - INFO - Processed status updated for 50 links.
+2024-10-28 09:04:07,475 - INFO - Data preprocessing workflow completed.
+2024-10-28 09:04:07,506 - INFO - MongoDB connection closed.
+2024-10-28 10:32:26,754 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-28 10:32:27,631 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-10-28 10:32:27,631 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-10-28 10:32:27,631 - INFO - Queried documents from raw
+2024-10-28 10:32:27,931 - INFO - Fetched 50 records from the collection.
+2024-10-28 10:32:27,931 - INFO - Retrieved 50 records from MongoDB.
+2024-10-28 10:32:27,931 - INFO - Starting data cleaning and sentence splitting process...
+2024-10-28 10:32:27,931 - INFO - Processing job description.
+2024-10-28 10:32:31,538 - INFO - Description processing completed with 8 sentences.
+2024-10-28 10:32:31,538 - INFO - Processing job description.
+2024-10-28 10:32:31,694 - INFO - Description processing completed with 29 sentences.
+2024-10-28 10:32:31,694 - INFO - Processing job description.
+2024-10-28 10:32:31,961 - INFO - Description processing completed with 45 sentences.
+2024-10-28 10:32:31,961 - INFO - Processing job description.
+2024-10-28 10:32:32,055 - INFO - Description processing completed with 12 sentences.
+2024-10-28 10:32:32,055 - INFO - Processing job description.
+2024-10-28 10:32:32,274 - INFO - Description processing completed with 35 sentences.
+2024-10-28 10:32:32,274 - INFO - Processing job description.
+2024-10-28 10:32:32,447 - INFO - Description processing completed with 25 sentences.
+2024-10-28 10:32:32,447 - INFO - Processing job description.
+2024-10-28 10:32:32,616 - INFO - Description processing completed with 35 sentences.
+2024-10-28 10:32:32,616 - INFO - Processing job description.
+2024-10-28 10:32:32,694 - INFO - Description processing completed with 14 sentences.
+2024-10-28 10:32:32,694 - INFO - Processing job description.
+2024-10-28 10:32:32,851 - INFO - Description processing completed with 28 sentences.
+2024-10-28 10:32:32,851 - INFO - Processing job description.
+2024-10-28 10:32:33,038 - INFO - Description processing completed with 36 sentences.
+2024-10-28 10:32:33,038 - INFO - Processing job description.
+2024-10-28 10:32:33,414 - INFO - Description processing completed with 67 sentences.
+2024-10-28 10:32:33,414 - INFO - Processing job description.
+2024-10-28 10:32:33,493 - INFO - Description processing completed with 15 sentences.
+2024-10-28 10:32:33,493 - INFO - Processing job description.
+2024-10-28 10:32:33,602 - INFO - Description processing completed with 21 sentences.
+2024-10-28 10:32:33,602 - INFO - Processing job description.
+2024-10-28 10:32:33,665 - INFO - Description processing completed with 17 sentences.
+2024-10-28 10:32:33,665 - INFO - Processing job description.
+2024-10-28 10:32:33,900 - INFO - Description processing completed with 41 sentences.
+2024-10-28 10:32:33,900 - INFO - Processing job description.
+2024-10-28 10:32:34,088 - INFO - Description processing completed with 33 sentences.
+2024-10-28 10:32:34,088 - INFO - Processing job description.
+2024-10-28 10:32:34,291 - INFO - Description processing completed with 44 sentences.
+2024-10-28 10:32:34,291 - INFO - Processing job description.
+2024-10-28 10:32:34,479 - INFO - Description processing completed with 40 sentences.
+2024-10-28 10:32:34,479 - INFO - Processing job description.
+2024-10-28 10:32:34,557 - INFO - Description processing completed with 15 sentences.
+2024-10-28 10:32:34,557 - INFO - Processing job description.
+2024-10-28 10:32:34,885 - INFO - Description processing completed with 52 sentences.
+2024-10-28 10:32:34,885 - INFO - Processing job description.
+2024-10-28 10:32:35,089 - INFO - Description processing completed with 39 sentences.
+2024-10-28 10:32:35,089 - INFO - Processing job description.
+2024-10-28 10:32:35,245 - INFO - Description processing completed with 29 sentences.
+2024-10-28 10:32:35,245 - INFO - Processing job description.
+2024-10-28 10:32:35,433 - INFO - Description processing completed with 32 sentences.
+2024-10-28 10:32:35,433 - INFO - Processing job description.
+2024-10-28 10:32:35,528 - INFO - Description processing completed with 19 sentences.
+2024-10-28 10:32:35,528 - INFO - Processing job description.
+2024-10-28 10:32:35,699 - INFO - Description processing completed with 32 sentences.
+2024-10-28 10:32:35,699 - INFO - Processing job description.
+2024-10-28 10:32:35,934 - INFO - Description processing completed with 51 sentences.
+2024-10-28 10:32:35,934 - INFO - Processing job description.
+2024-10-28 10:32:36,059 - INFO - Description processing completed with 22 sentences.
+2024-10-28 10:32:36,059 - INFO - Processing job description.
+2024-10-28 10:32:36,326 - INFO - Description processing completed with 38 sentences.
+2024-10-28 10:32:36,326 - INFO - Processing job description.
+2024-10-28 10:32:36,654 - INFO - Description processing completed with 61 sentences.
+2024-10-28 10:32:36,654 - INFO - Processing job description.
+2024-10-28 10:32:36,999 - INFO - Description processing completed with 63 sentences.
+2024-10-28 10:32:36,999 - INFO - Processing job description.
+2024-10-28 10:32:37,281 - INFO - Description processing completed with 50 sentences.
+2024-10-28 10:32:37,281 - INFO - Processing job description.
+2024-10-28 10:32:37,359 - INFO - Description processing completed with 17 sentences.
+2024-10-28 10:32:37,359 - INFO - Processing job description.
+2024-10-28 10:32:37,453 - INFO - Description processing completed with 20 sentences.
+2024-10-28 10:32:37,453 - INFO - Processing job description.
+2024-10-28 10:32:37,562 - INFO - Description processing completed with 21 sentences.
+2024-10-28 10:32:37,562 - INFO - Processing job description.
+2024-10-28 10:32:37,672 - INFO - Description processing completed with 25 sentences.
+2024-10-28 10:32:37,672 - INFO - Processing job description.
+2024-10-28 10:32:37,812 - INFO - Description processing completed with 25 sentences.
+2024-10-28 10:32:37,812 - INFO - Processing job description.
+2024-10-28 10:32:38,094 - INFO - Description processing completed with 63 sentences.
+2024-10-28 10:32:38,094 - INFO - Processing job description.
+2024-10-28 10:32:38,360 - INFO - Description processing completed with 63 sentences.
+2024-10-28 10:32:38,360 - INFO - Processing job description.
+2024-10-28 10:32:38,438 - INFO - Description processing completed with 17 sentences.
+2024-10-28 10:32:38,438 - INFO - Processing job description.
+2024-10-28 10:32:38,782 - INFO - Description processing completed with 63 sentences.
+2024-10-28 10:32:38,782 - INFO - Processing job description.
+2024-10-28 10:32:39,096 - INFO - Description processing completed with 63 sentences.
+2024-10-28 10:32:39,096 - INFO - Processing job description.
+2024-10-28 10:32:39,268 - INFO - Description processing completed with 33 sentences.
+2024-10-28 10:32:39,268 - INFO - Processing job description.
+2024-10-28 10:32:39,393 - INFO - Description processing completed with 25 sentences.
+2024-10-28 10:32:39,393 - INFO - Processing job description.
+2024-10-28 10:32:39,675 - INFO - Description processing completed with 61 sentences.
+2024-10-28 10:32:39,690 - INFO - Processing job description.
+2024-10-28 10:32:40,098 - INFO - Description processing completed with 70 sentences.
+2024-10-28 10:32:40,098 - INFO - Processing job description.
+2024-10-28 10:32:40,254 - INFO - Description processing completed with 30 sentences.
+2024-10-28 10:32:40,254 - INFO - Processing job description.
+2024-10-28 10:32:40,474 - INFO - Description processing completed with 48 sentences.
+2024-10-28 10:32:40,474 - INFO - Processing job description.
+2024-10-28 10:32:40,615 - INFO - Description processing completed with 32 sentences.
+2024-10-28 10:32:40,615 - INFO - Processing job description.
+2024-10-28 10:32:40,803 - INFO - Description processing completed with 44 sentences.
+2024-10-28 10:32:40,804 - INFO - Processing job description.
+2024-10-28 10:32:40,975 - INFO - Description processing completed with 36 sentences.
+2024-10-28 10:32:40,975 - INFO - Data processing completed. 50 records processed.
+2024-10-28 10:32:40,975 - INFO - Collection changed to: clean
+2024-10-28 10:32:40,975 - INFO - Switched to collection 'clean'.
+2024-10-28 10:32:40,975 - INFO - Saving processed data back to MongoDB...
+2024-10-28 10:32:43,382 - INFO - Cleaned data has been saved to MongoDB. Total successful links: 50
+2024-10-28 10:32:43,382 - INFO - Collection changed to: raw
+2024-10-28 10:32:43,382 - INFO - Switched to collection 'raw'.
+2024-10-28 10:32:43,398 - INFO - Updating processed status for links...
+2024-10-28 10:32:45,551 - INFO - Processed status updated for 50 links.
+2024-10-28 10:32:45,551 - INFO - Data preprocessing workflow completed.
+2024-10-28 10:32:45,583 - INFO - MongoDB connection closed.
+2024-11-05 17:39:29,614 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-11-05 17:39:30,435 - INFO - DescriptionCleaner initialized with custom stopwords and NLP tools.
+2024-11-05 17:39:30,435 - INFO - Retrieving data from MongoDB for preprocessing...
+2024-11-05 17:39:30,716 - INFO - Fetched 25 records from the collection.
+2024-11-05 17:39:30,716 - INFO - Retrieved 25 records from MongoDB.
+2024-11-05 17:39:30,716 - INFO - Starting data cleaning and sentence splitting process...
+2024-11-05 17:39:30,716 - INFO - Processing job description.
+2024-11-05 17:39:34,341 - INFO - Description processing completed with 23 sentences.
+2024-11-05 17:39:34,341 - INFO - Processing job description.
+2024-11-05 17:39:34,476 - INFO - Description processing completed with 26 sentences.
+2024-11-05 17:39:34,476 - INFO - Processing job description.
+2024-11-05 17:39:34,820 - INFO - Description processing completed with 66 sentences.
+2024-11-05 17:39:34,820 - INFO - Processing job description.
+2024-11-05 17:39:35,039 - INFO - Description processing completed with 46 sentences.
+2024-11-05 17:39:35,039 - INFO - Processing job description.
+2024-11-05 17:39:35,148 - INFO - Description processing completed with 23 sentences.
+2024-11-05 17:39:35,148 - INFO - Processing job description.
+2024-11-05 17:39:35,433 - INFO - Description processing completed with 53 sentences.
+2024-11-05 17:39:35,433 - INFO - Processing job description.
+2024-11-05 17:39:35,761 - INFO - Description processing completed with 56 sentences.
+2024-11-05 17:39:35,761 - INFO - Processing job description.
+2024-11-05 17:39:36,077 - INFO - Description processing completed with 62 sentences.
+2024-11-05 17:39:36,077 - INFO - Processing job description.
+2024-11-05 17:39:36,421 - INFO - Description processing completed with 60 sentences.
+2024-11-05 17:39:36,421 - INFO - Processing job description.
+2024-11-05 17:39:36,597 - INFO - Description processing completed with 31 sentences.
+2024-11-05 17:39:36,597 - INFO - Processing job description.
+2024-11-05 17:39:36,976 - INFO - Description processing completed with 66 sentences.
+2024-11-05 17:39:36,976 - INFO - Processing job description.
+2024-11-05 17:39:37,023 - INFO - Description processing completed with 9 sentences.
+2024-11-05 17:39:37,023 - INFO - Processing job description.
+2024-11-05 17:39:37,164 - INFO - Description processing completed with 26 sentences.
+2024-11-05 17:39:37,164 - INFO - Processing job description.
+2024-11-05 17:39:37,464 - INFO - Description processing completed with 70 sentences.
+2024-11-05 17:39:37,464 - INFO - Processing job description.
+2024-11-05 17:39:37,870 - INFO - Description processing completed with 85 sentences.
+2024-11-05 17:39:37,870 - INFO - Processing job description.
+2024-11-05 17:39:38,027 - INFO - Description processing completed with 26 sentences.
+2024-11-05 17:39:38,027 - INFO - Processing job description.
+2024-11-05 17:39:38,340 - INFO - Description processing completed with 64 sentences.
+2024-11-05 17:39:38,340 - INFO - Processing job description.
+2024-11-05 17:39:38,515 - INFO - Description processing completed with 40 sentences.
+2024-11-05 17:39:38,515 - INFO - Processing job description.
+2024-11-05 17:39:38,656 - INFO - Description processing completed with 29 sentences.
+2024-11-05 17:39:38,656 - INFO - Processing job description.
+2024-11-05 17:39:38,828 - INFO - Description processing completed with 35 sentences.
+2024-11-05 17:39:38,828 - INFO - Processing job description.
+2024-11-05 17:39:38,988 - INFO - Description processing completed with 29 sentences.
+2024-11-05 17:39:38,988 - INFO - Processing job description.
+2024-11-05 17:39:39,254 - INFO - Description processing completed with 50 sentences.
+2024-11-05 17:39:39,254 - INFO - Processing job description.
+2024-11-05 17:39:39,410 - INFO - Description processing completed with 34 sentences.
+2024-11-05 17:39:39,410 - INFO - Processing job description.
+2024-11-05 17:39:39,707 - INFO - Description processing completed with 67 sentences.
+2024-11-05 17:39:39,707 - INFO - Processing job description.
+2024-11-05 17:39:39,816 - INFO - Description processing completed with 21 sentences.
+2024-11-05 17:39:39,816 - INFO - Data processing completed. 25 records processed.
+2024-11-05 17:39:39,816 - INFO - Collection changed to: clean
+2024-11-05 17:39:39,816 - INFO - Switched to collection 'clean'.
+2024-11-05 17:39:39,816 - INFO - Saving processed data back to MongoDB...
+2024-11-05 17:39:40,518 - INFO - Cleaned data has been saved to MongoDB. Total successful links: 25
+2024-11-05 17:39:40,518 - INFO - Collection changed to: raw
+2024-11-05 17:39:40,518 - INFO - Switched to collection 'raw'.
+2024-11-05 17:39:40,518 - INFO - Updating processed status for links...
+2024-11-05 17:39:41,195 - INFO - Processed status updated for 25 links.
+2024-11-05 17:39:41,195 - INFO - Data preprocessing workflow completed.
+2024-11-05 17:39:41,226 - INFO - MongoDB connection closed.

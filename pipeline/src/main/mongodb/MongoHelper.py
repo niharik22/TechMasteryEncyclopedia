@@ -1,5 +1,6 @@
 from pymongo import MongoClient
 import logging
+from typing import List, Dict
 
 
 class MongoDBClient:
@@ -44,12 +45,36 @@ class MongoDBClient:
         except Exception as e:
             logging.error(f"Error updating document: {e}")
 
+    def insert_documents(self, docs: List[Dict], col_name: str) -> bool:
+        """Performs bulk insertion of documents into the specified collection."""
+        collection = self.db[col_name]
+        if docs:
+            try:
+                collection.insert_many(docs)
+                logging.info(f"Inserted {len(docs)} documents into {collection.name} in bulk.")
+                return True
+            except Exception as e:
+                logging.error(f"Error during bulk insertion into {collection.name}: {e}")
+                return False
+        else:
+            logging.info("No documents to insert.")
+            return False
+
+    def update_many_documents(self, query: dict, update: dict, col_name: str):
+        """Updates multiple documents in the specified collection."""
+        collection = self.db[col_name]
+        try:
+            result = collection.update_many(query, {'$set': update})
+            logging.info(f"Updated {result.modified_count} documents in {collection.name}")
+        except Exception as e:
+            logging.error(f"Error updating documents in {collection.name}: {e}")
+
     def query_documents(self, query: dict, projection: dict = None, col_name: str = None):
         """Queries documents from the collection."""
         collection = self.collection if col_name is None else self.db[col_name]
         try:
             results = collection.find(query, projection)
-            logging.info(f"Queried documents from {collection.name}")
+            logging.debug(f"Queried documents from {collection.name}")
             return results
         except Exception as e:
             logging.error(f"Error querying documents: {e}")

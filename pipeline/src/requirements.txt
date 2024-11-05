@@ -6,3 +6,5 @@ pymongo
 nltk
 spacy
 bs4
+tensorflow
+transformers

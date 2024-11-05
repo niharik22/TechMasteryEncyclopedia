@@ -239,13 +239,13 @@ def get_description(driver, job_dict, role, max_retries=3, retry_wait=3, wait_ti
                     break  # Exit the retry loop since scraping was successful
 
                 except Exception as e:
-                    logging.debug(f"Error: Failed to scrape {link} on attempt {retries + 1}: {e}")
+                    logging.error(f"Error: Failed to scrape {link} on attempt {retries + 1}: {e}")
                     retries += 1
                     time.sleep(retry_wait)  # Wait before retrying
 
             # If max retries are exhausted, log the failure and move on
             if retries == max_retries:
-                logging.debug(f"Error: Max retries reached for {link}. Skipping...")
+                logging.info(f"Error: Max retries reached for {link}. Skipping...")
                 fail.append(link)
     logging.info(f"Scraping Summary: Good_Links {len(good)} & Fail_Links {len(fail)}")
     return job_dict
@@ -368,9 +368,9 @@ def click_see_more_button(driver):
 
 def start_scraping(driver, config, password, env, mongo_client):
 
-    login(driver, config["username"], password, config["urls"]["login_url"], config)
+    login(driver, config["username"], password, config["scraping"]["urls"]["login_url"], config)
 
-    search_url = config["urls"]["search_url"].format(config["scraping"]["search"]["keyword"], config["scraping"]["search"]["country"])
+    search_url = config["scraping"]["urls"]["search_url"].format(config["scraping"]["search"]["keyword"], config["scraping"]["search"]["country"])
     search(driver, search_url)
 
     total_job = get_n_results(driver)

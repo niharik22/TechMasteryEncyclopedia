@@ -1,0 +1,20 @@
+# Exclude .conda files and directories
+.conda/
+
+# Exclude IDE-specific directories
+.idea/
+
+# Exclude Python cache files and compiled code
+__pycache__/
+*.py[cod]
+
+# Exclude git files and directories
+.git/
+.gitignore
+
+# Exclude virtual environment folders if present
+venv/
+.env/
+
+# Exclude logs and other unnecessary files
+*.log

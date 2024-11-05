@@ -67,6 +67,8 @@ class DataPreprocessor:
             # Prepare the document structure
             document = {
                 "link": link,
+                "classified":0,
+                "combined":0,
                 "cleaned_sentence": [{"text": sentence} for sentence in sentences]
             }
 

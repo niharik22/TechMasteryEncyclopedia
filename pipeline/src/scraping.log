@@ -1,0 +1,1336 @@
+2024-10-25 22:23:22,796 - INFO - ====== WebDriver manager ======
+2024-10-25 22:23:24,925 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-25 22:23:25,113 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-25 22:23:25,175 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-25 22:23:28,217 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-25 22:23:31,371 - INFO - Cookies expired, logging in as usual...
+2024-10-25 22:23:31,372 - INFO - Cookies not found or expired, logging in...
+2024-10-25 22:23:42,685 - INFO - Total jobs found: None
+2024-10-25 22:23:42,685 - INFO - MongoDB connection closed.
+2024-10-25 22:39:50,050 - INFO - ====== WebDriver manager ======
+2024-10-25 22:39:51,645 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-25 22:39:51,763 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-25 22:39:51,806 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-25 22:39:54,229 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-25 22:39:54,229 - INFO - Cookies not found or expired, logging in...
+2024-10-25 22:40:04,265 - INFO - Cookies saved for future sessions
+2024-10-25 22:40:16,379 - INFO - Found 6437 job results
+2024-10-25 22:40:16,379 - INFO - Total jobs found: 6437
+2024-10-25 22:40:16,379 - INFO - Getting Links from page: 1
+2024-10-25 22:40:49,012 - INFO - Extracting Data Scientist - Intermediate (Secret to TS) (3285)
+2024-10-25 22:40:52,691 - INFO - Extracting Sr Data Scientist
+2024-10-25 22:40:56,538 - INFO - Extracting Healthcare Conflict Data Scientist
+2024-10-25 22:41:01,225 - INFO - Extracting Senior Data Scientist
+2024-10-25 22:41:07,979 - INFO - Extracting Data Architect (031-24)
+2024-10-25 22:41:13,380 - INFO - Extracting Senior/Staff Data Scientist - Collision Avoidance System
+2024-10-25 22:41:18,490 - INFO - Extracting Senior Battery Data Scientist
+2024-10-25 22:41:22,933 - INFO - Extracting Data Scientist
+2024-10-25 22:41:27,565 - INFO - Extracting Senior Data Scientist
+2024-10-25 22:41:32,251 - INFO - Extracting Senior Data Scientist
+2024-10-25 22:41:37,070 - INFO - Extracting Data Analyst
+2024-10-25 22:41:41,698 - INFO - Extracting Data Analytics Manager [76368]
+2024-10-25 22:41:46,683 - INFO - Extracting Senior Data Scientist
+2024-10-25 22:41:51,286 - INFO - Extracting Data Scientist
+2024-10-25 22:41:56,526 - INFO - Extracting Senior Data Scientist
+2024-10-25 22:42:01,414 - INFO - Extracting Geographic Information Systems Analyst
+2024-10-25 22:42:06,263 - INFO - Extracting Data Scientist
+2024-10-25 22:42:11,252 - INFO - Extracting Data Scientist
+2024-10-25 22:42:15,804 - INFO - Extracting Senior Data Scientist
+2024-10-25 22:42:20,829 - INFO - Extracting Healthcare Claims Integrity Analyst - Hybrid
+2024-10-25 22:42:25,699 - INFO - Extracting Data Scientist - CECL & CCAR
+2024-10-25 22:42:30,645 - INFO - Extracting Data Scientist
+2024-10-25 22:42:35,525 - INFO - Extracting Senior Signal Processing Engineer
+2024-10-25 22:42:40,424 - INFO - Extracting Data Scientist
+2024-10-25 22:42:45,033 - INFO - Extracting Data Scientist
+2024-10-25 22:42:49,756 - INFO - Scraping Summary: Good_Links 25 & Fail_Links 0
+2024-10-25 22:42:49,756 - INFO - Queried documents from raw
+2024-10-25 22:42:50,065 - INFO - Fetched 25 existing job links from MongoDB
+2024-10-25 22:42:50,065 - INFO - Saving 25 new links to MongoDB
+2024-10-25 22:42:50,848 - INFO - MongoDB connection closed.
+2024-10-25 23:56:07,212 - INFO - ====== WebDriver manager ======
+2024-10-25 23:56:14,572 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-25 23:56:14,751 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-25 23:56:14,824 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-25 23:56:19,415 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-25 23:56:25,916 - INFO - Valid cookies loaded, skipping login
+2024-10-25 23:57:25,257 - INFO - Total jobs found: None
+2024-10-25 23:57:25,260 - INFO - MongoDB connection closed.
+2024-10-25 23:57:36,303 - INFO - ====== WebDriver manager ======
+2024-10-25 23:57:37,909 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-25 23:57:37,983 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-25 23:57:38,064 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-25 23:57:40,626 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-25 23:57:43,622 - INFO - Valid cookies loaded, skipping login
+2024-10-25 23:58:02,892 - INFO - Total jobs found: None
+2024-10-25 23:58:02,892 - INFO - MongoDB connection closed.
+2024-10-26 00:00:59,127 - INFO - ====== WebDriver manager ======
+2024-10-26 00:01:00,870 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 00:01:00,993 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 00:01:01,186 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 00:01:01,436 - INFO - WebDriver version 130.0.6723.69 selected
+2024-10-26 00:01:01,439 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.69/win32/chromedriver-win32.zip
+2024-10-26 00:01:01,439 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.69/win32/chromedriver-win32.zip
+2024-10-26 00:01:06,102 - INFO - Driver downloading response is 200
+2024-10-26 00:01:06,511 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 00:01:06,791 - INFO - Driver has been saved in cache [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69]
+2024-10-26 00:01:09,013 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-26 00:01:11,341 - INFO - Valid cookies loaded, skipping login
+2024-10-26 00:01:27,956 - INFO - Total jobs found: None
+2024-10-26 00:01:27,956 - INFO - MongoDB connection closed.
+2024-10-26 00:01:42,473 - INFO - ====== WebDriver manager ======
+2024-10-26 00:01:43,978 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 00:01:44,063 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 00:01:44,143 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-26 00:01:46,257 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-26 00:01:46,257 - INFO - Cookies not found or expired, logging in...
+2024-10-26 00:01:53,787 - INFO - Cookies saved for future sessions
+2024-10-26 00:02:06,193 - INFO - Found 6331 job results
+2024-10-26 00:02:06,193 - INFO - Total jobs found: 6331
+2024-10-26 00:02:06,195 - INFO - Getting Links from page: 1
+2024-10-26 00:02:42,495 - INFO - Extracting Sr Data Scientist
+2024-10-26 00:02:47,144 - INFO - Extracting Data Scientist - Intermediate (Secret to TS) (3285)
+2024-10-26 00:02:51,355 - INFO - Extracting Data Architect (031-24)
+2024-10-26 00:02:55,750 - INFO - Extracting Data Analyst
+2024-10-26 00:02:59,972 - INFO - Extracting Senior/Staff Data Scientist - Collision Avoidance System
+2024-10-26 00:03:04,590 - INFO - Extracting AI/ML Architect
+2024-10-26 00:03:08,758 - INFO - Extracting Senior Battery Data Scientist
+2024-10-26 00:03:13,336 - INFO - Extracting Data Scientist
+2024-10-26 00:03:18,159 - INFO - Extracting Senior Data Scientist
+2024-10-26 00:03:22,936 - INFO - Extracting Data Scientist
+2024-10-26 00:03:27,823 - INFO - Extracting Senior Data Scientist
+2024-10-26 00:03:32,856 - INFO - Extracting Data Scientist - CECL & CCAR
+2024-10-26 00:03:37,799 - INFO - Extracting Machine Learning Specialist
+2024-10-26 00:03:42,772 - INFO - Extracting Senior Data Scientist
+2024-10-26 00:03:48,534 - INFO - Extracting Data Scientist
+2024-10-26 00:03:53,837 - INFO - Extracting Healthcare Conflict Data Scientist
+2024-10-26 00:03:58,989 - INFO - Extracting Senior Data Scientist
+2024-10-26 00:04:03,940 - INFO - Extracting Data Scientist
+2024-10-26 00:04:09,376 - INFO - Extracting Data Scientist - Innovation Lab
+2024-10-26 00:04:14,695 - INFO - Extracting Senior Data Scientist
+2024-10-26 00:04:19,783 - INFO - Extracting Data Analytics Manager [76368]
+2024-10-26 00:04:25,523 - INFO - Extracting Data Science Engineer
+2024-10-26 00:04:31,341 - INFO - Extracting Data Scientist
+2024-10-26 00:04:36,409 - INFO - Extracting Sr. Data Scientist - Erlanger, KY
+2024-10-26 00:04:41,937 - INFO - Extracting Data Scientist / Senior Data Scientist - User Growth
+2024-10-26 00:04:47,269 - INFO - Scraping Summary: Good_Links 25 & Fail_Links 0
+2024-10-26 07:35:03,295 - INFO - ====== WebDriver manager ======
+2024-10-26 07:35:04,304 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 07:35:16,598 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 07:35:16,677 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-26 07:35:19,425 - INFO - Connected to MongoDB database: linkedindb_prod, collection: raw
+2024-10-26 07:35:23,127 - INFO - Valid cookies loaded, skipping login
+2024-10-26 07:35:44,394 - INFO - Total jobs found: None
+2024-10-26 07:35:44,398 - INFO - MongoDB connection closed.
+2024-10-26 07:36:22,186 - INFO - ====== WebDriver manager ======
+2024-10-26 07:36:23,082 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 07:36:23,176 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 07:36:23,229 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-26 07:36:25,214 - INFO - Connected to MongoDB database: linkedindb_prod, collection: raw
+2024-10-26 07:36:27,070 - INFO - Valid cookies loaded, skipping login
+2024-10-26 07:37:00,948 - INFO - Total jobs found: None
+2024-10-26 07:37:00,948 - INFO - MongoDB connection closed.
+2024-10-26 07:37:10,966 - INFO - ====== WebDriver manager ======
+2024-10-26 07:37:11,865 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 07:37:11,944 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-26 07:37:11,990 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-26 07:37:13,881 - INFO - Connected to MongoDB database: linkedindb_prod, collection: raw
+2024-10-26 07:37:13,881 - INFO - Cookies not found or expired, logging in...
+2024-10-26 07:37:21,212 - INFO - Cookies saved for future sessions
+2024-10-26 07:37:33,491 - INFO - Found 7887 job results
+2024-10-26 07:37:33,491 - INFO - Total jobs found: 7887
+2024-10-26 07:37:33,491 - INFO - Getting Links from page: 1
+2024-10-26 07:38:06,025 - INFO - Getting Links from page: 2
+2024-10-26 07:38:38,337 - INFO - Getting Links from page: 3
+2024-10-26 07:39:10,544 - INFO - Getting Links from page: 4
+2024-10-26 07:39:42,744 - INFO - Getting Links from page: 5
+2024-10-26 07:40:14,801 - INFO - Getting Links from page: 6
+2024-10-26 07:40:46,984 - INFO - Getting Links from page: 7
+2024-10-26 07:41:19,001 - INFO - Getting Links from page: 8
+2024-10-26 07:41:50,988 - INFO - Getting Links from page: 9
+2024-10-26 07:42:22,543 - INFO - Getting Links from page: 10
+2024-10-26 07:42:54,728 - INFO - Getting Links from page: 11
+2024-10-26 07:43:26,449 - INFO - Getting Links from page: 12
+2024-10-26 07:43:58,277 - INFO - Getting Links from page: 13
+2024-10-26 07:44:30,136 - INFO - Getting Links from page: 14
+2024-10-26 07:45:02,095 - INFO - Getting Links from page: 15
+2024-10-26 07:45:33,843 - INFO - Getting Links from page: 16
+2024-10-26 07:46:05,633 - INFO - Getting Links from page: 17
+2024-10-26 07:46:37,381 - INFO - Getting Links from page: 18
+2024-10-26 07:47:09,094 - INFO - Getting Links from page: 19
+2024-10-26 07:47:41,119 - INFO - Getting Links from page: 20
+2024-10-26 07:48:13,282 - INFO - Getting Links from page: 21
+2024-10-26 07:48:45,131 - INFO - Getting Links from page: 22
+2024-10-26 07:49:16,706 - INFO - Getting Links from page: 23
+2024-10-26 07:49:48,773 - INFO - Getting Links from page: 24
+2024-10-26 07:50:20,853 - INFO - Getting Links from page: 25
+2024-10-26 07:50:52,674 - INFO - Getting Links from page: 26
+2024-10-26 07:51:24,654 - INFO - Getting Links from page: 27
+2024-10-26 07:51:56,890 - INFO - Getting Links from page: 28
+2024-10-26 07:52:29,153 - INFO - Getting Links from page: 29
+2024-10-26 07:53:00,988 - INFO - Getting Links from page: 30
+2024-10-26 07:53:33,003 - INFO - Getting Links from page: 31
+2024-10-26 07:54:04,722 - INFO - Getting Links from page: 32
+2024-10-26 07:54:36,542 - INFO - Getting Links from page: 33
+2024-10-26 07:55:08,395 - INFO - Getting Links from page: 34
+2024-10-26 07:55:40,436 - INFO - Getting Links from page: 35
+2024-10-26 07:56:12,509 - INFO - Getting Links from page: 36
+2024-10-26 07:56:44,554 - INFO - Getting Links from page: 37
+2024-10-26 07:57:16,703 - INFO - Getting Links from page: 38
+2024-10-26 07:57:48,820 - INFO - Getting Links from page: 39
+2024-10-26 07:58:20,901 - INFO - Getting Links from page: 40
+2024-10-26 07:59:02,940 - INFO - Extracting Senior Data Infrastructure Engineer
+2024-10-26 07:59:07,519 - INFO - Extracting HPC Data Storage Engineer - TS/SCI
+2024-10-26 07:59:11,560 - INFO - Extracting Data Engineer
+2024-10-26 07:59:15,466 - INFO - Extracting Splunk Infrastructure Engineer
+2024-10-26 07:59:19,379 - INFO - Extracting Sr. Data Center Engineer
+2024-10-26 07:59:23,311 - INFO - Extracting Senior Data Engineer
+2024-10-26 07:59:28,308 - INFO - Extracting SAP Data Engineer & BI Developer
+2024-10-26 07:59:32,617 - INFO - Extracting Data Engineer
+2024-10-26 07:59:36,634 - INFO - Extracting Senior Data Center Engineer
+2024-10-26 07:59:41,289 - INFO - Extracting AWS Data Engineer
+2024-10-26 07:59:45,701 - INFO - Extracting Data Center Infrastructure Engineer
+2024-10-26 07:59:50,183 - INFO - Extracting Cyber Fraud Data Engineer
+2024-10-26 07:59:54,631 - INFO - Extracting Data Engineer / Analyst
+2024-10-26 07:59:59,399 - INFO - Extracting Solution Engineer
+2024-10-26 08:00:04,347 - INFO - Extracting Quantum Data Center Engineer Intern: 2025
+2024-10-26 08:00:09,331 - INFO - Extracting Data Engineer I
+2024-10-26 08:00:14,476 - INFO - Extracting Data Engineer / Architect
+2024-10-26 08:00:20,112 - INFO - Extracting Data Center Engineer
+2024-10-26 08:00:25,172 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:00:30,489 - INFO - Extracting Data Center Engineer
+2024-10-26 08:00:34,837 - INFO - Extracting Senior Data Center Engineer
+2024-10-26 08:00:39,219 - INFO - Extracting Data for LLMs - Software Engineer Intern: 2025
+2024-10-26 08:00:43,850 - INFO - Extracting Associate, Investment Analytics and Data (Full Stack Software Engineer)
+2024-10-26 08:00:48,310 - INFO - Extracting Senior Data Center Engineer
+2024-10-26 08:00:53,296 - INFO - Extracting Data Science Engineer
+2024-10-26 08:00:58,126 - INFO - Extracting HPC Data Storage Engineer - TS/SCI
+2024-10-26 08:01:03,238 - INFO - Extracting Data Center Electrical Design Engineer
+2024-10-26 08:01:08,031 - INFO - Extracting Model-Based Systems Engineer
+2024-10-26 08:01:12,976 - INFO - Extracting Data Engineer
+2024-10-26 08:01:17,881 - INFO - Extracting Sr. Data Engineer
+2024-10-26 08:01:22,926 - INFO - Extracting Sr. Azure Data Engineer
+2024-10-26 08:01:27,763 - INFO - Extracting Data Engineer / Data Visualization Engineer **W2 Only**
+2024-10-26 08:01:32,678 - INFO - Extracting Senior Data Center Engineer
+2024-10-26 08:01:37,811 - INFO - Extracting Data Center Engineer
+2024-10-26 08:01:42,325 - INFO - Extracting Data Center Engineer
+2024-10-26 08:01:46,990 - INFO - Extracting Sr Data Engineer
+2024-10-26 08:01:51,447 - INFO - Extracting Staff Engineer – Cybersecurity Data Protection Engineer
+2024-10-26 08:01:56,106 - INFO - Extracting Python Data Engineer
+2024-10-26 08:02:00,598 - INFO - Extracting DevOps Engineer
+2024-10-26 08:02:05,282 - INFO - Extracting Data Center Design Mechanical/Electrical Engineer (NA)
+2024-10-26 08:02:09,966 - INFO - Extracting 2025 Summer Intern: Technology Data & Analytics, Data Engineer & Data Science
+2024-10-26 08:02:15,281 - INFO - Extracting Associate Data Engineer
+2024-10-26 08:02:20,198 - INFO - Extracting Data Engineer
+2024-10-26 08:02:25,642 - INFO - Extracting Data Center Engineer
+2024-10-26 08:02:31,027 - INFO - Extracting Data Center Engineer - TS/SCI CI Poly
+2024-10-26 08:02:35,847 - INFO - Extracting Information Technology Engineer
+2024-10-26 08:02:40,771 - INFO - Extracting Data Engineer II - (Cyber Security Operations Center)
+2024-10-26 08:02:45,964 - INFO - Extracting Data Engineer
+2024-10-26 08:02:50,872 - INFO - Extracting Data Center Operations Engineer
+2024-10-26 08:02:56,099 - INFO - Extracting Data Engineer/ Business Intelligence (2551403)
+2024-10-26 08:03:01,293 - INFO - Extracting Computational Linguist/Sr. Data Engineer (US Citizens Only, Clearance Requirements))
+2024-10-26 08:03:06,477 - INFO - Extracting Principal Big Data Engineer
+2024-10-26 08:03:11,369 - INFO - Extracting Data Analyst/Power BI Engineer (TS)
+2024-10-26 08:03:16,993 - INFO - Extracting Data Scientist (Software Engineer)
+2024-10-26 08:03:21,549 - INFO - Extracting Data QA Engineer
+2024-10-26 08:03:26,013 - INFO - Extracting Data Engineer
+2024-10-26 08:03:30,867 - INFO - Extracting Senior Embedded Software Engineer
+2024-10-26 08:03:35,398 - INFO - Extracting Data and AI Infrastructure Engineer
+2024-10-26 08:03:40,197 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:03:44,767 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:03:49,450 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:03:54,467 - INFO - Extracting Data Center Engineer
+2024-10-26 08:03:59,205 - INFO - Extracting CMM Programmer
+2024-10-26 08:04:04,377 - INFO - Extracting Sr Data Scientist / Machine Learning Engineer
+2024-10-26 08:04:09,628 - INFO - Extracting Sr. Cloud Engineer
+2024-10-26 08:04:14,466 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:04:19,710 - INFO - Extracting Data Quality Assurance Engineer - 81629
+2024-10-26 08:04:26,479 - INFO - Extracting Hybrid Data Engineer
+2024-10-26 08:04:31,370 - INFO - Extracting Embedded Software Engineer
+2024-10-26 08:04:36,239 - INFO - Extracting Data Engineer- Databricks/Python
+2024-10-26 08:04:41,523 - INFO - Extracting Data Engineer-Hybrid
+2024-10-26 08:04:47,158 - INFO - Extracting Data Engineer
+2024-10-26 08:04:52,772 - INFO - Extracting Data Engineer Intern - Summer 2025
+2024-10-26 08:04:59,242 - INFO - Extracting Mid-level Data Engineer (no H1B or OPT)
+2024-10-26 08:05:05,036 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:05:11,100 - INFO - Extracting Splunk Infrastructure Engineer
+2024-10-26 08:05:17,508 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:05:22,712 - INFO - Extracting Staff, Data Scientist - Staff Machine Learning Engineer
+2024-10-26 08:05:27,976 - INFO - Extracting Sr. Data Ops Engineer
+2024-10-26 08:05:33,028 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:05:37,827 - INFO - Extracting Data Catalog Engineer with Alation tool
+2024-10-26 08:05:42,799 - INFO - Extracting Data Engineer
+2024-10-26 08:05:47,755 - INFO - Extracting Data Center Design Engineer
+2024-10-26 08:05:52,754 - INFO - Extracting Data Engineer
+2024-10-26 08:05:57,739 - INFO - Extracting HealthTech Data Pipeline Engineer (Palo Alto, CA)
+2024-10-26 08:06:02,520 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:06:07,441 - INFO - Extracting Data and Governance Engineer
+2024-10-26 08:06:12,325 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:06:17,741 - INFO - Extracting Data Engineer
+2024-10-26 08:06:22,000 - INFO - Extracting Data Engineer REMOTE
+2024-10-26 08:06:27,406 - INFO - Extracting Data Engineer
+2024-10-26 08:06:32,854 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:06:37,774 - INFO - Extracting Data Engineer
+2024-10-26 08:06:42,575 - INFO - Extracting Data Center Engineer
+2024-10-26 08:06:48,308 - INFO - Extracting Data Science Software Engineer
+2024-10-26 08:06:53,382 - INFO - Extracting Data Engineer
+2024-10-26 08:06:58,554 - INFO - Extracting Collibra Data Governance and Collibra Data Quality Principal Engineer
+2024-10-26 08:07:03,702 - INFO - Extracting Data Engineer - Computer Vision
+2024-10-26 08:07:09,057 - INFO - Extracting Healthcare Data Engineer
+2024-10-26 08:07:14,448 - INFO - Extracting Data Engineer - Rockwall, TX
+2024-10-26 08:07:19,559 - INFO - Extracting Data Engineer
+2024-10-26 08:07:24,671 - INFO - Extracting Database Engineer - W2 Contract
+2024-10-26 08:07:29,844 - INFO - Extracting Data Science Engineer
+2024-10-26 08:07:35,217 - INFO - Extracting Data Engineer
+2024-10-26 08:07:40,607 - INFO - Extracting Data Engineer III
+2024-10-26 08:07:46,018 - INFO - Extracting Sr Data Engineer (In Miami OR Dallas)
+2024-10-26 08:07:51,464 - INFO - Extracting Lead Data Engineer (AWS, Azure, GCP)
+2024-10-26 08:07:57,060 - INFO - Extracting TMAS Mission Data Engineer (Mid-Level) 4045
+2024-10-26 08:08:02,495 - INFO - Extracting Principal Systems Engineer III (Network)
+2024-10-26 08:08:07,661 - INFO - Extracting Data Center Engineer
+2024-10-26 08:08:13,358 - INFO - Extracting Data Engineer III
+2024-10-26 08:08:18,602 - INFO - Extracting Data Engineer (with a focus on SSRS & PowerBI)
+2024-10-26 08:08:23,912 - INFO - Extracting Quality Production Data Engineer (Manufacturing)
+2024-10-26 08:08:29,502 - INFO - Extracting Data Integration Engineer
+2024-10-26 08:08:34,940 - INFO - Extracting Senior DevOps Engineer
+2024-10-26 08:08:40,252 - INFO - Extracting Data Center Engineer
+2024-10-26 08:08:45,603 - INFO - Extracting Cyber Data Engineer
+2024-10-26 08:08:51,554 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:08:56,852 - INFO - Extracting Data engineer W2 only
+2024-10-26 08:09:01,064 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:09:06,582 - INFO - Extracting Data Engineer
+2024-10-26 08:09:11,977 - INFO - Extracting DevSecOps Engineer
+2024-10-26 08:09:17,234 - INFO - Extracting Data Center Engineer
+2024-10-26 08:09:22,758 - INFO - Extracting Data Engineer
+2024-10-26 08:09:28,483 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:09:33,856 - INFO - Extracting Data Center Critical Facilities Engineer V
+2024-10-26 08:09:39,450 - INFO - Extracting Data Platform Engineer - REMOTE
+2024-10-26 08:09:45,221 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:09:50,584 - INFO - Extracting Cloud Engineer III
+2024-10-26 08:09:56,277 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:10:01,847 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:10:07,539 - INFO - Extracting Lead Data QA Engineer
+2024-10-26 08:10:13,389 - INFO - Extracting Summer Internship 2025 - Operations Data Visualization and Analytics Engineer - R8010
+2024-10-26 08:10:19,439 - INFO - Extracting Data Engineer III
+2024-10-26 08:10:24,948 - INFO - Extracting Sr. Data Integration Engineer
+2024-10-26 08:10:30,782 - INFO - Extracting Health Sr Data Engineer / Architect
+2024-10-26 08:10:36,484 - INFO - Extracting Data Engineer with Google Cloud Platform / GCP Data Engineer (GCP) Experience 10.1.24 (Only W2 role and No C2C Accepted)
+2024-10-26 08:10:42,370 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:10:48,146 - INFO - Extracting Senior Data Modeler - Data Engineer
+2024-10-26 08:10:54,108 - INFO - Extracting DATA ENGINEER - AWS
+2024-10-26 08:11:00,203 - INFO - Extracting Senior Azure Data Engineer
+2024-10-26 08:11:06,079 - INFO - Extracting Sr Data Engineer - Business Intelligence (On-Site)
+2024-10-26 08:11:11,715 - INFO - Extracting Data Engineer
+2024-10-26 08:11:17,574 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:11:23,678 - INFO - Extracting Data Engineer Job Assistance
+2024-10-26 08:11:29,606 - INFO - Extracting Data Engineer
+2024-10-26 08:11:35,188 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:11:41,147 - INFO - Extracting Summer Associate Internship (Baseline Analytics Data Engineer)
+2024-10-26 08:11:47,323 - INFO - Extracting Manufacturing Data Process Engineer
+2024-10-26 08:11:53,106 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:11:59,230 - INFO - Extracting GIS Data Integration Engineer
+2024-10-26 08:12:05,337 - INFO - Extracting Senior Cloud Data Engineer - TS/SCI with Polygraph
+2024-10-26 08:12:11,373 - INFO - Extracting Cloud Data Engineer
+2024-10-26 08:12:17,595 - INFO - Extracting Senior Azure Data Engineer
+2024-10-26 08:12:23,672 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:12:29,453 - INFO - Extracting Data Loss Prevention Engineer
+2024-10-26 08:12:35,522 - INFO - Extracting Staff Data Engineer
+2024-10-26 08:12:41,802 - INFO - Extracting Data Center Engineer
+2024-10-26 08:12:48,208 - INFO - Extracting Cloud Data Engineer (Hybrid)
+2024-10-26 08:12:54,406 - INFO - Extracting Data Engineer
+2024-10-26 08:13:00,169 - INFO - Extracting Senior Embedded Software Engineer
+2024-10-26 08:13:06,200 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:13:12,223 - INFO - Extracting Splunk Infrastructure Engineer
+2024-10-26 08:13:18,360 - INFO - Extracting Data Engineer
+2024-10-26 08:13:24,110 - INFO - Extracting Data Engineer
+2024-10-26 08:13:30,073 - INFO - Extracting Data Engineer
+2024-10-26 08:13:35,793 - INFO - Extracting Informatics Data Integration Engineer
+2024-10-26 08:13:41,774 - INFO - Extracting Data Engineer
+2024-10-26 08:13:47,860 - INFO - Extracting Data Engineer III
+2024-10-26 08:13:53,880 - INFO - Extracting Senior Systems Engineer II (Unix/Linux)
+2024-10-26 08:13:59,670 - INFO - Extracting Database Engineer - Azure SQL
+2024-10-26 08:14:05,537 - INFO - Extracting Data Engineer
+2024-10-26 08:14:11,371 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:14:17,065 - INFO - Extracting Data Engineer
+2024-10-26 08:14:22,615 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:14:28,148 - INFO - Extracting Cloud Data Engineer (Brand)
+2024-10-26 08:14:33,814 - INFO - Extracting Data Engineer Lead
+2024-10-26 08:14:39,367 - INFO - Extracting Data Engineer
+2024-10-26 08:14:45,135 - INFO - Extracting Data Engineer II
+2024-10-26 08:14:50,979 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:14:56,537 - INFO - Extracting Data Engineer
+2024-10-26 08:15:02,448 - INFO - Extracting Junior Windows Engineer
+2024-10-26 08:15:08,215 - INFO - Extracting Data Solutions Engineer
+2024-10-26 08:15:13,964 - INFO - Extracting Data Engineer
+2024-10-26 08:15:19,757 - INFO - Extracting Data Engineer
+2024-10-26 08:15:25,501 - INFO - Extracting Cloud Data Engineer
+2024-10-26 08:15:31,351 - INFO - Extracting Senior Java Spark Data Engineer
+2024-10-26 08:15:37,247 - INFO - Extracting Data Engineer - US
+2024-10-26 08:15:43,023 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:15:48,968 - INFO - Extracting Lead Azure Data Engineer
+2024-10-26 08:15:54,615 - INFO - Extracting Data Center Management Infrastructure Engineer Intern: 2025
+2024-10-26 08:16:00,236 - INFO - Extracting Sr. Data Engineer
+2024-10-26 08:16:06,011 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:16:11,548 - INFO - Extracting Lead Azure Data Engineer (Only W2 - GC, USC, H4-EAD, L2) @ St. Louis, MO - Remote - Fulltime Permanent
+2024-10-26 08:16:17,455 - INFO - Extracting Data Center Engineer
+2024-10-26 08:16:23,501 - INFO - Extracting Lead Azure Data Engineer
+2024-10-26 08:16:29,639 - INFO - Extracting Data Center Engineer (IT System Analyst/Engineer)
+2024-10-26 08:16:35,783 - INFO - Extracting Data Engineer
+2024-10-26 08:16:41,414 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:16:47,190 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:16:52,882 - INFO - Extracting Data Engineer, Python, PySpark
+2024-10-26 08:16:57,126 - INFO - Extracting Enterprise Architect
+2024-10-26 08:17:03,301 - INFO - Extracting Data Engineer (Lakewood, NJ) - Fast Growing Digital SaaS Company
+2024-10-26 08:17:08,900 - INFO - Extracting Analytics Engineer
+2024-10-26 08:17:14,664 - INFO - Extracting Principal Data Engineer
+2024-10-26 08:17:20,656 - INFO - Extracting Senior Lead Data Lakehouse Engineer
+2024-10-26 08:17:26,570 - INFO - Extracting Principal Data Scientist, AI Engineer
+2024-10-26 08:17:32,101 - INFO - Extracting Data Engineer
+2024-10-26 08:17:37,829 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:17:43,503 - INFO - Extracting Data Center Operations Engineer
+2024-10-26 08:17:49,644 - INFO - Extracting Lead Data Engineer (AWS, Azure, GCP)
+2024-10-26 08:17:55,584 - INFO - Extracting Data Engineer
+2024-10-26 08:18:01,868 - INFO - Extracting (USA) Data Engineer III
+2024-10-26 08:18:08,195 - INFO - Extracting Data Center Services Mechanical Commissioning Engineer Staff II
+2024-10-26 08:18:14,418 - INFO - Extracting Data Center Engineer
+2024-10-26 08:18:21,222 - INFO - Extracting Data Engineer
+2024-10-26 08:18:27,510 - INFO - Extracting Data Engineer II (Onsite)
+2024-10-26 08:18:33,554 - INFO - Extracting Sr., Data Integration Engineer
+2024-10-26 08:18:39,026 - INFO - Extracting Data Operations Engineer
+2024-10-26 08:18:44,720 - INFO - Extracting Data Engineer
+2024-10-26 08:18:50,527 - INFO - Extracting Senior Data Warehouse Engineer
+2024-10-26 08:18:56,356 - INFO - Extracting Cloud Data Engineer
+2024-10-26 08:19:02,204 - INFO - Extracting Senior Data Engineer (Remote based in the US)
+2024-10-26 08:19:08,078 - INFO - Extracting Senior Machine Learning Engineer
+2024-10-26 08:19:13,784 - INFO - Extracting Data Engineer
+2024-10-26 08:19:19,246 - INFO - Extracting Full Stack Data Engineer
+2024-10-26 08:19:24,907 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:19:30,727 - INFO - Extracting Consultant - Data Engineer/Data Architect
+2024-10-26 08:19:36,688 - INFO - Extracting Data Center Operations Engineer
+2024-10-26 08:19:42,394 - INFO - Extracting Sr. Data Manufacturing Engineer
+2024-10-26 08:19:48,143 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:19:53,932 - INFO - Extracting Senior Data Engineer and BI Developer
+2024-10-26 08:19:59,457 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:20:05,105 - INFO - Extracting Sr. Data Engineer
+2024-10-26 08:20:10,696 - INFO - Extracting Data Engineer
+2024-10-26 08:20:16,164 - INFO - Extracting Perception - Data Engineer
+2024-10-26 08:20:21,765 - INFO - Extracting Data Engineer II
+2024-10-26 08:20:27,303 - INFO - Extracting Data Engineer
+2024-10-26 08:20:33,079 - INFO - Extracting Cloud Data Engineer
+2024-10-26 08:20:38,772 - INFO - Extracting Data Engineer
+2024-10-26 08:20:44,430 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:20:49,998 - INFO - Extracting Data Science Engineer
+2024-10-26 08:20:55,698 - INFO - Extracting Data Operations Engineer
+2024-10-26 08:21:01,514 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:21:07,043 - INFO - Extracting Lead Data Engineer - Remote AI EdTech Startup
+2024-10-26 08:21:12,943 - INFO - Extracting Principal Data Engineer - Geospatial Platforms
+2024-10-26 08:21:19,314 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:21:25,385 - INFO - Extracting Data Engineer
+2024-10-26 08:21:31,299 - INFO - Extracting Data Solutions Engineer
+2024-10-26 08:21:37,379 - INFO - Extracting Data Engineer - CDP
+2024-10-26 08:21:43,322 - INFO - Extracting Sr Data Engineer - AWS
+2024-10-26 08:21:49,176 - INFO - Extracting Data Engineer Intern - Investments
+2024-10-26 08:21:54,780 - INFO - Extracting Intern - Data Engineer - Summer 2025
+2024-10-26 08:22:00,656 - INFO - Extracting Sr. Data Engineer
+2024-10-26 08:22:06,176 - INFO - Extracting Cloud Data Engineer
+2024-10-26 08:22:12,284 - INFO - Extracting Big Data SQL Developer
+2024-10-26 08:22:18,160 - INFO - Extracting Hadoop Data Engineer
+2024-10-26 08:22:24,013 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:22:28,383 - INFO - Extracting Data Scientist & Machine Learning Engineer (1029569)
+2024-10-26 08:22:33,795 - INFO - Extracting Data Engineer
+2024-10-26 08:22:39,312 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:22:45,002 - INFO - Extracting Associate, Investment Analytics and Data (Full Stack Software Engineer)
+2024-10-26 08:22:50,609 - INFO - Extracting Associate, Investment Analytics and Data (Full Stack Software Engineer)
+2024-10-26 08:22:56,527 - INFO - Extracting Data Engineer
+2024-10-26 08:23:01,038 - INFO - Extracting Big Data Engineer
+2024-10-26 08:23:07,595 - INFO - Extracting Associate, Investment Analytics and Data (Full Stack Software Engineer)
+2024-10-26 08:23:13,210 - INFO - Extracting Data Engineer Intern/Co-op
+2024-10-26 08:23:19,101 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:23:24,724 - INFO - Extracting University Relations - Data Science Engineer Intern
+2024-10-26 08:23:30,275 - INFO - Extracting Data Engineer
+2024-10-26 08:23:35,671 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:23:41,520 - INFO - Extracting Data Engineer
+2024-10-26 08:23:46,891 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:23:52,570 - INFO - Extracting 2025 Summer Intern: Data Engineer
+2024-10-26 08:23:58,237 - INFO - Extracting Big Data Engineer
+2024-10-26 08:24:03,921 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:24:09,427 - INFO - Extracting Junior SAN Architect and Storage Engineer
+2024-10-26 08:24:15,082 - INFO - Extracting Principal System Security Software Engineer
+2024-10-26 08:24:20,950 - INFO - Extracting Data Engineer
+2024-10-26 08:24:26,852 - INFO - Extracting Principal Data Engineer
+2024-10-26 08:24:33,076 - INFO - Extracting Senior Big Data and Java Engineer
+2024-10-26 08:24:38,571 - INFO - Extracting Lead Cloud Data Engineer (Hybrid)
+2024-10-26 08:24:44,515 - INFO - Extracting Data Historian Engineer
+2024-10-26 08:24:50,334 - INFO - Extracting Data Center Services Mechanical Commissioning Engineer Staff II
+2024-10-26 08:24:56,195 - INFO - Extracting Data Engineer III - Data Ventures
+2024-10-26 08:25:02,296 - INFO - Extracting Staff Data Scientist, AI Engineer
+2024-10-26 08:25:08,293 - INFO - Extracting Sr. Data Engineer / Cloud
+2024-10-26 08:25:14,766 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:25:21,295 - INFO - Extracting Data Engineer - Cloud/Gen AI
+2024-10-26 08:25:27,122 - INFO - Extracting Windows Server Engineer
+2024-10-26 08:25:32,889 - INFO - Extracting Data Scientist III - Machine Learning Engineer - Data Ventures
+2024-10-26 08:25:38,642 - INFO - Extracting Data Engineer
+2024-10-26 08:25:44,209 - INFO - Extracting Data Engineer
+2024-10-26 08:25:50,325 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:25:56,105 - INFO - Extracting Data Engineer II or III
+2024-10-26 08:26:01,866 - INFO - Extracting Data Center Engineer/System Administrator
+2024-10-26 08:26:07,761 - INFO - Extracting Data Center Lead Sales Engineer
+2024-10-26 08:26:13,536 - INFO - Extracting ETL Developer
+2024-10-26 08:26:19,554 - INFO - Extracting Data Center Engineer
+2024-10-26 08:26:25,307 - INFO - Extracting Data Engineer
+2024-10-26 08:26:30,841 - INFO - Extracting Sr. Data Engineer
+2024-10-26 08:26:36,382 - INFO - Extracting Lead / Sr. Big Data Engineer
+2024-10-26 08:26:42,254 - INFO - Extracting Data Engineer
+2024-10-26 08:26:47,820 - INFO - Extracting Senior Data Engineer (Databricks)
+2024-10-26 08:26:53,756 - INFO - Extracting Lead AWS Data Engineer
+2024-10-26 08:26:59,390 - INFO - Extracting Snowflake Data Engineer
+2024-10-26 08:27:05,198 - INFO - Extracting Data Engineer
+2024-10-26 08:27:10,873 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:27:16,501 - INFO - Extracting Data Engineer Intern Summer 2025
+2024-10-26 08:27:22,083 - INFO - Extracting Data Engineer
+2024-10-26 08:27:27,691 - INFO - Extracting Sr Data & ETL Engineer
+2024-10-26 08:27:33,312 - INFO - Extracting Lead Big Data Engineer (GCP Cloud)
+2024-10-26 08:27:38,995 - INFO - Extracting Data Engineer 2
+2024-10-26 08:27:44,566 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:27:50,092 - INFO - Extracting Data Analytics Engineer
+2024-10-26 08:27:55,664 - INFO - Extracting Data Engineer
+2024-10-26 08:28:01,312 - INFO - Extracting Data Engineer
+2024-10-26 08:28:06,827 - INFO - Extracting Data Engineer
+2024-10-26 08:28:12,335 - INFO - Extracting Data Scientist / Engineer
+2024-10-26 08:28:18,049 - INFO - Extracting Sr. Data Engineer
+2024-10-26 08:28:23,494 - INFO - Extracting Staff Data Engineer
+2024-10-26 08:28:29,497 - INFO - Extracting Sr. Data Engineer
+2024-10-26 08:28:35,263 - INFO - Extracting Data Analytics Engineer
+2024-10-26 08:28:40,947 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:28:46,758 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:28:52,353 - INFO - Extracting Java Data Engineer
+2024-10-26 08:28:58,037 - INFO - Extracting AWS Data Engineer with Sagemaker
+2024-10-26 08:29:03,939 - INFO - Extracting Data Quality Engineer
+2024-10-26 08:29:09,498 - INFO - Extracting DATA Analytics Engineer
+2024-10-26 08:29:15,258 - INFO - Extracting Senior Azure Data Engineer
+2024-10-26 08:29:20,995 - INFO - Extracting Data Engineer
+2024-10-26 08:29:26,816 - INFO - Extracting Data Warehouse Engineer
+2024-10-26 08:29:32,468 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:29:38,242 - INFO - Extracting Data Engineer with Machine learning and Python
+2024-10-26 08:29:43,827 - INFO - Extracting Python Data Engineer
+2024-10-26 08:29:49,520 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:29:55,189 - INFO - Extracting Data Engineer
+2024-10-26 08:30:00,776 - INFO - Extracting Data Onboarding Engineer
+2024-10-26 08:30:06,692 - INFO - Extracting Data Engineer
+2024-10-26 08:30:12,658 - INFO - Extracting Data Engineer Intern #2 (Supplyframe)
+2024-10-26 08:30:18,358 - INFO - Extracting Data Engineering - Data Lake - Software Engineer - Dallas
+2024-10-26 08:30:23,903 - INFO - Extracting BI Analytics Engineer
+2024-10-26 08:30:29,267 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:30:34,961 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:30:40,625 - INFO - Extracting Data Engineer II (Customer Identity Resolution)-Austin, San Antonio, or Dallas
+2024-10-26 08:30:46,380 - INFO - Extracting Senior Data Engineer (Python) - PERM POSITION!
+2024-10-26 08:30:51,999 - INFO - Extracting Data Engineer
+2024-10-26 08:30:57,577 - INFO - Extracting Gen AI Data Engineer I
+2024-10-26 08:31:03,255 - INFO - Extracting Urgent: AWS Data engineer
+2024-10-26 08:31:08,647 - INFO - Extracting Data & Analytics Engineer
+2024-10-26 08:31:14,214 - INFO - Extracting Data Engineer I, AWS Actuals
+2024-10-26 08:31:19,618 - INFO - Extracting Cloud Engineer- Remote
+2024-10-26 08:31:25,273 - INFO - Extracting GCP Data Engineer - A6773
+2024-10-26 08:31:31,148 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:31:37,048 - INFO - Extracting Data Engineer
+2024-10-26 08:31:42,914 - INFO - Extracting Data Engineer
+2024-10-26 08:31:48,801 - INFO - Extracting Data Engineer
+2024-10-26 08:31:54,393 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:32:00,064 - INFO - Extracting Data scientist /ML AI engineer/entry level Java web developer with cloud
+2024-10-26 08:32:05,747 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:32:11,631 - INFO - Extracting Principal Data Engineer
+2024-10-26 08:32:17,243 - INFO - Extracting Jr Client Data Engineer
+2024-10-26 08:32:23,030 - INFO - Extracting Data Engineer Intern #1 (Supplyframe)
+2024-10-26 08:32:28,662 - INFO - Extracting Sr. Data Engineer - Remote
+2024-10-26 08:32:34,462 - INFO - Extracting Data Scientist/Data Engineer
+2024-10-26 08:32:40,022 - INFO - Extracting Senior Data Engineer (Databricks)
+2024-10-26 08:32:45,608 - INFO - Extracting Data Engineer
+2024-10-26 08:32:51,420 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:32:56,807 - INFO - Extracting Data Engineer
+2024-10-26 08:33:02,096 - INFO - Extracting Associate Data Engineer
+2024-10-26 08:33:07,522 - INFO - Extracting Data Engineer
+2024-10-26 08:33:13,089 - INFO - Extracting Data Engineer
+2024-10-26 08:33:18,543 - INFO - Extracting Data Engineer
+2024-10-26 08:33:24,149 - INFO - Extracting Data Analytics Engineer
+2024-10-26 08:33:29,571 - INFO - Extracting Data Engineer Summer Internship – 2025 (US)
+2024-10-26 08:33:35,256 - INFO - Extracting Junior Cloud Engineer
+2024-10-26 08:33:40,771 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:33:46,137 - INFO - Extracting Data Engineer only local to St louis, MO
+2024-10-26 08:33:51,683 - INFO - Extracting Aws Data Engineer
+2024-10-26 08:33:57,123 - INFO - Extracting Hadoop/Big data administrator (Onsite)
+2024-10-26 08:34:02,763 - INFO - Extracting Devops Engineer
+2024-10-26 08:34:08,242 - INFO - Extracting IT Data Engineer - Remote
+2024-10-26 08:34:13,891 - INFO - Extracting Data Engineer - Analytics
+2024-10-26 08:34:19,435 - INFO - Extracting Data Center Engineer
+2024-10-26 08:34:25,280 - INFO - Extracting Data Engineer
+2024-10-26 08:34:31,041 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:34:37,036 - INFO - Extracting Data Engineer - Medical Data
+2024-10-26 08:34:43,077 - INFO - Extracting Data Engineer
+2024-10-26 08:34:48,940 - INFO - Extracting Data Engineer in Quality
+2024-10-26 08:34:54,574 - INFO - Extracting Data Engineer
+2024-10-26 08:35:00,407 - INFO - Extracting Data Engineer
+2024-10-26 08:35:06,025 - INFO - Extracting Lead Data Engineer, Cybersecurity
+2024-10-26 08:35:11,753 - INFO - Extracting Senior AWS Data Engineer
+2024-10-26 08:35:17,699 - INFO - Extracting Data Engineer
+2024-10-26 08:35:23,540 - INFO - Extracting Senior Data Engineer (Informatica)
+2024-10-26 08:35:29,275 - INFO - Extracting Data Engineer
+2024-10-26 08:35:34,987 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:35:40,894 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:35:46,566 - INFO - Extracting Data Engineer- CosmosDB
+2024-10-26 08:35:52,460 - INFO - Extracting Sr. Analytics Engineer
+2024-10-26 08:35:58,221 - INFO - Extracting IIoT Data Engineer
+2024-10-26 08:36:03,875 - INFO - Extracting Big Data Engineer
+2024-10-26 08:36:09,896 - INFO - Extracting Data Science Engineer Internship Summer 2025
+2024-10-26 08:36:16,261 - INFO - Extracting Big Data Engineer
+2024-10-26 08:36:22,113 - INFO - Extracting Data Engineer
+2024-10-26 08:36:28,033 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:36:34,030 - INFO - Extracting Data Analytics Engineer Intern - Breakthrough
+2024-10-26 08:36:40,124 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:36:45,954 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:36:51,459 - INFO - Extracting AWS Data engineer
+2024-10-26 08:36:57,030 - INFO - Extracting Senior Data Engineer (Databricks)
+2024-10-26 08:37:03,154 - INFO - Extracting Data and Software Engineer
+2024-10-26 08:37:09,098 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:37:14,796 - INFO - Extracting Data Engineer
+2024-10-26 08:37:20,815 - INFO - Extracting Snowflake Data Engineer
+2024-10-26 08:37:26,585 - INFO - Extracting Data Engineer
+2024-10-26 08:37:32,302 - INFO - Extracting Senior PySpark Data Engineer
+2024-10-26 08:37:38,125 - INFO - Extracting Data Engineer
+2024-10-26 08:37:43,953 - INFO - Extracting Lead Snowflake Data Engineer
+2024-10-26 08:37:50,107 - INFO - Extracting Data Specialist/Data Engineer
+2024-10-26 08:37:56,030 - INFO - Extracting Senior Data Engineer (REMOTE)
+2024-10-26 08:38:02,268 - INFO - Extracting IT - Data Engineer
+2024-10-26 08:38:08,220 - INFO - Extracting Data Engineer
+2024-10-26 08:38:14,314 - INFO - Extracting Data Engineer
+2024-10-26 08:38:20,325 - INFO - Extracting ITUS - Data Engineer - Special Skillset (AI/ML, AWS)
+2024-10-26 08:38:26,185 - INFO - Extracting Big Data Developer
+2024-10-26 08:38:32,193 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:38:38,104 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:38:43,926 - INFO - Extracting Data Engineer
+2024-10-26 08:38:49,727 - INFO - Extracting Data Engineer
+2024-10-26 08:38:55,383 - INFO - Extracting Data Engineer III - Sam's Club AdTech
+2024-10-26 08:39:01,594 - INFO - Extracting Senior Data Scientist / LLM Engineer
+2024-10-26 08:39:07,631 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:39:13,536 - INFO - Extracting Data Quality Engineer
+2024-10-26 08:39:19,586 - INFO - Extracting Data Engineer/ SQL and Data Processing Specialist
+2024-10-26 08:39:25,461 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:39:31,348 - INFO - Extracting Data Engineer
+2024-10-26 08:39:37,311 - INFO - Extracting Principal Data Engineer
+2024-10-26 08:39:43,336 - INFO - Extracting Python Data Engineer
+2024-10-26 08:39:49,500 - INFO - Extracting Data Engineer
+2024-10-26 08:39:55,029 - INFO - Extracting Power BI Developer
+2024-10-26 08:40:00,637 - INFO - Extracting Data Engineer
+2024-10-26 08:40:06,475 - INFO - Extracting Data Engineer
+2024-10-26 08:40:12,201 - INFO - Extracting Data Analytics Engineer
+2024-10-26 08:40:18,001 - INFO - Extracting Data Engineer
+2024-10-26 08:40:23,643 - INFO - Extracting Data Engineer V
+2024-10-26 08:40:29,449 - INFO - Extracting Data Engineer
+2024-10-26 08:40:35,692 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:40:41,440 - INFO - Extracting Data & AI Sales Engineer
+2024-10-26 08:40:47,590 - INFO - Extracting Sr Data Engineer
+2024-10-26 08:40:53,518 - INFO - Extracting Big Data Developer
+2024-10-26 08:40:59,740 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:41:05,226 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:41:11,367 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:41:17,374 - INFO - Extracting Palantir Data Engineer
+2024-10-26 08:41:23,046 - INFO - Extracting Data Engineer - Hybrid In-Office
+2024-10-26 08:41:28,968 - INFO - Extracting Data Engineer (Remote)
+2024-10-26 08:41:34,788 - INFO - Extracting Data Warehouse Engineer
+2024-10-26 08:41:40,901 - INFO - Extracting Data Engineer / Consultant
+2024-10-26 08:41:46,901 - INFO - Extracting Staff Data Engineer
+2024-10-26 08:41:53,135 - INFO - Extracting Data Engineer
+2024-10-26 08:41:59,523 - INFO - Extracting ETL DATA ENGINEER
+2024-10-26 08:42:05,558 - INFO - Extracting Data Engineer - Remote
+2024-10-26 08:42:11,519 - INFO - Extracting Data Engineer
+2024-10-26 08:42:17,184 - INFO - Extracting Azure AI/ML Engineer
+2024-10-26 08:42:23,384 - INFO - Extracting Sr Cloud Data Engineer
+2024-10-26 08:42:29,188 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:42:34,997 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:42:41,073 - INFO - Extracting Data Engineer
+2024-10-26 08:42:46,887 - INFO - Extracting Senior Data Analytics Engineer
+2024-10-26 08:42:53,009 - INFO - Extracting Data Engineer
+2024-10-26 08:42:58,585 - INFO - Extracting Data Engineer - New College Grad
+2024-10-26 08:43:04,557 - INFO - Extracting Data Engineer
+2024-10-26 08:43:10,569 - INFO - Extracting Data Engineer
+2024-10-26 08:43:16,280 - INFO - Extracting IT Data Engineer Intern (USA)
+2024-10-26 08:43:22,170 - INFO - Extracting Senior Data Engineer (PL-SQL / Python / SnapLogic)
+2024-10-26 08:43:28,255 - INFO - Extracting Senior AWS Data Engineer
+2024-10-26 08:43:34,012 - INFO - Extracting Data Engineer - Onsite
+2024-10-26 08:43:40,088 - INFO - Extracting Data Engineer
+2024-10-26 08:43:45,783 - INFO - Extracting Data Engineer
+2024-10-26 08:43:51,480 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:43:57,107 - INFO - Extracting Adobe Data Engineer/Architect
+2024-10-26 08:44:02,822 - INFO - Extracting Data Engineer
+2024-10-26 08:44:08,539 - INFO - Extracting AWS Data Engineer (Python/SQL/AWS)
+2024-10-26 08:44:14,425 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:44:20,575 - INFO - Extracting Developer Advocate / Data Engineer
+2024-10-26 08:44:26,500 - INFO - Extracting BI Data Engineer
+2024-10-26 08:44:32,622 - INFO - Extracting Sr Data Engineer
+2024-10-26 08:44:38,615 - INFO - Extracting Data Engineer
+2024-10-26 08:44:44,554 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:44:50,515 - INFO - Extracting Data Warehouse Engineer
+2024-10-26 08:44:56,112 - INFO - Extracting Sr. Data Engineer - Hybrid AZ
+2024-10-26 08:45:02,288 - INFO - Extracting Alation Data Engineer
+2024-10-26 08:45:07,970 - INFO - Extracting Data Engineer Azure
+2024-10-26 08:45:13,398 - INFO - Extracting Internship – IT Data Engineer
+2024-10-26 08:45:19,133 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:45:25,112 - INFO - Extracting Analytics Engineer
+2024-10-26 08:45:30,881 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:45:36,940 - INFO - Extracting Data Engineer
+2024-10-26 08:45:42,841 - INFO - Extracting System Engineer
+2024-10-26 08:45:48,786 - INFO - Extracting AWS Data Engineer -Fulltime
+2024-10-26 08:45:54,727 - INFO - Extracting Associate Data Engineer
+2024-10-26 08:46:00,571 - INFO - Extracting SVP, Senior Data Engineer
+2024-10-26 08:46:06,462 - INFO - Extracting Data Analytics Engineer
+2024-10-26 08:46:12,413 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:46:18,451 - INFO - Extracting Mid-level Data Engineer
+2024-10-26 08:46:24,252 - INFO - Extracting Data Management Engineer
+2024-10-26 08:46:30,069 - INFO - Extracting Senior Data Engineer - Onsite
+2024-10-26 08:46:36,078 - INFO - Extracting Data Engineer
+2024-10-26 08:46:42,177 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:46:48,368 - INFO - Extracting Data Engineer
+2024-10-26 08:46:54,189 - INFO - Extracting Data Engineer
+2024-10-26 08:47:00,202 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:47:06,270 - INFO - Extracting Data Science Engineer
+2024-10-26 08:47:12,533 - INFO - Extracting Data Engineer/Database Developer
+2024-10-26 08:47:18,705 - INFO - Extracting Data Integrity Engineer
+2024-10-26 08:47:24,896 - INFO - Extracting Data Engineer, Data Services
+2024-10-26 08:47:31,385 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:47:37,432 - INFO - Extracting Bioinformatics Data Engineer
+2024-10-26 08:47:43,283 - INFO - Extracting Data Engineer, Operations Quality Assurance (P-4148)
+2024-10-26 08:47:49,467 - INFO - Extracting Senior Data Engineer (Fully In-Office) - Sunset Hills, MO
+2024-10-26 08:47:56,005 - INFO - Extracting Staff Data Scientist / Machine Learning Engineer - Search, Personalization, Ads
+2024-10-26 08:48:02,033 - INFO - Extracting Data Engineer
+2024-10-26 08:48:07,965 - INFO - Extracting Data Engineer
+2024-10-26 08:48:14,143 - INFO - Extracting Data Engineer
+2024-10-26 08:48:20,013 - INFO - Extracting Data Engineer - Active TS/SCI
+2024-10-26 08:48:25,840 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:48:31,912 - INFO - Extracting Intern - DRAM Quality Data Analytics Engineer
+2024-10-26 08:48:37,974 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:48:44,356 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:48:50,113 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:48:55,886 - INFO - Extracting SQL Data Warehouse Engineer
+2024-10-26 08:49:01,765 - INFO - Extracting Data Engineer I, Intl. Seller Growth
+2024-10-26 08:49:07,380 - INFO - Extracting Data Engineer (Westminster, CO)
+2024-10-26 08:49:12,898 - INFO - Extracting Sr. Data Science Engineer
+2024-10-26 08:49:18,672 - INFO - Extracting Senior Data Engineer (Remote)
+2024-10-26 08:49:24,455 - INFO - Extracting Cloud Infrastructure Engineer
+2024-10-26 08:49:30,095 - INFO - Extracting Senior Machine Learning Engineer
+2024-10-26 08:49:35,983 - INFO - Extracting Machine Learning & Data Engineer - Python & SQL - GO2 Unify
+2024-10-26 08:49:41,714 - INFO - Extracting Devops Engineer
+2024-10-26 08:49:47,549 - INFO - Extracting Data Engineer
+2024-10-26 08:49:53,356 - INFO - Extracting Network Data Center Engineer
+2024-10-26 08:49:59,012 - INFO - Extracting Drexel Co-Op: Data Engineer
+2024-10-26 08:50:04,878 - INFO - Extracting Data Analyst Engineer - Intern
+2024-10-26 08:50:10,545 - INFO - Extracting Data Engineer II
+2024-10-26 08:50:16,270 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:50:21,852 - INFO - Extracting Data Engineer
+2024-10-26 08:50:27,814 - INFO - Extracting Data Engineer
+2024-10-26 08:50:33,760 - INFO - Extracting Data Quality Assurance Engineer
+2024-10-26 08:50:39,529 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:50:45,476 - INFO - Extracting Technical Manager- Cloud Data Engineer
+2024-10-26 08:50:51,241 - INFO - Extracting Marketing Data Engineer
+2024-10-26 08:50:56,979 - INFO - Extracting SQL Data Engineer
+2024-10-26 08:51:02,574 - INFO - Extracting Senior Data Engineer I (Remote, USA)
+2024-10-26 08:51:08,451 - INFO - Extracting Customer Database Engineer
+2024-10-26 08:51:14,620 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:51:20,649 - INFO - Extracting Marketing Data Engineer
+2024-10-26 08:51:26,559 - INFO - Extracting Sr Data/ML Engineer
+2024-10-26 08:51:32,162 - INFO - Extracting Analytics Engineer
+2024-10-26 08:51:38,197 - INFO - Extracting Data Engineer
+2024-10-26 08:51:43,934 - INFO - Extracting Senior Data Engineer I
+2024-10-26 08:51:50,077 - INFO - Extracting Azure Data Engineer - Part Time
+2024-10-26 08:51:55,608 - INFO - Extracting Data Engineer // Only w2 //
+2024-10-26 08:52:01,450 - INFO - Extracting Data Engineer II
+2024-10-26 08:52:07,545 - INFO - Extracting Hadoop Platform Admin
+2024-10-26 08:52:13,740 - INFO - Extracting Sr. AWS Data Engineer
+2024-10-26 08:52:19,783 - INFO - Extracting Sr. Data Engineer (Databricks)
+2024-10-26 08:52:26,771 - INFO - Extracting Data Engineer (Databricks)
+2024-10-26 08:52:32,928 - INFO - Extracting Data Engineer - Production support
+2024-10-26 08:52:38,751 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:52:44,498 - INFO - Extracting Data Engineer
+2024-10-26 08:52:50,535 - INFO - Extracting Data Engineer
+2024-10-26 08:52:56,303 - INFO - Extracting Data Engineer
+2024-10-26 08:53:01,913 - INFO - Extracting DATA ENGINEER II - ENTERPRISE ANALYTICS
+2024-10-26 08:53:07,883 - INFO - Extracting Data Engineer
+2024-10-26 08:53:13,460 - INFO - Extracting AWS Data Engineer (Only Locals)
+2024-10-26 08:53:19,379 - INFO - Extracting Director, Commercial Data & Analytics Engineer
+2024-10-26 08:53:25,331 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:53:31,055 - INFO - Extracting Variable Comp Analytics & Insight Data Engineer
+2024-10-26 08:53:37,022 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:53:42,917 - INFO - Extracting Associate Data Engineer, Customer Success
+2024-10-26 08:53:48,982 - INFO - Extracting Data Engineer
+2024-10-26 08:53:56,237 - INFO - Extracting Data Engineer
+2024-10-26 08:54:02,153 - INFO - Extracting Data Engineer
+2024-10-26 08:54:08,073 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:54:13,736 - INFO - Extracting Data Engineer
+2024-10-26 08:54:19,552 - INFO - Extracting Data Engineer
+2024-10-26 08:54:25,271 - INFO - Extracting 2025 Summer Intern: Data Engineer
+2024-10-26 08:54:31,153 - INFO - Extracting Data Engineer
+2024-10-26 08:54:37,213 - INFO - Extracting Data Engineer
+2024-10-26 08:54:43,404 - INFO - Extracting Senior Technical Data Engineer - REMOTE
+2024-10-26 08:54:49,147 - INFO - Extracting Data Engineer (compute migration)
+2024-10-26 08:54:54,929 - INFO - Extracting Sr. Data Engineer/Data Architect
+2024-10-26 08:55:00,927 - INFO - Extracting Machine Learning Engineer
+2024-10-26 08:55:06,732 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:55:12,707 - INFO - Extracting Data Analytics Engineer
+2024-10-26 08:55:19,766 - INFO - Extracting Data Engineer
+2024-10-26 08:55:25,298 - INFO - Extracting AWS Data Engineer
+2024-10-26 08:55:31,196 - INFO - Extracting Data Engineer
+2024-10-26 08:55:37,055 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:55:42,761 - INFO - Extracting Senior Snowflake Data Engineer
+2024-10-26 08:55:48,703 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:55:54,687 - INFO - Extracting Data Engineer III
+2024-10-26 08:56:00,696 - INFO - Extracting Lead Snowflake Data Engineer
+2024-10-26 08:56:06,626 - INFO - Extracting Data and Software Engineer
+2024-10-26 08:56:12,724 - INFO - Extracting Python Developer / Data Engineer
+2024-10-26 08:56:18,514 - INFO - Extracting Data Engineer (Skillbridge Intern) - 20558
+2024-10-26 08:56:24,380 - INFO - Extracting Data Intelligence Engineer
+2024-10-26 08:56:30,222 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:56:36,671 - INFO - Extracting Snowflake Data Engineer
+2024-10-26 08:56:42,668 - INFO - Extracting Azure Data Engineer
+2024-10-26 08:56:48,604 - INFO - Extracting Data Engineer (all levels)
+2024-10-26 08:56:54,454 - INFO - Extracting Data Engineer, Amazon Fuse
+2024-10-26 08:57:00,668 - INFO - Extracting Lead Data Engineer
+2024-10-26 08:57:06,746 - INFO - Extracting Data Engineer
+2024-10-26 08:57:12,577 - INFO - Extracting Jr.Data Engineer
+2024-10-26 08:57:18,056 - INFO - Extracting Data Engineering - Core Data Platform - Software Engineer - Associate
+2024-10-26 08:57:23,728 - INFO - Extracting Senior Data Analytics Engineer
+2024-10-26 08:57:29,444 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:57:35,058 - INFO - Extracting Data Engineer
+2024-10-26 08:57:40,733 - INFO - Extracting Data Engineer
+2024-10-26 08:57:46,600 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:57:52,437 - INFO - Extracting AWS St Data Engineer
+2024-10-26 08:57:58,265 - INFO - Extracting Sr Data Engineer
+2024-10-26 08:58:04,209 - INFO - Extracting Sr. Data Engineer (AWS) - (Flexible Hybrid)
+2024-10-26 08:58:10,202 - INFO - Extracting Power BI Developer / Data Engineer
+2024-10-26 08:58:15,834 - INFO - Extracting AWS Data Engineer Lead
+2024-10-26 08:58:21,686 - INFO - Extracting Staff Data Engineer (Remote)
+2024-10-26 08:58:27,590 - INFO - Extracting Data Engineer
+2024-10-26 08:58:33,240 - INFO - Extracting IT Associate Data Engineer (Hybrid)
+2024-10-26 08:58:39,210 - INFO - Extracting IT Analytics Engineer
+2024-10-26 08:58:44,908 - INFO - Extracting Sr. Data Analytics Engineer
+2024-10-26 08:58:50,489 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:58:56,377 - INFO - Extracting Senior Data Engineer
+2024-10-26 08:59:02,540 - INFO - Extracting Data Governance Engineer
+2024-10-26 08:59:07,997 - INFO - Extracting Celonis Engineer- Data Engineer or Consultant
+2024-10-26 08:59:14,055 - INFO - Extracting Configuration Management Database Engineer
+2024-10-26 08:59:19,518 - INFO - Extracting Data Engineer
+2024-10-26 08:59:24,937 - INFO - Extracting Data Operations Engineer
+2024-10-26 08:59:30,418 - INFO - Extracting Data Engineer
+2024-10-26 08:59:35,628 - INFO - Extracting Senior Data Engineer (Crypto Exchange)
+2024-10-26 08:59:41,439 - INFO - Extracting Data Engineer II
+2024-10-26 08:59:47,032 - INFO - Extracting Data Engineer
+2024-10-26 08:59:52,931 - INFO - Extracting AI Big Data Engineer
+2024-10-26 08:59:58,612 - INFO - Extracting Data Engineer
+2024-10-26 09:00:04,475 - INFO - Extracting Sr MLOps Data Engineer
+2024-10-26 09:00:10,256 - INFO - Extracting Data Engineer Intern - Undergraduate
+2024-10-26 09:00:15,941 - INFO - Extracting Data Engineer intern
+2024-10-26 09:00:22,012 - INFO - Extracting Data Engineer
+2024-10-26 09:00:27,778 - INFO - Extracting Senior Data Analytics Engineer
+2024-10-26 09:00:33,570 - INFO - Extracting Cloud Data Engineer
+2024-10-26 09:00:39,431 - INFO - Extracting Senior, Data Engineer - Data Ventures
+2024-10-26 09:00:45,291 - INFO - Extracting AWS Data Engineer
+2024-10-26 09:00:51,062 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:00:57,043 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:01:02,924 - INFO - Extracting Data Engineer
+2024-10-26 09:01:08,665 - INFO - Extracting Data Engineer
+2024-10-26 09:01:14,583 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:01:20,439 - INFO - Extracting Staff Data Engineer - Data Science
+2024-10-26 09:01:26,395 - INFO - Extracting Data Engineer
+2024-10-26 09:01:32,572 - INFO - Extracting Senior Data Engineer/Data Scientist
+2024-10-26 09:01:38,412 - INFO - Extracting Data Engineering - Data Platform - Software Engineer - Associate - Dallas
+2024-10-26 09:01:44,174 - INFO - Extracting Data Engineer Intern
+2024-10-26 09:01:49,997 - INFO - Extracting Senior Data Test Engineer
+2024-10-26 09:01:56,148 - INFO - Extracting Data Engineer
+2024-10-26 09:02:01,926 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:02:07,549 - INFO - Extracting Data Engineer
+2024-10-26 09:02:13,377 - INFO - Extracting Staff Data Engineer
+2024-10-26 09:02:19,887 - INFO - Extracting Data Quality Assurance Engineer
+2024-10-26 09:02:26,856 - INFO - Extracting Data Engineer Lead
+2024-10-26 09:02:32,669 - INFO - Extracting Data Engineer
+2024-10-26 09:02:38,595 - INFO - Extracting Data Engineering - Core Data Platform - Software Engineer - Associate - Dallas
+2024-10-26 09:02:44,450 - INFO - Extracting Senior AWS Data Engineer - Pipeline
+2024-10-26 09:02:50,404 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:02:56,500 - INFO - Extracting Automation Data Engineer
+2024-10-26 09:03:02,190 - INFO - Extracting Remote GCP Data Engineer
+2024-10-26 09:03:08,041 - INFO - Extracting Staff Data Engineer
+2024-10-26 09:03:13,696 - INFO - Extracting Python/Data Engineer
+2024-10-26 09:03:18,176 - INFO - Extracting Data Engineer
+2024-10-26 09:03:24,339 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:03:30,231 - INFO - Extracting Data Integrity Automation Engineer
+2024-10-26 09:03:35,898 - INFO - Extracting SAP BODS Data engineer
+2024-10-26 09:03:41,377 - INFO - Extracting Internship - Data Visualization & Analytics Engineer
+2024-10-26 09:03:47,122 - INFO - Extracting Data Engineer - Digital Solutions - Nationwide
+2024-10-26 09:03:52,818 - INFO - Extracting Junior Data Engineer
+2024-10-26 09:03:58,489 - INFO - Extracting Data Engineer I | Data & Analytics | Days
+2024-10-26 09:04:04,214 - INFO - Extracting ETL Data Developer/Engineer - 81853
+2024-10-26 09:04:10,174 - INFO - Extracting Data Engineer
+2024-10-26 09:04:15,820 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:04:21,541 - INFO - Extracting Senior SAP BODS Data Engineer
+2024-10-26 09:04:27,740 - INFO - Extracting AWS Data Engineer
+2024-10-26 09:04:33,397 - INFO - Extracting Azure and Databricks Data Engineer
+2024-10-26 09:04:39,171 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:04:45,024 - INFO - Extracting Data Engineer
+2024-10-26 09:04:50,641 - INFO - Extracting GCR IT - D&A Data Engineer
+2024-10-26 09:04:56,141 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:05:02,988 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:05:08,870 - INFO - Extracting Data Engineer
+2024-10-26 09:05:14,919 - INFO - Extracting Data Engineer
+2024-10-26 09:05:20,997 - INFO - Extracting Data Engineer
+2024-10-26 09:05:26,778 - INFO - Extracting Lead Big Data Engineer
+2024-10-26 09:05:32,863 - INFO - Extracting Database Developer
+2024-10-26 09:05:38,598 - INFO - Extracting Data IKU Developer
+2024-10-26 09:05:44,361 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:05:50,086 - INFO - Extracting Data Engineer
+2024-10-26 09:05:55,848 - INFO - Extracting Staff Data Engineer- Remote
+2024-10-26 09:06:01,809 - INFO - Extracting Data Engineer/Developer/AI Expert
+2024-10-26 09:06:07,686 - INFO - Extracting Azure and Snowflake Data Engineer
+2024-10-26 09:06:13,850 - INFO - Extracting Data Engineer, AWS
+2024-10-26 09:06:19,877 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:06:25,667 - INFO - Extracting News Data Software Engineer
+2024-10-26 09:06:31,538 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:06:37,668 - INFO - Extracting Data Engineer
+2024-10-26 09:06:43,558 - INFO - Extracting Staff Data Engineer
+2024-10-26 09:06:49,508 - INFO - Extracting Data Engineer, Infrastructure
+2024-10-26 09:06:55,591 - INFO - Extracting 2025 Summer Intern: Technology Data & Analytics, Data Engineer & Data Science
+2024-10-26 09:07:01,658 - INFO - Extracting Senior Big Data Hadoop ML Engineer (GCP)
+2024-10-26 09:07:07,770 - INFO - Extracting Data Engineer (USA)
+2024-10-26 09:07:13,517 - INFO - Extracting Data Engineer
+2024-10-26 09:07:19,663 - INFO - Extracting Data Engineer
+2024-10-26 09:07:25,612 - INFO - Extracting Data Engineer
+2024-10-26 09:07:31,711 - INFO - Extracting Senior Data Scientist / Machine Learning Engineer - Search, Personalization, Ads
+2024-10-26 09:07:37,652 - INFO - Extracting (USA) Senior, Data Engineer
+2024-10-26 09:07:44,045 - INFO - Extracting BI Data Engineer
+2024-10-26 09:07:51,950 - INFO - Extracting AI Big Data Engineer
+2024-10-26 09:07:58,073 - INFO - Extracting Data Engineer
+2024-10-26 09:08:04,052 - INFO - Extracting Data Engineer III
+2024-10-26 09:08:09,994 - INFO - Extracting Functional Senior Data Engineer
+2024-10-26 09:08:16,114 - INFO - Extracting Data Engineer
+2024-10-26 09:08:22,061 - INFO - Extracting Data Engineer
+2024-10-26 09:08:28,116 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:08:34,234 - INFO - Extracting Junior Data Engineer
+2024-10-26 09:08:40,103 - INFO - Extracting Data and Software Engineer
+2024-10-26 09:08:46,309 - INFO - Extracting Principal, Data Ops Engineer
+2024-10-26 09:08:52,324 - INFO - Extracting Data Engineer
+2024-10-26 09:08:58,007 - INFO - Extracting Data Engineer
+2024-10-26 09:09:03,871 - INFO - Extracting Data Engineer
+2024-10-26 09:09:08,496 - INFO - Extracting Data Engineer (AWS, Azure, GCP)
+2024-10-26 09:09:25,228 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:09:31,200 - INFO - Extracting IT Systems Data Engineer
+2024-10-26 09:09:36,844 - INFO - Extracting Staff Data Engineer
+2024-10-26 09:09:42,609 - INFO - Extracting Senior/Staff Data Engineer
+2024-10-26 09:09:48,259 - INFO - Extracting Data Engineer - #1657
+2024-10-26 09:09:54,054 - INFO - Extracting Data Engineer
+2024-10-26 09:09:59,838 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:10:05,747 - INFO - Extracting Data Center Engineer - TS/ SCI CI Poly
+2024-10-26 09:10:11,355 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:10:16,864 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:10:22,857 - INFO - Extracting Sr Data Engineer - 100% Remote Work
+2024-10-26 09:10:28,624 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:10:34,885 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:10:40,769 - INFO - Extracting Staff Data Engineer
+2024-10-26 09:10:46,960 - INFO - Extracting Senior Data Scientist/Machine Learning Engineer
+2024-10-26 09:10:53,026 - INFO - Extracting Data Engineer - Web Analytics
+2024-10-26 09:10:58,848 - INFO - Extracting Software & Data Developer
+2024-10-26 09:11:04,893 - INFO - Extracting Data Engineer
+2024-10-26 09:11:10,981 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:11:17,608 - INFO - Extracting Sr. Data Engineer, Customer Delivery
+2024-10-26 09:11:23,823 - INFO - Extracting Data Operations Engineer
+2024-10-26 09:11:29,976 - INFO - Extracting Data Governance Engineer
+2024-10-26 09:11:36,086 - INFO - Extracting Data Engineer
+2024-10-26 09:11:41,861 - INFO - Extracting Data Engineer
+2024-10-26 09:11:47,833 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:11:53,890 - INFO - Extracting Senior Data Engineer - Azure and Copilot
+2024-10-26 09:11:59,904 - INFO - Extracting Data Solutions Engineer
+2024-10-26 09:12:06,039 - INFO - Extracting Senior Linux Systems Engineer
+2024-10-26 09:12:11,810 - INFO - Extracting Software Engineer
+2024-10-26 09:12:17,886 - INFO - Extracting Data Engineer
+2024-10-26 09:12:23,743 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:12:29,888 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:12:36,094 - INFO - Extracting Data Engineer
+2024-10-26 09:12:42,021 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:12:48,206 - INFO - Extracting Data Engineer
+2024-10-26 09:12:54,271 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:13:00,117 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:13:05,957 - INFO - Extracting Data Engineer MAHIN-JOB-31488
+2024-10-26 09:13:10,255 - INFO - Extracting Business Data Solutions Engineer
+2024-10-26 09:13:16,174 - INFO - Extracting Snaplogic Snowflake Data Engineer
+2024-10-26 09:13:22,241 - INFO - Extracting Senior Cloud & Data Center Engineer- Microsoft Technologies
+2024-10-26 09:13:28,285 - INFO - Extracting Senior Data Engineer - Credit Data Analytics
+2024-10-26 09:13:34,371 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:13:40,280 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:13:46,281 - INFO - Extracting Senior Data Engineer in Azure using Databricks for Scala/Python
+2024-10-26 09:13:52,251 - INFO - Extracting Product Data Engineer
+2024-10-26 09:13:58,105 - INFO - Extracting Sr Data Engineer
+2024-10-26 09:14:04,019 - INFO - Extracting Staff Data Engineer - Data Platform
+2024-10-26 09:14:10,170 - INFO - Extracting Data Engineer
+2024-10-26 09:14:16,246 - INFO - Extracting 100% Remote Redshift Data Engineer [24-00368]
+2024-10-26 09:14:22,345 - INFO - Extracting AWS Databricks Data Engineer Lead
+2024-10-26 09:14:28,629 - INFO - Extracting Data Engineer (5363)
+2024-10-26 09:14:34,811 - INFO - Extracting Data Engineer
+2024-10-26 09:14:40,861 - INFO - Extracting Data Engineer
+2024-10-26 09:14:46,856 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:14:53,321 - INFO - Extracting Lead Data Engineer & Analyst
+2024-10-26 09:14:59,116 - INFO - Extracting Database & Systems Engineer
+2024-10-26 09:15:05,516 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:15:11,583 - INFO - Extracting Data Engineer
+2024-10-26 09:15:17,350 - INFO - Extracting Data Engineer
+2024-10-26 09:15:23,268 - INFO - Extracting Data Solutions Engineer
+2024-10-26 09:15:29,333 - INFO - Extracting Data Engineer - Aurora, CO
+2024-10-26 09:15:35,341 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:15:41,523 - INFO - Extracting Data Engineer - Digital Solutions - Nationwide
+2024-10-26 09:15:47,568 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:15:53,642 - INFO - Extracting Data Engineer
+2024-10-26 09:15:59,290 - INFO - Extracting Data Engineer (US)
+2024-10-26 09:16:05,123 - INFO - Extracting Data Engineer
+2024-10-26 09:16:10,988 - INFO - Extracting Scientific Data Curation Engineer
+2024-10-26 09:16:16,827 - INFO - Extracting Senior Data Engineer (Databricks)
+2024-10-26 09:16:22,538 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:16:28,221 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:16:34,135 - INFO - Extracting Data Engineer
+2024-10-26 09:16:39,916 - INFO - Extracting Data Engineer (AWS, Azure, GCP)
+2024-10-26 09:16:46,052 - INFO - Extracting SQL Developer
+2024-10-26 09:16:51,892 - INFO - Extracting Python Developer
+2024-10-26 09:16:57,541 - INFO - Extracting Associate, Data Engineer
+2024-10-26 09:17:03,653 - INFO - Extracting Data Engineer
+2024-10-26 09:17:09,585 - INFO - Extracting Senior Software Engineer 2
+2024-10-26 09:17:15,504 - INFO - Extracting Data Engineer
+2024-10-26 09:17:21,204 - INFO - Extracting Data Engineer
+2024-10-26 09:17:27,127 - INFO - Extracting Senior Data Engineer with Data Governance
+2024-10-26 09:17:33,042 - INFO - Extracting Data Engineer
+2024-10-26 09:17:39,312 - INFO - Extracting Data Engineer
+2024-10-26 09:17:45,138 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:17:51,213 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:17:57,349 - INFO - Extracting Data Engineer
+2024-10-26 09:18:03,094 - INFO - Extracting Staff Data Engineer - Java
+2024-10-26 09:18:09,086 - INFO - Extracting Golang Data Engineer
+2024-10-26 09:18:15,129 - INFO - Extracting Senior Data Engineer (Commodities Trading) - Up to $170k base (plus bonus)
+2024-10-26 09:18:20,909 - INFO - Extracting Senior Data Engineer / Architect
+2024-10-26 09:18:26,753 - INFO - Extracting C/C++ Programmer **5,000 sign on bonus**
+2024-10-26 09:18:32,601 - INFO - Extracting Data Engineer, Marketing & Sales
+2024-10-26 09:18:38,693 - INFO - Extracting Senior Data Engineer - Data Engineering, Data Science Solutions, Privacy & Ethics
+2024-10-26 09:18:44,789 - INFO - Extracting Data Engineer
+2024-10-26 09:18:50,515 - INFO - Extracting IT Associate Data Engineer (Hybrid)
+2024-10-26 09:18:56,311 - INFO - Extracting Data Engineer
+2024-10-26 09:19:02,284 - INFO - Extracting Sr. Distinguished Data Engineer/Architect
+2024-10-26 09:19:08,345 - INFO - Extracting Data Engineer
+2024-10-26 09:19:14,405 - INFO - Extracting Data Engineer
+2024-10-26 09:19:20,350 - INFO - Extracting Data Engineer
+2024-10-26 09:19:26,292 - INFO - Extracting Data Engineer – C11/ Officer
+2024-10-26 09:19:32,170 - INFO - Extracting Principal Data Engineer - Hybrid/Remote
+2024-10-26 09:19:38,286 - INFO - Extracting GCP Data Engineer - US Citizen Only
+2024-10-26 09:19:44,281 - INFO - Extracting Data Engineer (MLOps) - Fully Remote
+2024-10-26 09:19:50,297 - INFO - Extracting Senior Azure Cloud Data Engineer
+2024-10-26 09:19:56,320 - INFO - Extracting Data Analytics Engineer
+2024-10-26 09:20:02,107 - INFO - Extracting Data Engineer
+2024-10-26 09:20:08,088 - INFO - Extracting ML Data Engineer
+2024-10-26 09:20:14,273 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:20:20,450 - INFO - Extracting Data Engineer - Retail Data & Products (SQL & PL/SQL) (Woonsocket, RI)
+2024-10-26 09:20:26,753 - INFO - Extracting Data Scientist, AI/ML Engineer
+2024-10-26 09:20:32,770 - INFO - Extracting CRM Data Analyst/Engineer
+2024-10-26 09:20:39,352 - INFO - Extracting Sr Data Engineer
+2024-10-26 09:20:45,416 - INFO - Extracting Data Engineer, AWS Workforce Planning
+2024-10-26 09:20:51,383 - INFO - Extracting Lead Data Engineer Ops
+2024-10-26 09:20:57,693 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:21:03,648 - INFO - Extracting Data Engineer
+2024-10-26 09:21:09,270 - INFO - Extracting Data Engineer / Database Administrator
+2024-10-26 09:21:15,778 - INFO - Extracting Data Engineer
+2024-10-26 09:21:21,830 - INFO - Extracting Data Engineer
+2024-10-26 09:21:27,820 - INFO - Extracting Data Engineer
+2024-10-26 09:21:34,158 - INFO - Extracting Clinical Data Engineer
+2024-10-26 09:21:40,505 - INFO - Extracting Data Solutions Engineer
+2024-10-26 09:21:47,023 - INFO - Extracting Staff Data Engineer
+2024-10-26 09:21:53,162 - INFO - Extracting Data Engineer
+2024-10-26 09:21:59,438 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:22:05,448 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:22:11,773 - INFO - Extracting Data Solutions Engineer
+2024-10-26 09:22:17,815 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:22:23,768 - INFO - Extracting Sr. Data Operations Engineer
+2024-10-26 09:22:29,966 - INFO - Extracting Data Engineer
+2024-10-26 09:22:35,963 - INFO - Extracting Data Engineer - Capital Markets
+2024-10-26 09:22:41,894 - INFO - Extracting Data Engineer- Ex Capitalone Consultant
+2024-10-26 09:22:48,049 - INFO - Extracting Data Engineer (AWS, Azure, GCP)
+2024-10-26 09:22:54,335 - INFO - Extracting Data Engineer (AWS, Azure, GCP)
+2024-10-26 09:23:00,502 - INFO - Extracting Data Engineer (AWS, Azure, GCP)
+2024-10-26 09:23:06,715 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:23:13,053 - INFO - Extracting Senior GCP Data Engineer
+2024-10-26 09:23:19,238 - INFO - Extracting AI Data Engineer - Hedge Fund - Up to $500k Total Compensation
+2024-10-26 09:23:25,187 - INFO - Extracting Data Engineer
+2024-10-26 09:23:31,221 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:23:37,036 - INFO - Extracting Senior Data Engineer - Artificial Intelligence Group
+2024-10-26 09:23:43,081 - INFO - Extracting Data Engineer 33413-1
+2024-10-26 09:23:49,102 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:23:54,995 - INFO - Extracting Principal Data Engineer- Remote, USA
+2024-10-26 09:24:01,178 - INFO - Extracting Data Solutions Engineer
+2024-10-26 09:24:07,101 - INFO - Extracting Data Migration Lead Engineer
+2024-10-26 09:24:13,232 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:24:19,195 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:24:25,717 - INFO - Extracting Principal Data Engineer
+2024-10-26 09:24:31,885 - INFO - Extracting Senior Staff Engineer -- Data Center Network Engineer
+2024-10-26 09:24:38,139 - INFO - Extracting Full Stack Data Engineer
+2024-10-26 09:24:43,977 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:24:49,900 - INFO - Extracting Data Engineer
+2024-10-26 09:24:55,950 - INFO - Extracting Data Engineer
+2024-10-26 09:25:01,703 - INFO - Extracting Data Engineer
+2024-10-26 09:25:07,950 - INFO - Extracting Data Engineer
+2024-10-26 09:25:14,883 - INFO - Extracting Data Warehouse Engineer
+2024-10-26 09:25:21,217 - INFO - Extracting Data Engineer
+2024-10-26 09:25:26,951 - INFO - Extracting Data Engineer
+2024-10-26 09:25:32,951 - INFO - Extracting Cloud Data Engineer
+2024-10-26 09:25:38,937 - INFO - Extracting Senior/Staff Data Engineer
+2024-10-26 09:25:45,029 - INFO - Extracting Application Developer
+2024-10-26 09:25:50,749 - INFO - Extracting Senior Data Engineer (Commodities Trading) - Up to $170k base (plus bonus)
+2024-10-26 09:25:56,501 - INFO - Extracting Senior Data and Analytics Engineer
+2024-10-26 09:26:02,255 - INFO - Extracting Network/Data Engineer
+2024-10-26 09:26:08,044 - INFO - Extracting AWS Data Engineer
+2024-10-26 09:26:13,712 - INFO - Extracting Data Engineer, Marketing & Sales
+2024-10-26 09:26:19,539 - INFO - Extracting Data/Analytics Engineer
+2024-10-26 09:26:25,338 - INFO - Extracting Lead GCP Data Engineer
+2024-10-26 09:26:31,239 - INFO - Extracting Senior Data Engineer Technical Screener (part-time, as needed)
+2024-10-26 09:26:37,138 - INFO - Extracting Data Engineer
+2024-10-26 09:26:42,771 - INFO - Extracting Data Governance Engineer
+2024-10-26 09:26:48,706 - INFO - Extracting Lead Azure Data Engineer
+2024-10-26 09:26:54,717 - INFO - Extracting Data Engineer (AWS, Azure, GCP)
+2024-10-26 09:27:00,747 - INFO - Extracting Storage and Linux Systems Engineer
+2024-10-26 09:27:06,850 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:27:12,878 - INFO - Extracting Senior Firmware Engineer
+2024-10-26 09:27:18,826 - INFO - Extracting Data Engineer Summer Internship – 2025 (US)
+2024-10-26 09:27:24,650 - INFO - Extracting System Engineer (VoIP)
+2024-10-26 09:27:30,359 - INFO - Extracting Devops Engineer
+2024-10-26 09:27:36,148 - INFO - Extracting Senior Software Engineer 1
+2024-10-26 09:27:41,967 - INFO - Extracting Data Engineer - Analytics
+2024-10-26 09:27:47,749 - INFO - Extracting Data Engineer
+2024-10-26 09:27:53,354 - INFO - Extracting Senior, Data Engineer
+2024-10-26 09:27:59,388 - INFO - Extracting Data Engineer
+2024-10-26 09:28:05,086 - INFO - Extracting AWS Data Engineer
+2024-10-26 09:28:10,719 - INFO - Extracting Data Engineer / Senior Tableau Developer (Chandler, Kennesaw)
+2024-10-26 09:28:16,803 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:28:22,830 - INFO - Extracting Data Engineer 33396-1
+2024-10-26 09:28:28,797 - INFO - Extracting Data Engineer 33411-1
+2024-10-26 09:28:35,013 - INFO - Extracting Project Data/Solution Engineer
+2024-10-26 09:28:41,259 - INFO - Extracting Data Protection Engineer [JOB ID 20241009]
+2024-10-26 09:28:47,304 - INFO - Extracting Data Engineer
+2024-10-26 09:28:53,314 - INFO - Extracting Database Engineer (Hybrid Work Model)
+2024-10-26 09:28:59,671 - INFO - Extracting IT Data Quality Engineer
+2024-10-26 09:29:05,800 - INFO - Extracting Big Data Engineer
+2024-10-26 09:29:12,084 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:29:18,612 - INFO - Extracting Data Engineer
+2024-10-26 09:29:25,458 - INFO - Extracting Sr/Principal Data Engineer (Hybrid) – 4400
+2024-10-26 09:29:31,942 - INFO - Extracting Azure Data Engineer
+2024-10-26 09:29:38,612 - INFO - Extracting Data Engineer - Amazon Flex, Flex Analytics
+2024-10-26 09:29:45,326 - INFO - Extracting Data Center Engineer - TS/ SCI CI Poly
+2024-10-26 09:29:51,751 - INFO - Extracting Data Center Presales Engineer - National
+2024-10-26 09:29:58,184 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:30:04,535 - INFO - Extracting Senior Data Engineer, Experience
+2024-10-26 09:30:11,012 - INFO - Extracting Cloud Data Ops Engineer
+2024-10-26 09:30:17,361 - INFO - Extracting Data Analytics Engineer
+2024-10-26 09:30:23,774 - INFO - Extracting Data Engineer - 75% Remote
+2024-10-26 09:30:30,161 - INFO - Extracting Data Scientist Engineer
+2024-10-26 09:30:36,689 - INFO - Extracting Data Center Engineer
+2024-10-26 09:30:42,940 - INFO - Extracting Data Engineer (Data Analytics and Visualization)
+2024-10-26 09:30:48,966 - INFO - Extracting Database Administrator/Data Engineer
+2024-10-26 09:30:54,685 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:31:00,764 - INFO - Extracting Data Engineer 33406-1
+2024-10-26 09:31:06,751 - INFO - Extracting Business Intelligence Data Engineer
+2024-10-26 09:31:12,756 - INFO - Extracting SR. Azure & SQL Database Data Engineer
+2024-10-26 09:31:18,861 - INFO - Extracting Data Engineer
+2024-10-26 09:31:24,979 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:31:31,257 - INFO - Extracting Data Engineer - Senior Associate
+2024-10-26 09:31:37,609 - INFO - Extracting Microsoft Data Engineer
+2024-10-26 09:31:43,813 - INFO - Extracting Data Management Engineer
+2024-10-26 09:31:50,015 - INFO - Extracting Data Engineer
+2024-10-26 09:31:56,220 - INFO - Extracting Data Engineer
+2024-10-26 09:32:02,625 - INFO - Extracting Senior Data Engineer Level 3
+2024-10-26 09:32:08,852 - INFO - Extracting Blockchain Data Engineer
+2024-10-26 09:32:14,866 - INFO - Extracting Data Engineer
+2024-10-26 09:32:21,444 - INFO - Extracting Data Engineer
+2024-10-26 09:32:27,755 - INFO - Extracting Data Engineer
+2024-10-26 09:32:34,102 - INFO - Extracting Data Engineer
+2024-10-26 09:32:40,376 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:32:46,616 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:32:52,617 - INFO - Extracting Variable Comp Analytics & Insight Data Engineer
+2024-10-26 09:32:59,028 - INFO - Extracting Sr. Data Engineer with GCP, Data Warehousing, ETL, Python
+2024-10-26 09:33:05,133 - INFO - Extracting Data Engineer
+2024-10-26 09:33:11,502 - INFO - Extracting Blockchain Data Engineer
+2024-10-26 09:33:17,487 - INFO - Extracting Data Engineer - Official AI
+2024-10-26 09:33:23,792 - INFO - Extracting Senior, Software/Data Engineer
+2024-10-26 09:33:30,042 - INFO - Extracting Staff Data Engineer
+2024-10-26 09:33:36,232 - INFO - Extracting Senior Cloud Data Engineer
+2024-10-26 09:33:42,167 - INFO - Extracting Machine Learning Engineer II
+2024-10-26 09:33:48,327 - INFO - Extracting Intermediate Data Engineer
+2024-10-26 09:33:54,369 - INFO - Extracting Data Services Solutions Engineer
+2024-10-26 09:34:00,494 - INFO - Extracting Lead Data Engineer, Data and Systems
+2024-10-26 09:34:06,763 - INFO - Extracting Senior Data Engineer, Customer Data Platform
+2024-10-26 09:34:12,940 - INFO - Extracting Data Engineer
+2024-10-26 09:34:19,115 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:34:25,958 - INFO - Extracting Sr. Data Engineer
+2024-10-26 09:34:31,833 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:34:38,238 - INFO - Extracting Senior Master Data Management Engineer
+2024-10-26 09:34:44,391 - INFO - Extracting Data Pipeline Engineer
+2024-10-26 09:34:50,881 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:34:57,085 - INFO - Extracting Mid-Senior Azure Data Engineers
+2024-10-26 09:35:02,923 - INFO - Extracting Data Engineer
+2024-10-26 09:35:08,882 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:35:15,180 - INFO - Extracting Data Engineer II - ABS Data Analytics & Reporting Finance
+2024-10-26 09:35:21,340 - INFO - Extracting Lead Data Engineer
+2024-10-26 09:35:27,490 - INFO - Extracting Data Engineer I
+2024-10-26 09:35:33,686 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:35:40,144 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:35:46,508 - INFO - Extracting Senior Data Engineer
+2024-10-26 09:35:52,563 - INFO - Scraping Summary: Good_Links 1000 & Fail_Links 0
+2024-10-26 09:35:52,595 - INFO - Queried documents from raw
+2024-10-26 09:35:53,287 - INFO - Fetched 2390 existing job links from MongoDB
+2024-10-26 09:35:53,288 - INFO - Saving 1000 new links to MongoDB
+2024-10-26 09:36:24,367 - INFO - MongoDB connection closed.
+2024-10-29 02:27:23,431 - INFO - ====== WebDriver manager ======
+2024-10-29 02:27:24,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-29 02:27:24,986 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-29 02:27:25,064 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-29 02:27:25,252 - INFO - WebDriver version 130.0.6723.69 selected
+2024-10-29 02:27:25,252 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.69/win32/chromedriver-win32.zip
+2024-10-29 02:27:25,252 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.69/win32/chromedriver-win32.zip
+2024-10-29 02:27:25,377 - INFO - Driver downloading response is 200
+2024-10-29 02:27:25,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-29 02:27:25,942 - INFO - Driver has been saved in cache [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.69]
+2024-10-29 02:27:28,666 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-29 02:27:31,504 - INFO - Cookies expired, logging in as usual...
+2024-10-29 02:27:31,505 - INFO - Cookies not found or expired, logging in...
+2024-10-29 02:27:38,584 - INFO - Cookies saved for future sessions
+2024-10-29 02:27:49,704 - INFO - Found 705 job results
+2024-10-29 02:27:49,704 - INFO - Total jobs found: 705
+2024-10-29 02:27:49,704 - INFO - Getting Links from page: 1
+2024-10-29 02:28:20,352 - INFO - Extracting Data Analyst and Labeller
+2024-10-29 02:28:23,590 - INFO - Extracting Operational Data Analyst
+2024-10-29 02:28:26,749 - INFO - Extracting Business Intelligence (BI) Analyst
+2024-10-29 02:28:30,438 - INFO - Extracting Sales & Marketing Data Analyst
+2024-10-29 02:28:34,649 - INFO - Extracting Junior Data Analyst Pricing
+2024-10-29 02:28:38,779 - INFO - Extracting Intern, Business Intelligence Analyst
+2024-10-29 02:28:42,822 - INFO - Extracting Data Analyst, Marketing
+2024-10-29 02:28:47,351 - INFO - Extracting Data Analyst, Marketing
+2024-10-29 02:28:52,152 - INFO - Extracting Data Analyst
+2024-10-29 02:28:56,979 - INFO - Extracting Data Analyst / Consultant (Fire / EMS)
+2024-10-29 02:29:01,533 - INFO - Extracting Data Analyst, Salesforce
+2024-10-29 02:29:05,733 - INFO - Extracting Data Analyst (Temporary position of 15 months)
+2024-10-29 02:29:10,349 - INFO - Extracting Data Analyst Intern/Co-Op (Undergrad | Summer, 2025 | Onsite/Hybrid)
+2024-10-29 02:29:15,051 - INFO - Extracting Intern Data Analytics
+2024-10-29 02:29:19,541 - INFO - Extracting Data Analyst
+2024-10-29 02:29:24,217 - INFO - Extracting Advisor, Data Science and Advance Analytics
+2024-10-29 02:29:28,883 - INFO - Extracting Data Analyst
+2024-10-29 02:29:32,896 - INFO - Extracting Data Analyst
+2024-10-29 02:29:37,672 - INFO - Extracting Data Insights Analyst
+2024-10-29 02:29:41,803 - INFO - Extracting Business Intelligence Analyst
+2024-10-29 02:29:46,314 - INFO - Extracting Data Engineer/Analyst
+2024-10-29 02:29:50,718 - INFO - Extracting Analyst, Data valorization- EN
+2024-10-29 02:29:54,811 - INFO - Extracting Online Data Analyst
+2024-10-29 02:29:59,159 - INFO - Extracting Associate Data Analyst - Co-Op Student
+2024-10-29 02:30:03,458 - INFO - Extracting Data Analyst (0 Experience Required)
+2024-10-29 02:30:08,236 - INFO - Scraping Summary: Good_Links 25 & Fail_Links 0
+2024-10-29 02:30:08,236 - INFO - Queried documents from raw
+2024-10-29 02:30:08,504 - INFO - Fetched 50 existing job links from MongoDB
+2024-10-29 02:30:08,504 - INFO - Saving 25 new links to MongoDB
+2024-10-29 02:30:09,150 - INFO - MongoDB connection closed.
+2024-10-30 02:09:02,562 - INFO - ====== WebDriver manager ======
+2024-10-30 02:09:03,917 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:09:04,011 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:09:04,073 - INFO - There is no [win64] chromedriver "130.0.6723.91" for browser google-chrome "130.0.6723" in cache
+2024-10-30 02:09:04,073 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:09:04,219 - INFO - WebDriver version 130.0.6723.91 selected
+2024-10-30 02:09:04,235 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.91/win32/chromedriver-win32.zip
+2024-10-30 02:09:04,235 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.91/win32/chromedriver-win32.zip
+2024-10-30 02:09:04,345 - INFO - Driver downloading response is 200
+2024-10-30 02:09:04,709 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:09:04,898 - INFO - Driver has been saved in cache [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.91]
+2024-10-30 02:09:09,047 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-30 02:09:12,042 - INFO - Valid cookies loaded, skipping login
+2024-10-30 02:09:29,437 - INFO - Total jobs found: None
+2024-10-30 02:09:29,437 - INFO - MongoDB connection closed.
+2024-10-30 02:09:40,013 - INFO - ====== WebDriver manager ======
+2024-10-30 02:09:40,942 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:09:41,020 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:09:41,088 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-30 02:09:42,841 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-30 02:09:42,841 - INFO - Cookies not found or expired, logging in...
+2024-10-30 02:09:45,539 - INFO - Cookies saved for future sessions
+2024-10-30 02:10:00,931 - INFO - Total jobs found: None
+2024-10-30 02:10:00,933 - INFO - MongoDB connection closed.
+2024-10-30 02:10:15,251 - INFO - ====== WebDriver manager ======
+2024-10-30 02:10:16,212 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:10:16,294 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:10:16,357 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-30 02:10:18,134 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-30 02:10:20,174 - INFO - Valid cookies loaded, skipping login
+2024-10-30 02:10:30,141 - INFO - Total jobs found: None
+2024-10-30 02:10:30,141 - INFO - MongoDB connection closed.
+2024-10-30 02:10:41,878 - INFO - ====== WebDriver manager ======
+2024-10-30 02:10:42,792 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:10:42,870 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-30 02:10:42,917 - INFO - Driver [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.91\chromedriver-win32/chromedriver.exe] found in cache
+2024-10-30 02:10:44,702 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-10-30 02:10:44,702 - INFO - Cookies not found or expired, logging in...
+2024-10-30 02:10:52,285 - INFO - Cookies saved for future sessions
+2024-10-30 02:11:04,118 - INFO - Found 725 job results
+2024-10-30 02:11:04,119 - INFO - Total jobs found: 725
+2024-10-30 02:11:04,119 - INFO - Getting Links from page: 1
+2024-11-02 10:50:16,140 - INFO - ====== WebDriver manager ======
+2024-11-02 10:50:17,357 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-02 10:50:17,514 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-02 10:50:17,577 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-02 10:50:17,686 - INFO - WebDriver version 130.0.6723.91 selected
+2024-11-02 10:50:17,686 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.91/win32/chromedriver-win32.zip
+2024-11-02 10:50:17,686 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.91/win32/chromedriver-win32.zip
+2024-11-02 10:50:17,797 - INFO - Driver downloading response is 200
+2024-11-02 10:50:18,173 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-02 10:50:18,346 - INFO - Driver has been saved in cache [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.91]
+2024-11-02 10:50:21,730 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-11-02 10:50:21,730 - INFO - Cookies not found or expired, logging in...
+2024-11-02 10:50:30,851 - INFO - Cookies saved for future sessions
+2024-11-02 10:50:35,858 - INFO - Total jobs found: None
+2024-11-02 10:50:35,858 - INFO - MongoDB connection closed.
+2024-11-05 17:35:22,709 - INFO - ====== WebDriver manager ======
+2024-11-05 17:35:23,965 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-05 17:35:24,074 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-05 17:35:24,108 - INFO - There is no [win64] chromedriver "130.0.6723.93" for browser google-chrome "130.0.6723" in cache
+2024-11-05 17:35:24,108 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-05 17:35:24,233 - INFO - WebDriver version 130.0.6723.93 selected
+2024-11-05 17:35:24,249 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.93/win32/chromedriver-win32.zip
+2024-11-05 17:35:24,249 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.93/win32/chromedriver-win32.zip
+2024-11-05 17:35:24,327 - INFO - Driver downloading response is 200
+2024-11-05 17:35:24,941 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-05 17:35:25,132 - INFO - Driver has been saved in cache [C:\Users\nihar\.wdm\drivers\chromedriver\win64\130.0.6723.93]
+2024-11-05 17:35:27,575 - INFO - Connected to MongoDB database: test_db, collection: raw
+2024-11-05 17:35:30,281 - INFO - Cookies expired, logging in as usual...
+2024-11-05 17:35:30,282 - INFO - Cookies not found or expired, logging in...
+2024-11-05 17:35:35,508 - INFO - Cookies saved for future sessions
+2024-11-05 17:35:45,325 - INFO - Found 9411 job results
+2024-11-05 17:35:45,325 - INFO - Total jobs found: 9411
+2024-11-05 17:35:45,325 - INFO - Getting Links from page: 1
+2024-11-05 17:36:16,847 - INFO - Extracting Quantitative Researcher
+2024-11-05 17:36:20,322 - INFO - Extracting Analyst, Portfolio Analytics and Reporting
+2024-11-05 17:36:23,636 - INFO - Extracting Senior Fixed Income Performance Data Analyst
+2024-11-05 17:36:27,352 - INFO - Extracting Business Data Analyst
+2024-11-05 17:36:31,742 - INFO - Extracting Senior Quantitative Equity Researcher - PhD
+2024-11-05 17:36:36,967 - INFO - Extracting Intelligence Analyst/Military Specialist- Expert Level
+2024-11-05 17:36:42,086 - INFO - Extracting Senior Data Analyst -Loan Boarding
+2024-11-05 17:36:46,817 - INFO - Extracting OSINT Analyst - Mid
+2024-11-05 17:36:51,471 - INFO - Extracting All Source Intelligence Analyst SME
+2024-11-05 17:36:55,861 - INFO - Extracting Bi-lingual Help Desk Analyst
+2024-11-05 17:37:00,194 - INFO - Extracting Sr Marketing Data Analyst - AI
+2024-11-05 17:37:04,853 - INFO - Extracting Quantitative Researcher
+2024-11-05 17:37:10,088 - INFO - Extracting Biostatistician
+2024-11-05 17:37:15,637 - INFO - Extracting Power BI Principal Consultant
+2024-11-05 17:37:20,548 - INFO - Extracting Intelligence Research Specialist II
+2024-11-05 17:37:25,097 - INFO - Extracting Senior Data Analyst
+2024-11-05 17:37:30,367 - INFO - Extracting Finance Data Strategy Expert, Gartner Analyst,
+2024-11-05 17:37:35,258 - INFO - Extracting Finance Data Reconciliation Analyst
+2024-11-05 17:37:39,890 - INFO - Extracting Biostatistician
+2024-11-05 17:37:44,406 - INFO - Extracting Financial Data Analytics & Planning (FP&A) Consultant
+2024-11-05 17:37:48,968 - INFO - Extracting Business Data Analyst
+2024-11-05 17:37:53,509 - INFO - Extracting Business Data Analyst
+2024-11-05 17:37:58,019 - INFO - Extracting Quantitative Researcher (PhD Graduate)
+2024-11-05 17:38:02,763 - INFO - Extracting Sr Data Science Analyst
+2024-11-05 17:38:07,482 - INFO - Extracting PhD Quantitative Researcher
+2024-11-05 17:38:12,330 - INFO - Scraping Summary: Good_Links 25 & Fail_Links 0
+2024-11-05 17:38:12,512 - INFO - Fetched 0 existing job links from MongoDB
+2024-11-05 17:38:12,512 - INFO - Saving 25 new links to MongoDB
+2024-11-05 17:38:13,402 - INFO - MongoDB connection closed.

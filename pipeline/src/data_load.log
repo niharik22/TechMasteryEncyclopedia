@@ -1,0 +1,155 @@
+2024-11-05 17:15:59,703 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:15:59,703 - INFO - Starting data processing...
+2024-11-05 17:15:59,703 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:15:59,703 - INFO - Queried documents from clean
+2024-11-05 17:16:00,196 - INFO - Queried documents from raw
+2024-11-05 17:16:00,337 - INFO - Queried documents from raw
+2024-11-05 17:16:00,487 - INFO - Queried documents from raw
+2024-11-05 17:16:00,643 - INFO - Queried documents from raw
+2024-11-05 17:16:00,784 - INFO - Queried documents from raw
+2024-11-05 17:16:00,940 - INFO - Queried documents from raw
+2024-11-05 17:16:01,080 - INFO - Queried documents from raw
+2024-11-05 17:16:01,221 - INFO - Queried documents from raw
+2024-11-05 17:16:01,362 - INFO - Queried documents from raw
+2024-11-05 17:16:01,518 - INFO - Queried documents from raw
+2024-11-05 17:16:01,658 - INFO - Queried documents from raw
+2024-11-05 17:16:01,815 - INFO - Queried documents from raw
+2024-11-05 17:16:01,971 - INFO - Queried documents from raw
+2024-11-05 17:16:02,112 - INFO - Queried documents from raw
+2024-11-05 17:16:02,252 - INFO - Queried documents from raw
+2024-11-05 17:16:02,393 - INFO - Queried documents from raw
+2024-11-05 17:16:02,549 - INFO - Queried documents from raw
+2024-11-05 17:16:02,705 - INFO - Queried documents from raw
+2024-11-05 17:16:02,862 - INFO - Queried documents from raw
+2024-11-05 17:16:03,016 - INFO - Queried documents from raw
+2024-11-05 17:16:03,157 - INFO - Queried documents from raw
+2024-11-05 17:16:03,300 - INFO - Queried documents from raw
+2024-11-05 17:16:03,456 - INFO - Queried documents from raw
+2024-11-05 17:16:03,597 - INFO - Queried documents from raw
+2024-11-05 17:16:03,754 - INFO - Queried documents from raw
+2024-11-05 17:16:03,988 - INFO - Queried documents from raw
+2024-11-05 17:16:04,129 - INFO - Queried documents from raw
+2024-11-05 17:16:04,289 - INFO - Queried documents from raw
+2024-11-05 17:16:04,429 - INFO - Queried documents from raw
+2024-11-05 17:16:04,567 - INFO - Queried documents from raw
+2024-11-05 17:16:04,723 - INFO - Queried documents from raw
+2024-11-05 17:16:04,864 - INFO - Queried documents from raw
+2024-11-05 17:16:05,014 - INFO - Queried documents from raw
+2024-11-05 17:16:05,154 - INFO - Queried documents from raw
+2024-11-05 17:16:05,295 - INFO - Queried documents from raw
+2024-11-05 17:16:05,436 - INFO - Queried documents from raw
+2024-11-05 17:16:05,588 - INFO - Queried documents from raw
+2024-11-05 17:16:05,745 - INFO - Queried documents from raw
+2024-11-05 17:16:05,916 - INFO - Queried documents from raw
+2024-11-05 17:16:06,068 - INFO - Queried documents from raw
+2024-11-05 17:16:06,208 - INFO - Queried documents from raw
+2024-11-05 17:16:06,349 - INFO - Queried documents from raw
+2024-11-05 17:16:06,505 - INFO - Queried documents from raw
+2024-11-05 17:16:06,636 - INFO - Queried documents from raw
+2024-11-05 17:16:06,777 - INFO - Queried documents from raw
+2024-11-05 17:16:06,918 - INFO - Queried documents from raw
+2024-11-05 17:16:07,072 - INFO - Queried documents from raw
+2024-11-05 17:16:07,212 - INFO - Queried documents from raw
+2024-11-05 17:16:07,369 - INFO - Queried documents from raw
+2024-11-05 17:16:07,509 - INFO - Queried documents from raw
+2024-11-05 17:16:07,763 - INFO - Inserted 50 documents into qualified in bulk.
+2024-11-05 17:16:07,825 - INFO - Updated 50 documents in clean
+2024-11-05 17:16:07,825 - INFO - Data processing completed.
+2024-11-05 17:16:07,872 - INFO - MongoDB connection closed.
+2024-11-05 17:23:34,673 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:23:34,673 - INFO - Starting data processing...
+2024-11-05 17:23:34,673 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:23:35,355 - INFO - Data processing completed.
+2024-11-05 17:23:35,418 - INFO - MongoDB connection closed.
+2024-11-05 17:25:13,481 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:25:13,481 - INFO - Starting data processing...
+2024-11-05 17:25:13,481 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:25:13,888 - INFO - Data processing completed.
+2024-11-05 17:25:13,919 - INFO - MongoDB connection closed.
+2024-11-05 17:26:21,974 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:26:21,974 - INFO - Starting data processing...
+2024-11-05 17:26:21,974 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:26:22,311 - INFO - Data processing completed.
+2024-11-05 17:26:22,342 - INFO - MongoDB connection closed.
+2024-11-05 17:27:02,340 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:27:02,340 - INFO - Starting data processing...
+2024-11-05 17:27:02,340 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:27:02,686 - INFO - Data processing completed.
+2024-11-05 17:27:02,702 - INFO - MongoDB connection closed.
+2024-11-05 17:27:17,386 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:27:17,386 - INFO - Starting data processing...
+2024-11-05 17:27:17,386 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:27:17,705 - INFO - Data processing completed.
+2024-11-05 17:27:17,720 - INFO - MongoDB connection closed.
+2024-11-05 17:28:19,014 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:28:19,014 - INFO - Starting data processing...
+2024-11-05 17:28:19,014 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:29:13,316 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:29:13,316 - INFO - Starting data processing...
+2024-11-05 17:29:13,316 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:29:13,633 - INFO - Data processing completed.
+2024-11-05 17:29:13,664 - INFO - MongoDB connection closed.
+2024-11-05 17:31:27,940 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:31:27,940 - INFO - Starting data processing...
+2024-11-05 17:31:27,940 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:31:28,305 - WARNING - No unprocessed documents found.
+2024-11-05 17:31:28,321 - INFO - MongoDB connection closed.
+2024-11-05 17:33:18,199 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:33:18,199 - INFO - Starting data processing...
+2024-11-05 17:33:18,199 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:33:18,480 - INFO - No unprocessed documents found.
+2024-11-05 17:33:18,496 - INFO - MongoDB connection closed.
+2024-11-05 17:33:54,708 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:33:54,708 - INFO - Starting data processing...
+2024-11-05 17:33:54,708 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:33:55,078 - INFO - No unprocessed documents found, data loading complete
+2024-11-05 17:33:55,094 - INFO - MongoDB connection closed.
+2024-11-05 17:46:58,535 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:46:58,535 - INFO - Starting data processing...
+2024-11-05 17:46:58,535 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:46:58,961 - INFO - Data loading completed.
+2024-11-05 17:46:58,977 - INFO - MongoDB connection closed.
+2024-11-05 17:52:00,571 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:52:00,571 - INFO - Starting data processing...
+2024-11-05 17:52:00,571 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:52:00,994 - INFO - Data loading completed.
+2024-11-05 17:52:01,025 - INFO - MongoDB connection closed.
+2024-11-05 17:54:31,986 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:54:31,986 - INFO - Starting data processing...
+2024-11-05 17:54:31,986 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:55:00,487 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:55:00,487 - INFO - Starting data processing...
+2024-11-05 17:55:00,487 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:55:00,888 - INFO - Fetched 25 documents from 'clean' collection.
+2024-11-05 17:55:00,888 - INFO - No unprocessed documents found, data loading complete
+2024-11-05 17:55:00,904 - INFO - MongoDB connection closed.
+2024-11-05 17:57:40,247 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 17:57:40,247 - INFO - Starting data processing...
+2024-11-05 17:57:40,247 - INFO - Fetching data from 'clean' collection.
+2024-11-05 17:57:40,665 - INFO - Fetched 25 documents from 'clean' collection.
+2024-11-05 17:57:40,665 - INFO - No unprocessed documents found, data loading complete
+2024-11-05 17:57:40,681 - INFO - MongoDB connection closed.
+2024-11-05 18:00:36,027 - INFO - Connected to MongoDB database: test_db, collection: clean
+2024-11-05 18:00:36,027 - INFO - Starting data processing...
+2024-11-05 18:00:36,027 - INFO - Fetching data from 'clean' collection.
+2024-11-05 18:00:36,434 - INFO - Fetched 25 documents from 'clean' collection.
+2024-11-05 18:00:40,147 - INFO - Loading 25 documents.
+2024-11-05 18:00:40,225 - INFO - Inserted 25 documents into qualified in bulk.
+2024-11-05 18:00:40,272 - INFO - Updated 25 documents in clean
+2024-11-05 18:00:40,272 - INFO - Data loading completed.
+2024-11-05 18:00:40,303 - INFO - MongoDB connection closed.
+2024-11-05 18:06:04,836 - INFO - Connected to MongoDB database: linkedindb, collection: clean
+2024-11-05 18:06:04,836 - INFO - Starting data processing...
+2024-11-05 18:06:04,836 - INFO - Fetching data from 'clean' collection.
+2024-11-05 18:06:05,180 - INFO - Fetched 0 documents from 'clean' collection.
+2024-11-05 18:06:05,211 - INFO - No unprocessed documents found, data loading complete
+2024-11-05 18:06:05,226 - INFO - MongoDB connection closed.
+2024-11-05 18:06:36,915 - INFO - Connected to MongoDB database: linkedindb_prod, collection: clean
+2024-11-05 18:06:36,915 - INFO - Starting data processing...
+2024-11-05 18:06:36,915 - INFO - Fetching data from 'clean' collection.
+2024-11-05 18:06:39,527 - INFO - Fetched 3361 documents from 'clean' collection.
+2024-11-05 18:15:32,384 - INFO - Loading 3361 documents.
+2024-11-05 18:15:38,101 - INFO - Inserted 3361 documents into qualified in bulk.
+2024-11-05 18:15:38,711 - INFO - Updated 3361 documents in clean
+2024-11-05 18:15:38,742 - INFO - Data loading completed.
+2024-11-05 18:15:38,758 - INFO - MongoDB connection closed.

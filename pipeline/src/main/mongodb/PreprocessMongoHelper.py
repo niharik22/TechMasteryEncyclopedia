@@ -12,8 +12,11 @@ class MongoDataHelper:
         Retrieves URLs and their respective descriptions as a dictionary
         """
 
-        # Query to filter documents where 'processed' is 0
-        query = {"processed": 0}
+        # Query to filter documents where 'processed' is 0 and 'description' field exists
+        query = {
+            "processed": 0,
+            "description": {"$exists": True}
+        }
 
         # Projection to include only the `link` and `description` fields, excluding `_id`
         projection = {"link": 1, "description": 1, "_id": 0}
