@@ -34,6 +34,7 @@ logging:
   log_file_preprocess: "preprocess.log"  # File where logs will be saved for preprocessing
   log_file_classifier: "text_classifier.log"# File where logs will be saved for classification
   log_file_load: "data_load.log"# File where logs will be saved for data load
+  log_file_analyse: "data_analyse.log"# File where logs will be saved for data analysis
   log_to_console: true  # Enable/Disable logging to the console
 
 
@@ -49,13 +50,23 @@ cookies_file: "utilities/cookies.pkl"
 mongo:
   uri_path: "utilities/mdb.txt"
   database_name: "linkedindb_prod"
+  analysis_database_name: "analysisdb_prod"
+  analysis_collection_bigrams: "bigrams"
   collection_raw: "raw"
   collection_clean: "clean"
   collection_qualified: "qualified"
-  test_mode: False
+  test_mode: True
 
 bert:
   classifier:
     model_path: "model/bert/classifier"
     tokenizer_path: "model/bert/classifier/assets/tokenizer"
     max_length: 150
+
+# Analysis settings
+analysis:
+  keywords_path: "utilities/keywords.csv"
+  country: "United States"
+  role: "software engineer"
+  state: "All"
+  bigram_thresh: 2

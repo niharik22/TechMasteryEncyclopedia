@@ -1,0 +1,101 @@
+﻿Tools,Libraries,Languages,Critical Skill Sets,Education
+Apache Spark,Pandas,Python,Statistical Analysis,PhD
+Google BigQuery,NumPy,R,Data Exploration,ScD
+SQL,Dask,SQL,Hypothesis Testing,EdD
+Microsoft Excel,Vaex,Java,Experimental Design,DBA
+MATLAB,Polars,JavaScript,A/B Testing,MD
+SAS,SciPy,TypeScript,Data Interpretation,Master's Degree
+Hive,PyJanitor,Ruby,Data Validation,MS
+Tableau,Openpyxl,PHP,Data Modeling,MA
+Power BI,PyArrow,C,Predictive Modeling,MBA
+Looker,Koalas,C++,Machine Learning,MEng
+Datawrapper,Matplotlib,C#,Model Evaluation,MPhil
+Docker,Seaborn,Scala,Feature Engineering,MEd
+Kubernetes,Plotly,Julia,Model Optimization,MSc
+MLflow,Altair,Swift,Time Series Analysis,Bachelor’s Degree
+TensorFlow Serving,Bokeh,Kotlin,Data Cleaning,BS
+SageMaker,ggplot,MATLAB,Data Wrangling,BA
+Kubeflow,Geopandas,Go,Data Preprocessing,BEng
+Google Cloud AI Platform,Pygal,Rust,ETL,BTech
+Azure Machine Learning,Folium,SAS,Data Integration,BSc
+Databricks,Missingno,Shell,Data Visualization,Associate Degree
+Git,scikit-learn,Perl,Dashboarding,AS
+GitHub,TensorFlow,Haskell,Data Storytelling,AA
+GitLab,PyTorch,Lua,Visual Analytics,AAS
+Bitbucket,Keras,Groovy,Reporting,Diploma
+Jenkins,XGBoost,Objective-C,Business Analysis,Graduate Certificate
+CircleCI,LightGBM,Dart,Domain-Specific Knowledge,Professional Certificate
+Travis CI,CatBoost,VBA,Market Analysis,Certificate Program
+GitHub Actions,Statsmodels,Visual Basic,Requirements Gathering,Degree
+Azure DevOps,H2O.ai,Elixir,Competitive Analysis,High School Diploma
+GitLab CI/CD,MLlib,F#,Project Management,GED
+Visual Studio Code,NLTK,COBOL,Time Management,
+PyCharm,SpaCy,Fortran,Resource Allocation,
+IntelliJ IDEA,TextBlob,PL/SQL,Risk Assessment,
+Jupyter Notebook,Gensim,Solidity,Task Prioritization,
+RStudio,Hugging Face Transformers,Erlang,Agile Methodologies,
+Eclipse,Flair,Assembly,SCRUM,
+Android Studio,Stanza,VHDL,Communication Skills,
+React,AllenNLP,Verilog,Problem-Solving,
+Angular,Polyglot,CoffeeScript,Critical Thinking,
+Vue.js,Sentence-BERT,OCaml,Team Collaboration,
+Svelte,OpenCV,,Adaptability,
+Bootstrap,Detectron2,,Attention to Detail,
+Tailwind CSS,Fastai,,Leadership,
+jQuery,DeepFace,,Creativity,
+D3.js,Albumentations,,Empathy,
+Jest,MMDetection,,Negotiation,
+Mocha,Kornia,,Analytical Thinking,
+Cypress,SimpleCV,,Quantitative Analysis,
+Selenium,Kivy,,Logical Reasoning,
+Puppeteer,PyCaret,,Decision Making,
+npm,React,,Statistical Thinking,
+Yarn,Redux,,Literature Review,
+Django,Vuex,,Research Methodology,
+Flask,Axios,,Trend Analysis,
+Express.js,Next.js,,Prototyping,
+Ruby on Rails,Nuxt.js,,Data Privacy and Security Awareness,
+Spring Boot,Lodash,,Ethical Data Handling,
+MySQL,Bootstrap,,Compliance with Standards,
+PostgreSQL,jQuery,,Risk Mitigation,
+MongoDB,Three.js,,Programming,
+Redis,Express.js,,Data Analysis,
+Cassandra,Flask,,Data Mining,
+Elasticsearch,Django REST framework,,,
+Neo4j,FastAPI,,,
+Firebase,Tornado,,,
+AWS (Amazon Web Services),Bottle,,,
+Google Cloud Platform,Pyramid,,,
+Microsoft Azure,Celery,,,
+IBM Cloud,SQLAlchemy,,,
+DigitalOcean,Pydantic,,,
+Terraform,pytest,,,
+Ansible,unittest,,,
+Chef,Mocha,,,
+Puppet,Jest,,,
+Apache Airflow,Chai,,,
+Apache Kafka,Spring Framework,,,
+AWS Glue,Spring Boot,,,
+Talend,Hibernate,,,
+Apache NiFi,Apache Struts,,,
+Informatica,Apache Maven,,,
+Stitch,Log4j,,,
+Postman,SLF4J,,,
+Swagger,JUnit,,,
+Insomnia,Mockito,,,
+Prometheus,GSON,,,
+Grafana,Jackson,,,
+Splunk,Apache Commons,,,
+New Relic,Apache POI,,,
+Datadog,Jersey,,,
+,RxJava,,,
+,Retrofit,,,
+,OkHttp,,,
+,JavaFX,,,
+,Vaadin,,,
+,Thymeleaf,,,
+,Apache Kafka,,,
+,Apache Camel,,,
+,Quartz,,,
+,Google Guava,,,
+,Apache Spark,,,

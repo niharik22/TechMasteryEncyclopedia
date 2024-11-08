@@ -7,6 +7,7 @@ class MongoDBClient:
     def __init__(self, uri: str, database_name: str, collection_name: str, test_mode: bool):
         try:
             self.client = MongoClient(uri)
+            self.test_mode = test_mode
             if test_mode:
                 self.db = self.client['test_db']  # Use test database if in test mode
             else:
@@ -17,13 +18,28 @@ class MongoDBClient:
             logging.error(f"Error connecting to MongoDB: {e}")
             raise
 
-    def make_index(self, index: str) -> None:
-        """Creates an index for the specified field in the collection."""
+
+    def make_index(self, index_fields) -> None:
+        """
+        Creates an index on the specified fields in the collection.
+
+        Args:
+            index_fields (str or list): Field(s) for the index. Can be a single field as a string or multiple fields as a list of tuples.
+        """
         try:
-            self.collection.create_index(index, unique=True)
-            logging.info(f"Index created on {index}")
+            # If a single string is passed, create a single field index
+            if isinstance(index_fields, str):
+                self.collection.create_index(index_fields, unique=True)
+                logging.info(f"Index created on {index_fields}")
+            # If a list of tuples is passed, create a compound index
+            elif isinstance(index_fields, list) and all(isinstance(field, tuple) for field in index_fields):
+                self.collection.create_index(index_fields, unique=True)
+                logging.info(f"Compound index created on {index_fields}")
+            else:
+                logging.error("Invalid index format. Provide a string or list of tuples for compound indexes.")
         except Exception as e:
             logging.error(f"Error creating index: {e}")
+
 
     def insert_document(self, doc: dict, col_name: str = None) -> bool:
         """Inserts a document into the collection."""
@@ -80,15 +96,20 @@ class MongoDBClient:
             logging.error(f"Error querying documents: {e}")
             return None
 
-    def change_collection(self, new_collection_name: str) -> None:
+    def change_database_and_collection(self, new_database_name: str = None, new_collection_name: str = None) -> None:
         """Changes the database and/or collection to new specified names."""
         try:
+            # If test_mode is False, allow changing the database
+            if not self.test_mode and new_database_name:
+                self.db = self.client[new_database_name]
+                logging.info(f"Database changed to: {self.db.name}")
+
+            # Change collection if new_collection_name is provided
             if new_collection_name:
                 self.collection = self.db[new_collection_name]
                 logging.info(f"Collection changed to: {self.collection.name}")
-        
         except Exception as e:
-            logging.error(f"Error changing collection: {e}")
+            logging.error(f"Error changing database and/or collection: {e}")
 
     def close_connection(self) -> None:
         """Closes the connection to MongoDB."""
