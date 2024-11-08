@@ -159,4 +159,69 @@ From our analysis, Naive Bayes and Linear SVM stand out as the most suitable mod
 For more detailed results and visualizations, refer to the notebook: **5.LinkedIn_ClassifierModelling.ipynb**.
 
 ---
+# Classifier Modeling - LSTM Neural Network Classifier
 
+In this step, we explore the use of a Long Short-Term Memory (LSTM) Neural Network to classify job description sentences into "Qualification" or "Description." The goal is to leverage the sequential nature of job descriptions and improve performance over traditional models like Naive Bayes.
+
+## Overview
+
+We utilize an LSTM-based model, built using TensorFlow and Keras, to process text data, aiming to capture more complex patterns and relationships. The approach includes data partitioning, tokenization, model architecture design, and training with techniques to handle class imbalance and mitigate overfitting.
+
+---
+
+## Modeling Workflow Walkthrough
+
+1. **Data Partitioning**:
+   - The cleaned and labeled dataset is split into training and testing sets, with a fixed random seed to ensure reproducibility.
+
+2. **Tokenization and Padding**:
+   - We use a tokenizer with a vocabulary limit and a maximum sequence length to convert text data into sequences of integers.
+   - The sequences are padded to ensure uniform input size for the LSTM model.
+
+3. **LSTM Model Architecture**:
+   - **Embedding Layer**: Converts words into dense vectors for better representation.
+   - **Stacked LSTM Layers**: Two LSTM layers are included, with regularization techniques to prevent overfitting.
+   - **Dropout Layer**: Added to further reduce overfitting.
+   - **Output Layer**: A Dense layer with sigmoid activation for binary classification.
+
+4. **Model Compilation**:
+   - An exponential decay schedule for the learning rate is applied, with the Adam optimizer selected for its efficiency.
+   - The model is compiled with binary crossentropy loss and metrics like accuracy and recall to monitor performance.
+
+5. **Training**:
+   - **Class Weights**: Computed to balance the learning process, addressing class imbalance.
+   - **Early Stopping**: Implemented to stop training when the model no longer improves on the validation set, ensuring the best weights are retained.
+   - The model is trained over multiple epochs with validation and callbacks to optimize results.
+
+---
+
+## Results and Observations
+
+- **Performance Metrics**:
+  - The model demonstrated strong overall performance, with solid recall and precision for the "non-qualified" class and slightly more challenges in correctly identifying "qualified" sentences.
+  - Training and validation metrics showed consistent improvement, although there was a slight indication of overfitting.
+
+- **Confusion Matrix**:
+  - The model showed better performance for one class compared to the other, revealing areas where further tuning or additional data might help.
+
+- **Training Metrics**:
+  - Recall and accuracy trends indicated steady progress, with the validation metrics stabilizing, demonstrating that the model generalizes well but has room for refinement.
+
+---
+
+## Model Comparison: Naive Bayes vs. LSTM
+
+- **Naive Bayes Classifier**:
+  - Performed well as a simple, reliable baseline model, effectively handling patterns in the text.
+- **LSTM Classifier**:
+  - Captured more complex relationships in the text, demonstrating the benefits of a deep learning approach, though with some challenges in balancing precision and recall across classes.
+
+---
+
+## Next Steps
+
+To further enhance the model's performance, we will explore using a BERT model, which may offer better contextual understanding of job descriptions and improve classification accuracy.
+
+For implementation details, refer to: **6.LinkedIn_LSTM_NN_Classifier_Modelling.ipynb**.
+
+---
