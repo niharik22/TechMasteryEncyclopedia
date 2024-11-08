@@ -10,13 +10,13 @@ scraping:
     login_url: "https://www.linkedin.com/checkpoint/rm/sign-in-another-account?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
     search_url: "https://www.linkedin.com/jobs/search/?keywords={0}&location={1}"
     search_url_past_month: "https://www.linkedin.com/jobs/search/?keywords={0}&location={1}&f_TPR=r2592000"
-  no_of_pages: 2  # Number of pages to scrape
+  no_of_pages: 40  # Number of pages to scrape
   scroll_delay: 1  # Delay (in seconds) between scrolling through jobs
   timeout: 10  # Timeout for waiting for elements (in seconds)
-  role: "Data Analyst"
+  role: "Data Engineer"
   search:
-    keyword: "Data Analyst"
-    country: "United States"
+    keyword: "Data Engineer"
+    country: "Canada"
 
 
 
@@ -50,13 +50,12 @@ cookies_file: "utilities/cookies.pkl"
 mongo:
   uri_path: "utilities/mdb.txt"
   database_name: "linkedindb_prod"
-  analysis_database_name: "linkedindb_prod"
-#  analysis_database_name: "analysisdb_prod"
+  analysis_database_name: "analysisdb_prod"
   analysis_collection_bigrams: "bigrams"
   collection_raw: "raw"
   collection_clean: "clean"
   collection_qualified: "qualified"
-  test_mode: True
+  test_mode: False
 
 bert:
   classifier:
@@ -68,6 +67,6 @@ bert:
 analysis:
   keywords_path: "utilities/keywords.csv"
   country: "United States"
-  role: "Data Analyst"
-  state: "All"
+  role: "Data Engineer"
+  state: "NY"
   bigram_thresh: 2

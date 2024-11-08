@@ -1,5 +1,6 @@
 import logging
 from typing import Dict, List
+from datetime import datetime
 from main.mongodb.MongoHelper import MongoDBClient
 
 
@@ -43,7 +44,7 @@ class AnalysisMongoHelper:
             logging.error(f"Error fetching documents: {e}")
             return []
 
-    def store_analysis_results_batch(self,  role: str, country: str, state: str, analysis_results: List[Dict]) -> bool:
+    def store_analysis_results_batch(self, role: str, country: str, state: str, analysis_results: List[Dict]) -> bool:
         """
         Stores or updates bigram analysis results in batch.
 
@@ -63,6 +64,12 @@ class AnalysisMongoHelper:
         try:
             # Change to the target collection once
             self.mongo_client.change_database_and_collection(self.analysis_db, self.analysis_collection)
+
+            # Add the current date as the analysis date
+            analysed_date = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')  # UTC time for consistency
+
+            # Initialize a counter to track processed records
+            merged_count = 0
 
             for result in analysis_results:
                 # Prepare the query to locate the document
@@ -91,7 +98,8 @@ class AnalysisMongoHelper:
                         "languages": merged_languages,
                         "skills": merged_skills,
                         "education": merged_education,
-                        "mixed": merged_mixed
+                        "mixed": merged_mixed,
+                        "analysed_date": analysed_date
                     }
                 else:
                     # If no existing document, use the new result as-is
@@ -99,6 +107,11 @@ class AnalysisMongoHelper:
 
                 # Update the document with merged results using upsert=True
                 self.mongo_client.update_document(query, updated_document, upsert=True)
+
+                # Increment the processed count and log every 50 records
+                merged_count += 1
+                if merged_count % 50 == 0:
+                    logging.info(f"{merged_count} records processed and merged so far.")
 
             logging.info("All analysis results stored or updated successfully.")
             return True

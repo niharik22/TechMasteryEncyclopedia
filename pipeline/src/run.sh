@@ -9,3 +9,5 @@ python -m main.preprocess.DataPreprocessor utilities/config.docker.se.canada.yam
 python -m main.classify.TextClassifier utilities/config.docker.se.canada.yaml
 
 python -m main.load.DataLoad utilities/config.docker.se.canada.yaml
+
+python -m main.analysis.DataAnalyser utilities/config.docker.se.canada.yaml

@@ -50,7 +50,7 @@ class DataPreprocessor:
         # Switch to the specified collection
         try:
             new_collection = config['mongo']['collection_clean']
-            self.mongo_client.change_collection(new_collection_name=new_collection)
+            self.mongo_client.change_database_and_collection(new_collection_name=new_collection)
             logging.info(f"Switched to collection '{new_collection}'.")
         except Exception as e:
             logging.error(f"Error switching collection: {e}")
@@ -96,7 +96,7 @@ class DataPreprocessor:
         # Switch to the specified raw collection
         try:
             raw_collection = config['mongo']['collection_raw']
-            self.mongo_client.change_collection(new_collection_name=raw_collection)
+            self.mongo_client.change_database_and_collection(new_collection_name=raw_collection)
             logging.info(f"Switched to collection '{raw_collection}'.")
         except Exception as e:
             logging.error(f"Error switching collection: {e}")

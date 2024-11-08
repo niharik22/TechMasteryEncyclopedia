@@ -226,7 +226,7 @@ def get_description(driver, job_dict, role, max_retries=3, retry_wait=3, wait_ti
 
                     # Update the job dictionary with the scraped information
                     # Get today's date and time
-                    scraped_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    scraped_date = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
 
                     job_dict[link].update({
                         "description": job_description,

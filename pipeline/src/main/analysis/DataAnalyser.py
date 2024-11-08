@@ -91,14 +91,18 @@ class DataAnalyser:
         logging.info("Starting data analysis...")
 
         try:
-
             default_role = self.config["analysis"].get("role")
             default_country = self.config["analysis"].get("country")
             default_state = self.config["analysis"].get("state")
 
-            documents = self.text_processor.fetch_documents(
-                {"country":default_country,"role":default_role, "state":default_state})
-            # documents = self.text_processor.fetch_documents({})
+            # Build the query dynamically
+            query = {"country": default_country, "role": default_role}
+            if default_state != "All":  # Only include 'state' in the query if it's not "All"
+                query["state"] = default_state
+
+            # Fetch documents based on the constructed query
+            documents = self.text_processor.fetch_documents(query)
+
             if not documents:
                 logging.warning("No documents to analyze.")
                 return
@@ -106,6 +110,7 @@ class DataAnalyser:
             self.analysis_helper.initialize_index()
 
             analysis_results = []
+            analysed_count = 0
 
             for doc in documents:
                 data_df = pd.DataFrame(doc["qualified_text"], columns=["text"])
@@ -114,8 +119,13 @@ class DataAnalyser:
                 if result:
                     analysis_results.append(result)
 
+                analysed_count += 1
+                if analysed_count % 50 == 0:  # Log every 50 documents
+                    logging.info(f"Analysed {analysed_count} documents...")
+
             # Store all results in batch
-            self.analysis_helper.store_analysis_results_batch(default_role,default_country,default_state,analysis_results)
+            self.analysis_helper.store_analysis_results_batch(default_role, default_country, default_state,
+                                                              analysis_results)
             logging.info("Data analysis and storage complete.")
         except Exception as e:
             logging.error(f"Error during data analysis: {e}")

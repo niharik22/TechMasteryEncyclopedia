@@ -3,3 +3,5 @@
 *.pyc
 pipeline/src/utilities/mdb.txt
 pipeline/src/utilities/pass.txt
+*.log
+pipeline/src/utilities/cookies.pkl
