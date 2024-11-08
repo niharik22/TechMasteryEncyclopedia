@@ -107,3 +107,56 @@ This preprocessing step is critical for transforming raw job data into a structu
 
 ---
 
+# Classifier Modeling
+
+In the classifier modeling step, we use machine learning techniques to classify sentences from job descriptions as either "Qualification" or "Description." This involves several models and methods to ensure that we achieve robust and accurate performance.
+
+---
+
+## Overview
+
+We implement multiple classification models to predict whether a sentence in a job description relates to specific qualifications. The models are trained on labeled text data, which has been carefully preprocessed and split into training and testing sets.
+
+---
+
+## Modeling Workflow Walkthrough
+
+1. **Data Partitioning**:
+   - We load the cleaned and labeled dataset, ensuring there are no missing values.
+   - The data is split into training and testing sets, maintaining a fixed random seed for reproducibility.
+
+2. **Text Vectorization**:
+   - We convert text data into a numerical format using `CountVectorizer`, creating a bag-of-words model.
+   - To preserve the importance of frequent terms (like "Python" or "Machine Learning"), we transform the text data without applying Inverse Document Frequency (IDF).
+
+3. **Model Training and Evaluation**:
+   - **Naive Bayes Classifier**: A simple yet effective baseline model known for its ability to handle text data. It demonstrated high performance and provided a reliable benchmark for further experimentation.
+   - **Support Vector Machine (SVM)**: We tested SVMs with different kernels:
+     - **Polynomial Kernel**: A complex model that underperformed, likely due to overfitting and high dimensionality challenges.
+     - **Linear Kernel**: A simpler and more effective approach, performing comparably well given the nature of the data.
+     - **RBF Kernel**: An SVM with non-linear flexibility that yielded decent results but did not surpass the linear kernel's performance.
+
+4. **Model Comparisons**:
+   - We evaluated models based on their accuracy and consistency, using cross-validation and visualizing results with box plots.
+   - **Confusion Matrices**: Provided insights into the models' strengths and weaknesses by showing true positives, true negatives, false positives, and false negatives.
+   - **ROC Curves and AUROC**: Assessed the models' ability to distinguish between the two classes, giving a more comprehensive view of their performance.
+
+---
+
+## Key Observations
+
+- **Naive Bayes**: Emerged as a strong baseline model, demonstrating high accuracy and a balanced performance across classes.
+- **Linear SVM**: Performed nearly as well as Naive Bayes, proving effective in high-dimensional text data scenarios.
+- **RBF SVM**: Showed reasonable performance but didn't outperform the simpler linear model.
+- **Polynomial SVM**: Struggled with classification accuracy, likely due to overfitting.
+
+---
+
+## Conclusion
+
+From our analysis, Naive Bayes and Linear SVM stand out as the most suitable models for our task, combining high accuracy and reliable classification. While SVMs provided useful insights, the Naive Bayes model was selected as the primary classifier due to its simplicity and strong performance. Future steps will explore advanced models, such as LSTM Neural Networks, to potentially enhance our results.
+
+For more detailed results and visualizations, refer to the notebook: **5.LinkedIn_ClassifierModelling.ipynb**.
+
+---
+
