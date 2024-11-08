@@ -225,3 +225,76 @@ To further enhance the model's performance, we will explore using a BERT model, 
 For implementation details, refer to: **6.LinkedIn_LSTM_NN_Classifier_Modelling.ipynb**.
 
 ---
+
+# Classifier Modeling - BERT Classifier
+
+In this step, we fine-tune a pre-trained DistilBERT model for classifying job description sentences as either "Qualification" or "Description." BERT models excel at understanding the context of text, making them a powerful tool for this classification task.
+
+---
+
+## Overview
+
+We use the `distilbert-base-uncased` model, a compact and efficient version of BERT, for sequence classification. The process involves configuring model parameters, tokenizing text, and setting up the training environment to leverage BERT’s contextual strengths.
+
+---
+
+## Modeling Workflow Walkthrough
+
+1. **Setting Parameters**:
+   - **Maximum Sequence Length**: Set to 100 tokens, ensuring that input texts are consistently sized, either padded or truncated to this length.
+   - **Pre-trained Model**: `distilbert-base-uncased` is selected for its efficiency and capability to handle large-scale text data.
+
+2. **Tokenization**:
+   - We use `DistilBertTokenizer` to transform text into tokens that the model can process.
+   - Parameters:
+     - `max_length=100`: Limits the input length to 100 tokens.
+     - `padding='max_length'`: Pads shorter texts to 100 tokens.
+     - `truncation=True`: Truncates texts longer than 100 tokens.
+     - `clean_up_tokenization_spaces=False`: Ensures spaces are preserved in a meaningful way.
+   - Special tokens, like `[PAD]`, are explicitly defined for uniformity.
+
+3. **Data Preparation**:
+   - The labeled dataset is loaded, and we split it into training and testing sets using an 80/20 split with a fixed `random_state=42` to ensure reproducibility.
+   - The text data is then tokenized and converted into TensorFlow-compatible formats using `from_tensor_slices`.
+
+4. **Model Configuration**:
+   - **DistilBERT Configuration**: Set `num_labels=2` for binary classification.
+   - **Output Settings**: `output_hidden_states=False` to simplify the model by focusing on the final output layer.
+
+5. **Model Building**:
+   - We load `TFDistilBertForSequenceClassification` and configure it for our binary classification task.
+   - **Model Architecture**:
+     - Embedding and transformer layers from DistilBERT handle input sequences.
+     - A final dense layer with a sigmoid activation function outputs the binary classification result.
+
+6. **Model Compilation**:
+   - **Optimizer**: Adam optimizer with a learning rate of `3e-5` to ensure stable and efficient training.
+   - **Loss Function**: `SparseCategoricalCrossentropy` with `from_logits=True`, appropriate for binary classification tasks with logits output.
+   - **Metrics**: We track `accuracy` to measure model performance during training.
+
+7. **Training the Model**:
+   - **Shuffling**: The training dataset is shuffled with a buffer size of 1000 to randomize the order of samples before each epoch.
+   - **Batching**: Both the training and validation datasets are batched with a size of 32 for efficient processing.
+   - **Epochs**: The model is trained for 3 epochs, providing multiple passes over the data to learn from it.
+   - **Validation**: The test dataset is used for validation, helping to monitor and adjust model performance during training.
+
+8. **Making Predictions**:
+   - We use a custom function to tokenize input text, pass it through the model, and apply softmax to get class probabilities.
+   - The class with the highest probability is selected as the final prediction using `argmax`.
+
+---
+
+## Key Observations
+
+- **Contextual Understanding**: By leveraging DistilBERT, the model can effectively capture and utilize the contextual meaning of words within job descriptions.
+- **Parameter Selection**: Using a learning rate of `3e-5` and 3 training epochs strikes a balance between learning efficiency and model stability.
+- **Data Handling**: Tokenization parameters, such as maximum length and padding, are crucial for ensuring consistent input size, which is vital for BERT models.
+
+---
+
+## Conclusion
+
+The BERT-based model is well-prepared to handle the complexity of job description texts, thanks to its powerful language understanding capabilities. Moving forward, we plan to deploy this model in production, as it provides a robust and efficient solution for classifying job descriptions.
+
+For full implementation details, check: **6.LinkedIn_BERT_Classifier_Modelling.ipynb**.
+
