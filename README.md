@@ -1,6 +1,6 @@
 # Tech Mastery Encyclopedia
 
-Tech Mastery Encyclopedia is a comprehensive project aimed at gathering, processing, and analyzing open-source job description data from various sources. Inspired by **SkillQuery**, the goal is to develop a centralized repository of job-related information to help uncover key trends and skills in the tech industry.
+Tech Mastery Encyclopedia is a comprehensive project aimed at gathering, processing, and analyzing open-source job description data from various sources. The goal is to develop a centralized repository of job-related information to help uncover key trends and skills in the tech industry.
 
 ---
 
