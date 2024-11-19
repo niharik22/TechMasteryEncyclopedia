@@ -137,3 +137,10 @@ The performance of these models was evaluated through confusion matrices, accura
   ![LSTM Model Accuracy](results/Model-Accuracy-LSTM.png)
 
 ---
+
+## Insights & Analysis
+
+- **Best Performing Model**: The BERT model provided the highest accuracy, precision, and recall, making it the ideal choice for deployment.
+- **SVM Performance**: Linear SVMs performed well, but non-linear kernels did not add value, demonstrating the limitations of complex models in this context.
+- **Naive Bayes**: An effective and reliable baseline but outperformed by deep learning models.
+- **LSTM Observations**: While capable of capturing sequential data, faced challenges in maintaining a balance between recall and precision.
