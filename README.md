@@ -103,29 +103,31 @@ Multiple models were implemented to classify sentences as either "Qualification"
 
 The performance of these models was evaluated through confusion matrices, accuracy scores, and AUROC curves. Below are insightful visuals summarizing the key findings:
 
-### Confusion Matrices & Accuracy
+### Confusion Matrices, AUROC & Accuracy
 
 - **All Models**:
 - ![Confusion Matrices](results/Classification-Matrices.png)
 
-### BERT Model Confusion Matrix
+- **LSTM Model**:
+-  ![Confusion MatriX for LSTM](results/Classification-Matrix-LSTM.png)
+-  
+- **BERT Model Confusion Matrix**
 - **Accuracy: 96%**
 - ![BERT Model Confusion Matrix](results/CLassification-Matrix-Bert.png)
 
 ---
 
 ### ROC Curves
-- **All Models**: ![ROC Curves for Models](results/ROC-Curves.png)
-- **LSTM Model**: ![ROC Curve for LSTM](results/ROC-LSTM.png)
+- **All Models**:
+- ![ROC Curves for Models](results/ROC-Curves.png)
+  
+- **LSTM Model**:
+- ![ROC Curve for LSTM](results/ROC-LSTM.png)
 
 ---
 
 ### LSTM Model Accuracy
 - **Training vs. Validation**: ![LSTM Model Accuracy](results/Model-Accuracy-LSTM.png)
 
-
-### BERT Model Confusion Matrix
-- **Accuracy: 96%**
-- ![![BERT Model Accuracy](results/Model-Accuracy-LSTM.png)](results/Model-Accuracy-LSTM.png)
 
 ---
