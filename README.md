@@ -133,7 +133,7 @@ The performance of these models was evaluated through confusion matrices, accura
 
 ### LSTM Model Accuracy
 - **Training vs. Validation**:
+  
   ![LSTM Model Accuracy](results/Model-Accuracy-LSTM.png)
-
 
 ---
