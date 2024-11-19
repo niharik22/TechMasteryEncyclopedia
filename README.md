@@ -106,28 +106,29 @@ The performance of these models was evaluated through confusion matrices, accura
 ### Confusion Matrices, AUROC & Accuracy
 
 - **All Models**:
-- ![Confusion Matrices](results/Classification-Matrices.png)
+  ![Confusion Matrices](results/Classification-Matrices.png)
 
 - **LSTM Model**:
--  ![Confusion MatriX for LSTM](results/Classification-Matrix-LSTM.png)
+  ![Confusion MatriX for LSTM](results/Classification-Matrix-LSTM.png)
 -  
 - **BERT Model Confusion Matrix**
 - **Accuracy: 96%**
-- ![BERT Model Confusion Matrix](results/CLassification-Matrix-Bert.png)
+  ![BERT Model Confusion Matrix](results/CLassification-Matrix-Bert.png)
 
 ---
 
 ### ROC Curves
 - **All Models**:
-- ![ROC Curves for Models](results/ROC-Curves.png)
+  ![ROC Curves for Models](results/ROC-Curves.png)
   
 - **LSTM Model**:
-- ![ROC Curve for LSTM](results/ROC-LSTM.png)
+  ![ROC Curve for LSTM](results/ROC-LSTM.png)
 
 ---
 
 ### LSTM Model Accuracy
-- **Training vs. Validation**: ![LSTM Model Accuracy](results/Model-Accuracy-LSTM.png)
+- **Training vs. Validation**:
+  ![LSTM Model Accuracy](results/Model-Accuracy-LSTM.png)
 
 
 ---
