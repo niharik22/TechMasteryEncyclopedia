@@ -8,9 +8,9 @@ Stay ready for the future. Discover the skills that matter most and gain the ins
 This document focuses on the **Machine Learning (ML) part**, a crucial component driving the insights and predictions that form the foundation of this skill-based exploration.
 
 **Explore Other Components**:
-- [Visit the Website](#https://techmasteryencyclopedia.com/) - Experience the live application.
-- [API Layer](#https://github.com/niharik22/TechMasteryEncyclopedia-API-Layer) - Seamless integration of data and models.
-- [Presentation Layer](#https://github.com/niharik22/TechMasteryEncyclopedia-API-Layer) - User-friendly visualizations and dashboards.
+- ![Visit the Website](#https://techmasteryencyclopedia.com/) - Experience the live application.
+- ![API Layer](#https://github.com/niharik22/TechMasteryEncyclopedia-API-Layer) - Seamless integration of data and models.
+- ![Presentation Layer](#https://github.com/niharik22/TechMasteryEncyclopedia-API-Layer) - User-friendly visualizations and dashboards.
 
 ---
 
@@ -165,6 +165,6 @@ The analysis highlighted key trends and frequently mentioned tools, helping to i
 
 ---
 
-**For detailed implementation strategies and code, visit the notebooks**: [Project Notebooks](#notebooks-link)
+**For detailed implementation strategies and code, visit the notebooks**: [Project Notebooks](notebooks/)
 
 **Visit the Live Project**: [Link to the Website](#https://techmasteryencyclopedia.com/)
