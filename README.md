@@ -8,9 +8,9 @@ Stay ready for the future. Discover the skills that matter most and gain the ins
 This document focuses on the **Machine Learning (ML) part**, a crucial component driving the insights and predictions that form the foundation of this skill-based exploration.
 
 **Explore Other Components**:
-- [API Layer](#api-layer) - Seamless integration of data and models.
-- [Presentation Layer](#presentation-layer) - User-friendly visualizations and dashboards.
-- [Visit the Website](#website-link) - Experience the live application.
+- [Visit the Website](#https://techmasteryencyclopedia.com/) - Experience the live application.
+- [API Layer](#https://github.com/niharik22/TechMasteryEncyclopedia-API-Layer) - Seamless integration of data and models.
+- [Presentation Layer](#https://github.com/niharik22/TechMasteryEncyclopedia-API-Layer) - User-friendly visualizations and dashboards.
 
 ---
 
@@ -26,8 +26,10 @@ The entire ML pipeline, including **data scraping**, **cleaning**, **classificat
 2. [Data Collection - Scraping](#data-collection---scraping)
 3. [Data Preprocessing](#data-preprocessing)
 4. [Classifier Modeling Overview](#classifier-modeling-overview)
-5. [Key Results](#key-results)
-6. [Next Steps](#next-steps)
+5. [Model Performance Visuals](#model-performance-visuals)
+6. [Insights](#insights)
+7. [Bigram Analysis](#bigram-analysis)
+8. [Next Steps](#next-steps)
 
 ---
 
@@ -138,9 +140,31 @@ The performance of these models was evaluated through confusion matrices, accura
 
 ---
 
-## Insights & Analysis
+## Insights
 
 - **Best Performing Model**: The BERT model provided the highest accuracy, precision, and recall, making it the ideal choice for deployment.
 - **SVM Performance**: Linear SVMs performed well, but non-linear kernels did not add value, demonstrating the limitations of complex models in this context.
 - **Naive Bayes**: An effective and reliable baseline but outperformed by deep learning models.
 - **LSTM Observations**: While capable of capturing sequential data, faced challenges in maintaining a balance between recall and precision.
+
+---
+
+## Bigram Analysis
+
+Text analysis identifies common bigrams and categorizes relevant keywords into predefined groups such as tools, libraries, languages, skills, and education.
+
+### Methodology
+
+- **Text Cleansing**: Removes punctuation, converts text to lowercase, and filters out stopwords.
+- **Bigram Extraction**: Uses NLTK to identify frequent word pairs.
+- **Categorization**: Matches bigrams to categories like tools and skills using custom regex patterns.
+
+### Results
+
+The analysis highlighted key trends and frequently mentioned tools, helping to inform skill gap insights and job market trends.
+
+---
+
+**For detailed implementation strategies and code, visit the notebooks**: [Project Notebooks](#notebooks-link)
+
+**Visit the Live Project**: [Link to the Website](#https://techmasteryencyclopedia.com/)
