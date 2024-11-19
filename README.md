@@ -109,7 +109,7 @@ The performance of these models was evaluated through confusion matrices, accura
 
 ### BERT Model Confusion Matrix
 - **Accuracy: 96%**
-- ![BERT Model Confusion Matrix](results/Classification-Matrix-Bert.png)
+- ![BERT Model Confusion Matrix](results/CLassification-Matrix-Bert.png)
 
 ---
 
