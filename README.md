@@ -114,7 +114,6 @@ The performance of these models was evaluated through confusion matrices, accura
   ![Confusion MatriX for LSTM](results/Classification-Matrix-LSTM.png)
   
 - **BERT Model Confusion Matrix**
-- **Accuracy: 96%**:
   
   ![BERT Model Confusion Matrix](results/CLassification-Matrix-Bert.png)
 
