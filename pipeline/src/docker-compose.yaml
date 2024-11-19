@@ -1,0 +1,15 @@
+services:
+  my_service:
+    image: tech-mastery
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - DISPLAY=:99
+    volumes:
+      - .:/app
+    command: /app/run.sh
