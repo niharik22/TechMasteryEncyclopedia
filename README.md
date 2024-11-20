@@ -2,6 +2,7 @@
 
 **Master the skills & Shape your future**  
 Stay ready for the future. Discover the skills that matter most and gain the insights to grow and seize new opportunities with confidence. The Tech Mastery Encyclopedia project is dedicated to empowering individuals by identifying in-demand skills through advanced data analysis and machine learning.
+
 ---
 # Machine Learning Layer - Classifier Modeling & Text Analysis
 
