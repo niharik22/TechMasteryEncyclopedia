@@ -30,7 +30,6 @@ The entire ML pipeline, including **data scraping**, **cleaning**, **classificat
 5. [Model Performance Visuals](#model-performance-visuals)
 6. [Insights](#insights)
 7. [Bigram Analysis](#bigram-analysis)
-8. [Next Steps](#next-steps)
 
 ---
 
